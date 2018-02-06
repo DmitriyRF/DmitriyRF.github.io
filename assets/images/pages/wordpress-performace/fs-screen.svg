@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2292px" height="1425px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 20597 12805"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="667" font-variant="normal" class="str2" style="fill-rule:nonzero" font-style="normal" font-weight="400">
+	<font-face 
+		font-family="Arial">
+		<font-face-src>
+			<font-face-name name="Arial"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="0" horiz-adv-x="556" d="M41.9902 353.363c0,84.4582 8.66085,152.789 25.9826,204.456 17.5009,51.8457 43.364,91.6856 77.7088,119.52 34.1656,27.8342 77.2906,41.6318 129.315,41.6318 38.3467,0 71.9747,-7.64544 101.183,-23.1155 28.9691,-15.5298 52.9805,-37.8688 71.676,-67.0171 18.6358,-29.0288 33.3294,-64.5084 43.9613,-106.319 10.8709,-41.8707 16.1868,-98.3753 16.1868,-169.155 0,-84.0401 -8.66085,-152.013 -25.8631,-203.679 -17.1425,-51.8457 -42.9459,-91.6856 -77.2906,-119.699 -34.1656,-28.0134 -77.5296,-41.9902 -129.853,-41.9902 -68.809,0 -122.984,24.4893 -162.346,73.6471 -47.127,60.0287 -70.6606,157.209 -70.6606,291.721zm90.0131 -0.35838c0,-117.847 13.6782,-196.153 41.154,-234.858 27.5355,-38.8245 61.5219,-58.1173 101.84,-58.1173 40.3178,0 74.3639,19.472 101.84,58.2965 27.4758,39.0037 41.154,117.19 41.154,234.679 0,117.847 -13.6782,196.153 -41.154,234.858 -27.3563,38.8245 -61.6414,58.1173 -102.855,58.1173 -40.3178,0 -72.6317,-17.1425 -96.8224,-51.3081 -30.1637,-43.4835 -45.1559,-124.179 -45.1559,-241.668z"/>
+   <glyph unicode="1" horiz-adv-x="556" d="M371.999 0l-87.9823 0 0 560.327c-21.2042,-20.3082 -49.0383,-40.497 -83.3234,-60.6857 -34.3448,-20.129 -65.3446,-35.3004 -92.701,-45.3351l0 85.0555c49.1578,22.9961 92.1634,50.9497 129.017,83.9804 36.8534,32.8515 63.0152,64.6279 78.3061,95.6278l56.6838 0 0 -718.97z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Arial";font-variant:normal;font-style:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .str2 {stroke-width:45.5162}
+    .str0 {stroke:#0E3655;stroke-width:3.73554}
+    .str3 {stroke:#2D4E73;stroke-width:8.08659}
+    .str1 {stroke:black;stroke-width:112.31}
+    .fil90 {fill:none}
+    .fil86 {fill:black}
+    .fil1 {fill:#00749A}
+    .fil11 {fill:#03648B}
+    .fil77 {fill:#0C3757}
+    .fil80 {fill:#0C3757}
+    .fil71 {fill:#0E3655}
+    .fil18 {fill:#0E3655}
+    .fil119 {fill:#0E3755}
+    .fil6 {fill:#0E3757}
+    .fil0 {fill:#121116}
+    .fil120 {fill:#163450}
+    .fil129 {fill:#2D4E73}
+    .fil85 {fill:#355167}
+    .fil89 {fill:#36697E}
+    .fil124 {fill:#36697E}
+    .fil121 {fill:#80CFCA}
+    .fil117 {fill:#80CFCA}
+    .fil79 {fill:#84CECF}
+    .fil78 {fill:#84CECF}
+    .fil69 {fill:#86CCCC}
+    .fil109 {fill:#99DCDC}
+    .fil127 {fill:#B9D8FF}
+    .fil84 {fill:#CC3300}
+    .fil68 {fill:#CCCCCC}
+    .fil19 {fill:#CCCCFF}
+    .fil14 {fill:#D94D3E}
+    .fil123 {fill:#D94D3E}
+    .fil3 {fill:#E2E2E4}
+    .fil7 {fill:#E6E6E6}
+    .fil15 {fill:#E95A49}
+    .fil9 {fill:#EB5A49}
+    .fil8 {fill:#EC7A6F}
+    .fil74 {fill:#EEEEEE}
+    .fil122 {fill:#EF7A2B}
+    .fil113 {fill:#EFEDEE}
+    .fil20 {fill:#F18C20}
+    .fil76 {fill:#F18C20}
+    .fil13 {fill:#F1B33C}
+    .fil72 {fill:#F2F2E6}
+    .fil70 {fill:#F2F2F2}
+    .fil73 {fill:#F2F2F2}
+    .fil5 {fill:#F4F4F4}
+    .fil17 {fill:#F59287}
+    .fil81 {fill:#F5B400}
+    .fil82 {fill:#F5B400}
+    .fil75 {fill:#F6B205}
+    .fil22 {fill:#FF6041}
+    .fil83 {fill:#FF6041}
+    .fil87 {fill:#FF6161}
+    .fil126 {fill:#FFFBF5}
+    .fil12 {fill:#FFFBF5}
+    .fil118 {fill:#FFFF66}
+    .fil21 {fill:#FFFF99}
+    .fil125 {fill:white}
+    .fil16 {fill:white}
+    .fil10 {fill:#0E3655;fill-rule:nonzero}
+    .fil110 {fill:#0E3655;fill-rule:nonzero}
+    .fil116 {fill:#0E3755;fill-rule:nonzero}
+    .fil114 {fill:#163450;fill-rule:nonzero}
+    .fil115 {fill:#80CFCA;fill-rule:nonzero}
+    .fil128 {fill:#929497;fill-rule:nonzero}
+    .fil112 {fill:#99DCDC;fill-rule:nonzero}
+    .fil111 {fill:#F6B205;fill-rule:nonzero}
+    .fil99 {fill:#6699FF;fill-opacity:0.701961}
+    .fil94 {fill:#76FF61;fill-opacity:0.701961}
+    .fil106 {fill:#80E080;fill-opacity:0.701961}
+    .fil96 {fill:#86CCCC;fill-opacity:0.701961}
+    .fil102 {fill:#9061FF;fill-opacity:0.701961}
+    .fil105 {fill:#9999DC;fill-opacity:0.701961}
+    .fil104 {fill:#99DCDC;fill-opacity:0.701961}
+    .fil108 {fill:#A0FF61;fill-opacity:0.701961}
+    .fil98 {fill:#D16D62;fill-opacity:0.701961}
+    .fil101 {fill:gainsboro;fill-opacity:0.701961}
+    .fil100 {fill:#F59287;fill-opacity:0.701961}
+    .fil95 {fill:#F78E83;fill-opacity:0.701961}
+    .fil107 {fill:#FF6193;fill-opacity:0.701961}
+    .fil103 {fill:#FF99CC;fill-opacity:0.701961}
+    .fil93 {fill:#FFB76F;fill-opacity:0.701961}
+    .fil97 {fill:#FFFF66;fill-opacity:0.701961}
+    .fil88 {fill:black;fill-rule:nonzero;fill-opacity:0.701961}
+    .fil92 {fill:black;fill-rule:nonzero;fill-opacity:0.701961}
+    .fil91 {fill:#1E1E1E;fill-rule:nonzero;fill-opacity:0.701961}
+    .fil23 {fill:url(#id0)}
+    .fil35 {fill:url(#id1)}
+    .fil24 {fill:url(#id2)}
+    .fil31 {fill:url(#id3)}
+    .fil40 {fill:url(#id4)}
+    .fil44 {fill:url(#id5)}
+    .fil64 {fill:url(#id6)}
+    .fil34 {fill:url(#id7)}
+    .fil57 {fill:url(#id8)}
+    .fil51 {fill:url(#id9)}
+    .fil47 {fill:url(#id10)}
+    .fil29 {fill:url(#id11)}
+    .fil50 {fill:url(#id12)}
+    .fil62 {fill:url(#id13)}
+    .fil61 {fill:url(#id14)}
+    .fil28 {fill:url(#id15)}
+    .fil41 {fill:url(#id16)}
+    .fil30 {fill:url(#id17)}
+    .fil43 {fill:url(#id18)}
+    .fil58 {fill:url(#id19)}
+    .fil67 {fill:url(#id20)}
+    .fil66 {fill:url(#id21)}
+    .fil65 {fill:url(#id22)}
+    .fil46 {fill:url(#id23)}
+    .fil59 {fill:url(#id24)}
+    .fil26 {fill:url(#id25)}
+    .fil39 {fill:url(#id26)}
+    .fil2 {fill:url(#id27)}
+    .fil38 {fill:url(#id28)}
+    .fil36 {fill:url(#id29)}
+    .fil60 {fill:url(#id30)}
+    .fil33 {fill:url(#id31)}
+    .fil45 {fill:url(#id32)}
+    .fil48 {fill:url(#id33)}
+    .fil53 {fill:url(#id34)}
+    .fil42 {fill:url(#id35)}
+    .fil49 {fill:url(#id36)}
+    .fil37 {fill:url(#id37)}
+    .fil32 {fill:url(#id38)}
+    .fil25 {fill:url(#id39)}
+    .fil27 {fill:url(#id40)}
+    .fil4 {fill:url(#id41)}
+    .fil54 {fill:url(#id42)}
+    .fil63 {fill:url(#id43)}
+    .fil52 {fill:url(#id44)}
+    .fil56 {fill:url(#id45)}
+    .fil55 {fill:url(#id46)}
+    .fnt0 {font-weight:normal;font-size:177.671px;font-family:'Arial'}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="5421.89" y1="2507.67" x2="6468.43" y2="1443.9">
+   <stop offset="0" style="stop-opacity:1; stop-color:#008EBA"/>
+   <stop offset="0.219608" style="stop-opacity:1; stop-color:#00BA18"/>
+   <stop offset="0.580392" style="stop-opacity:1; stop-color:#DCDC00"/>
+   <stop offset="0.831373" style="stop-opacity:1; stop-color:#DC7900"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#BA0000"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id2" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id3" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id4" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id5" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id6" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id7" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id8" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id9" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id10" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id11" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id12" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id13" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id14" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id15" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id16" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id17" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id18" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id19" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id20" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id21" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id22" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id23" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id24" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id25" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id26" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id27" gradientUnits="userSpaceOnUse" x1="11530.7" y1="5515.69" x2="11527.7" y2="6356.28">
+   <stop offset="0" style="stop-opacity:1; stop-color:#CCCCCC"/>
+   <stop offset="0.588235" style="stop-opacity:1; stop-color:#999999"/>
+   <stop offset="0.721569" style="stop-opacity:1; stop-color:#666666"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#CCCCCC"/>
+  </linearGradient>
+  <linearGradient id="id28" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id29" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id30" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id31" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id32" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id33" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id34" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id35" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id36" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id37" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id38" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id39" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id40" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id41" gradientUnits="userSpaceOnUse" x1="7877.33" y1="5044.18" x2="15263.1" y2="5026.42">
+   <stop offset="0" style="stop-opacity:1; stop-color:#E2E2E2"/>
+   <stop offset="0.501961" style="stop-opacity:1; stop-color:#ECECE6"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#E2E2E2"/>
+  </linearGradient>
+  <linearGradient id="id42" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id43" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id44" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id45" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+  <linearGradient id="id46" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="5421.9" y1="2507.71" x2="6468.45" y2="1443.86">
+  </linearGradient>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_2456573354288">
+   <path class="fil0" d="M7756 0l7471 0c143,0 261,118 261,261l0 4967c0,143 -118,261 -261,261l-7471 0c-144,0 -262,-118 -262,-261l0 -4967c0,-143 118,-261 262,-261zm60 298l7350 0 0 4181 -7350 0 0 -4181z"/>
+   <rect class="fil1" x="7816" y="298" width="7350" height="4181"/>
+   <path class="fil2" d="M10614 5489l674 0 403 0 3 0 674 0 4 0c34,188 65,376 101,563 15,80 32,81 82,138 17,20 162,182 160,190 -2,7 -38,3 -46,3 -128,-3 -258,0 -386,0l-4 0c-53,0 -106,0 -158,0l-179 0 -499 0 -403 0 -178 0c-189,0 -380,-3 -569,1 -10,0 -14,1 -23,-4 5,-20 43,-57 58,-74 29,-33 58,-67 87,-101 72,-82 84,-73 102,-189 0,-4 1,-8 1,-13l1 -3c2,-13 5,-27 7,-40 28,-157 56,-314 84,-471l4 0z"/>
+   <path class="fil3" d="M15488 5228l0 -520 -1817 0 -6177 0 0 520c0,143 118,261 262,261l2854 0 1762 0 1299 0 1556 0c143,0 261,-118 261,-261z"/>
+   <path class="fil4" d="M15488 5228l0 -520 -1817 0 -6177 0 0 520c0,143 118,261 262,261l2854 0 1762 0 1299 0 1556 0c143,0 261,-118 261,-261z"/>
+   <path class="fil5" d="M11565 4032l-147 0 -2 9 -388 -64 488 -1426 12 -1 505 1394c-150,35 -272,88 -468,88zm-1717 -1570l0 -147c0,-152 78,-516 139,-587l779 2135c-188,-44 -522,-381 -626,-534 -139,-204 -292,-529 -292,-867zm3095 -844c85,97 192,498 192,697l0 147c0,588 -422,1139 -807,1342 66,-283 240,-686 336,-976 146,-442 322,-729 279,-1210zm-637 -176c0,321 293,453 293,822 0,256 -59,366 -131,602 -31,105 -140,418 -148,506l-598 -1753c118,-2 246,1 246,-96 0,-31 -23,-61 -51,-59 -193,10 -351,20 -543,15l-382 -17c-9,0 -44,34 -44,75 0,116 183,37 237,94 9,9 82,215 93,244 40,111 181,395 145,496 -55,155 -326,909 -335,1015l-604 -1767c321,-1 306,-160 142,-156 -164,4 -324,16 -507,16 238,-355 719,-734 1306,-734l140 0c346,0 900,235 1027,425 -158,0 -286,124 -286,272zm-2649 880l0 132c0,923 846,1769 1768,1769l132 0c923,0 1769,-846 1769,-1769l0 -132c0,-922 -846,-1768 -1769,-1768l-132 0c-922,0 -1768,846 -1768,1768z"/>
+  </g>
+  <g id="_2456580892976">
+   <g>
+    <path class="fil6" d="M1065 5976l5864 0c142,0 259,117 259,259l0 3732 -6382 0 0 -3732c0,-142 116,-259 259,-259zm0 376l5864 0 0 3357 -5864 0 0 -3357z"/>
+    <path id="1" class="fil6" d="M1065 5976l5864 0c18,0 35,2 52,6l3 0c4,1 8,2 12,3l1 0 2 1c43,12 82,36 113,66 31,31 54,70 66,113l1 3 0 0c1,4 2,8 3,12l1 3c3,17 5,35 5,52l0 3732 0 0 0 0 -6382 0 0 0 0 0 0 -3732c0,-17 2,-35 5,-52l1 -3c1,-4 2,-8 3,-12l0 0 1 -3c12,-43 35,-82 66,-113 35,-35 80,-60 131,-70l3 -1 1 0 4 -1 3 0 3 -1 3 0 4 -1 3 0 3 0 4 -1 3 0 3 0 3 0 4 -1 3 0 3 0 2 0 5864 0 1 0 4 0 3 0 3 1 4 0 3 0 3 0 4 1 3 0 3 0 3 1 3 0 4 1 3 0 4 1 1 0 3 1c6,1 12,2 18,4l3 1 2 0 4 2 1 0 5 2 1 0 5 2 1 1 4 1 3 1 3 1 3 2 3 1 2 1 4 2 2 1 4 2 0 0c6,3 11,6 16,9l2 1 3 3 1 0 5 4 5 3 4 3 2 1c4,4 9,8 13,11l1 1 4 4 0 0 5 4 2 2 2 3 4 4 1 1 3 3 1 1c4,4 7,9 11,13l1 2 3 4 4 5 3 5 0 1 3 4 1 2c3,5 6,10 9,15l0 1 2 3 1 2 2 4 1 2 2 4 1 2 1 3 1 3 2 4 0 2 2 4 0 1 2 5 0 2 2 3 0 2 1 3c2,6 3,12 5,18l0 3 0 2 1 3 1 4 0 3 1 3 0 3 0 3 1 3 0 4 0 3 0 4 1 3 0 3 0 3 0 4 0 1 0 3732 -6382 0 0 -3732 0 -1 0 -4 0 -3 0 -3 0 -3 0 -4 1 -3 0 -4 0 -3 1 -3 0 -3 1 -3 0 -3 1 -4 0 -3 1 -2 0 -3c1,-6 3,-12 5,-18l0 -3 1 -2 1 -3 1 -2 1 -5 1 -1 1 -4 1 -2 2 -4 1 -3 1 -3 1 -2 2 -4 0 -2 2 -4 2 -2 1 -3 1 -1c3,-5 5,-10 9,-15l1 -2 2 -4 1 -1 3 -5 3 -4 1 -2 2 -2 2 -3c4,-4 7,-9 11,-13l1 -1 3 -3 1 -1 4 -4 2 -3 2 -2 4 -4 1 0 4 -4 1 -1c4,-3 8,-7 13,-11l1 -1 4 -3 1 0 4 -3 1 -1 4 -3 1 0 5 -3 1 -1c5,-3 10,-6 15,-8l1 -1 4 -2 2 -1 4 -2 2 -1 4 -2 1 0 4 -2 3 -1 3 -1 2 -1 5 -2 5 -2 2 0 4 -2 2 0 5 -2 1 0 5 -1 1 0 6 -2 3 0c17,-4 34,-6 52,-6zm0 376l5864 0 0 3357 -5864 0 0 -3357zm5864 0l-5864 0 0 3357 5864 0 0 -3357z"/>
+   </g>
+   <path class="fil7" d="M7994 9977l-7994 0c1,535 496,526 799,526l6397 9c304,0 795,0 798,-535z"/>
+   <path class="fil8" d="M5109 8644c0,-50 41,-91 91,-91 21,0 40,7 56,19l697 -926c-23,-16 -38,-43 -38,-73 0,-51 41,-91 92,-91 41,0 76,27 87,65l835 -297 0 -898 -5864 0 0 1767 1347 -77c-2,-8 -3,-16 -3,-25 0,-50 40,-91 91,-91 50,0 91,41 91,91 0,28 -12,52 -31,69l1107 689c14,-33 47,-56 84,-56 50,0 91,40 92,90l1268 -146c-2,-6 -2,-12 -2,-19z"/>
+   <path class="fil9" d="M5111 8663l-1268 146c0,0 0,1 0,1 0,51 -41,92 -92,92 -50,0 -91,-41 -91,-92 0,-12 3,-24 7,-35l-1107 -689c-16,14 -37,22 -60,22 -42,0 -77,-28 -88,-66l-1347 77 0 1590 5864 0 0 -2459 -835 297c3,8 4,17 4,26 0,50 -41,91 -91,91 -21,0 -39,-7 -54,-18l-697 926c21,17 35,43 35,72 0,51 -41,91 -91,91 -44,0 -80,-30 -89,-72z"/>
+   <g>
+    <path class="fil10" d="M6941 7285l-25 -71 35 -12 26 70 -36 13zm-950 258l925 -329 25 71 -925 329 -42 -58 17 -13zm-17 13l6 -9 11 -4 -17 13zm-810 1075l810 -1075 59 45 -809 1075 -26 15 -34 -60zm60 45l-10 13 -16 2 26 -15zm-1488 107l1454 -166 8 74 -1453 167 -24 -6 15 -69zm9 75l-13 1 -11 -7 24 6zm-1242 -852l1257 783 -39 63 -1258 -782 18 -70 22 6zm-22 -6l12 0 10 6 -22 -6zm-1418 82l1418 -82 4 75 -1418 81 -4 -74zm0 0l4 74 -37 3 -5 -75 38 -2z"/>
+   </g>
+   <g>
+    <path class="fil11" d="M2500 7926c50,0 91,41 91,91 0,51 -41,91 -91,91 -51,0 -91,-40 -91,-91 0,-50 40,-91 91,-91z"/>
+    <path id="1" class="fil12" d="M2500 7898c33,0 63,13 84,35 22,21 35,51 35,84 0,33 -13,63 -35,84l0 1 0 0c-22,21 -51,35 -84,35 -33,0 -63,-14 -84,-35l0 0 0 -1c-22,-21 -35,-51 -35,-84 0,-33 13,-63 34,-84 22,-22 52,-35 85,-35zm0 28c50,0 91,41 91,91 0,51 -41,91 -91,91 -51,0 -91,-40 -91,-91 0,-50 40,-91 91,-91z"/>
+   </g>
+   <g>
+    <path class="fil13" d="M5200 8553c50,0 91,41 91,91 0,51 -41,91 -91,91 -50,0 -91,-40 -91,-91 0,-50 41,-91 91,-91z"/>
+    <path id="1" class="fil12" d="M5200 8525c33,0 63,13 84,35l0 0 0 0c22,22 35,51 35,84 0,33 -13,63 -35,84l0 1 0 0c-21,21 -51,35 -84,35 -33,0 -63,-14 -84,-35l0 0 0 -1c-22,-21 -35,-51 -35,-84 0,-33 13,-62 35,-84l0 0 0 0c21,-22 51,-35 84,-35zm0 28c50,0 91,41 91,91 0,51 -41,91 -91,91 -50,0 -91,-40 -91,-91 0,-50 41,-91 91,-91z"/>
+   </g>
+   <g>
+    <path class="fil11" d="M6007 7482c50,0 91,40 91,91 0,50 -41,91 -91,91 -51,0 -92,-41 -92,-91 0,-51 41,-91 92,-91z"/>
+    <path id="1" class="fil12" d="M6007 7453c32,0 62,14 84,35l0 0 0 1c22,21 35,51 35,84 0,33 -13,63 -35,84 -22,22 -51,35 -84,35 -33,0 -63,-13 -85,-35l0 0 0 0c-21,-22 -35,-51 -35,-84 0,-33 14,-63 35,-85l0 0c22,-21 52,-35 85,-35zm0 29c50,0 91,40 91,91 0,50 -41,91 -91,91 -51,0 -92,-41 -92,-91 0,-51 41,-91 92,-91z"/>
+   </g>
+   <g>
+    <path class="fil14" d="M3751 8719c51,0 92,41 92,91 0,51 -41,92 -92,92 -50,0 -91,-41 -91,-92 0,-50 41,-91 91,-91z"/>
+    <path id="1" class="fil12" d="M3751 8691c33,0 63,14 85,35l0 0 0 0c21,22 35,52 35,84 0,33 -14,63 -35,85l0 0 0 0c-22,21 -52,35 -85,35 -32,0 -62,-14 -84,-35l0 0 0 0c-22,-22 -35,-52 -35,-85 0,-32 13,-62 35,-84l0 0 0 0c22,-21 52,-35 84,-35zm0 28c51,0 92,41 92,91 0,51 -41,92 -92,92 -50,0 -91,-41 -91,-92 0,-50 41,-91 91,-91z"/>
+   </g>
+  </g>
+  <g>
+   <g>
+    <circle class="fil15" transform="matrix(0.869649 -0.15318 0.15318 0.869649 6464.25 3979.18)" r="280"/>
+    <g>
+     <circle class="fil16" transform="matrix(0.456316 -0.0803756 0.0803756 0.456316 6464.25 3979.18)" r="280"/>
+     <circle class="fil17" transform="matrix(0.163872 -0.0288645 0.0288645 0.163872 6464.25 3979.19)" r="280"/>
+     <g>
+      <path class="fil15" d="M6478 3771l-38 4 -4 1c-13,2 -25,3 -38,5 3,-87 -9,-110 26,-115 34,-4 29,22 54,105z"/>
+      <path class="fil15" d="M6372 3792l-31 23 -3 2c-10,8 -20,16 -30,24 -41,-77 -63,-92 -35,-113 27,-21 36,5 99,64z"/>
+      <path class="fil15" d="M6290 3863l-14 35 -2 4c-5,12 -10,24 -15,35 -74,-46 -100,-47 -86,-79 13,-32 34,-15 117,5z"/>
+      <path class="fil15" d="M6256 3966l5 38 0 4c2,12 3,25 5,37 -87,-2 -110,9 -115,-25 -4,-35 22,-30 105,-54z"/>
+      <path class="fil15" d="M6277 4072l23 30 2 3c8,10 16,21 24,31 -77,41 -92,62 -113,35 -21,-28 5,-37 64,-99z"/>
+      <path class="fil15" d="M6348 4153l35 15 4 1c12,5 24,10 35,15 -46,74 -47,100 -79,87 -32,-14 -15,-34 5,-118z"/>
+      <path class="fil15" d="M6451 4188l38 -5 4 -1c12,-1 25,-3 37,-5 -2,88 9,111 -25,115 -35,5 -30,-22 -54,-104z"/>
+      <path class="fil15" d="M6557 4167l30 -24 3 -2c11,-8 21,-15 31,-23 41,77 62,91 35,112 -28,21 -36,-4 -99,-63z"/>
+      <path class="fil15" d="M6638 4095l15 -35 1 -4c5,-12 10,-23 15,-35 74,46 100,48 87,80 -14,32 -34,14 -118,-6z"/>
+      <path class="fil15" d="M6673 3993l-5 -38 -1 -4c-1,-13 -3,-25 -4,-38 87,3 110,-9 114,26 5,34 -22,29 -104,54z"/>
+      <path class="fil15" d="M6652 3886l-23 -30 -3 -3c-8,-10 -15,-20 -23,-30 77,-41 91,-63 112,-36 21,28 -4,37 -63,99z"/>
+      <path class="fil15" d="M6580 3805l-35 -14 -4 -2c-11,-5 -23,-10 -35,-15 46,-74 48,-100 80,-86 32,13 14,33 -6,117z"/>
+     </g>
+    </g>
+   </g>
+   <g>
+    <g>
+     <path class="fil18" d="M5804 4129l-49 0 -6 0c-16,0 -33,0 -49,0 18,-112 7,-144 52,-144 45,0 34,33 52,144z"/>
+     <path class="fil18" d="M5679 4131l-49 9 -5 1c-16,3 -33,5 -49,8 -2,-113 -18,-143 26,-151 45,-8 40,27 77,133z"/>
+     <path class="fil18" d="M5556 4155l-47 17 -5 1c-15,6 -31,12 -46,17 -22,-111 -43,-138 -1,-153 43,-16 44,20 99,118z"/>
+     <path class="fil18" d="M5439 4199l-43 25 -5 3c-14,8 -29,16 -43,25 -40,-107 -66,-129 -27,-152 39,-22 47,12 118,99z"/>
+     <path class="fil18" d="M5331 4263l-38 32 -4 4c-13,10 -25,21 -38,32 -58,-98 -87,-115 -53,-144 35,-30 48,3 133,76z"/>
+     <path class="fil18" d="M5236 4345l-32 38 -3 5c-11,12 -21,25 -32,38 -74,-87 -106,-99 -77,-133 29,-35 48,-5 144,52z"/>
+     <path class="fil18" d="M5157 4443l-25 43 -2 4c-9,15 -17,29 -25,43 -88,-72 -122,-78 -99,-117 23,-39 46,-13 151,27z"/>
+     <path class="fil18" d="M5096 4552l-17 47 -2 5c-5,15 -11,31 -17,46 -99,-55 -133,-56 -117,-98 15,-43 43,-21 153,0z"/>
+     <path class="fil18" d="M5055 4670l-9 49 -1 6c-3,16 -5,32 -8,48 -108,-37 -141,-32 -133,-76 8,-45 39,-28 151,-27z"/>
+     <path class="fil18" d="M5035 4794l0 50 0 5c0,17 0,33 0,50 -112,-19 -144,-8 -144,-53 0,-45 33,-34 144,-52z"/>
+     <path class="fil18" d="M5037 4919l8 49 1 6c3,16 6,32 9,48 -114,2 -143,18 -151,-26 -8,-45 27,-40 133,-77z"/>
+     <path class="fil18" d="M5060 5042l17 47 2 5c6,16 11,31 17,47 -112,21 -138,42 -153,0 -16,-43 19,-44 117,-99z"/>
+     <path class="fil18" d="M5105 5160l25 43 2 4c9,15 17,29 25,43 -106,41 -128,66 -151,27 -23,-39 12,-46 99,-117z"/>
+     <path class="fil18" d="M5169 5267l32 38 3 4c11,13 22,26 32,38 -97,59 -115,88 -144,53 -29,-35 4,-48 77,-133z"/>
+     <path class="fil18" d="M5251 5362l38 32 4 3c13,11 25,22 38,32 -86,75 -98,106 -133,77 -34,-29 -4,-47 53,-144z"/>
+     <path class="fil18" d="M5348 5441l43 25 5 3c14,8 28,16 43,25 -72,88 -79,121 -118,98 -39,-22 -13,-46 27,-151z"/>
+     <path class="fil18" d="M5458 5502l46 17 5 2c16,6 31,11 47,17 -56,99 -56,133 -99,118 -42,-16 -20,-43 1,-154z"/>
+     <path class="fil18" d="M5576 5543l49 9 5 1c16,3 33,6 49,9 -38,107 -32,140 -77,133 -44,-8 -28,-39 -26,-152z"/>
+     <path class="fil18" d="M5700 5563l49 0 6 0c16,0 33,0 49,0 -18,113 -7,145 -52,145 -45,0 -34,-34 -52,-145z"/>
+     <path class="fil18" d="M5825 5562l49 -9 5 -1c16,-3 33,-6 49,-9 2,114 18,144 -26,152 -45,8 -40,-27 -77,-133z"/>
+     <path class="fil18" d="M5948 5538l47 -17 5 -2c15,-5 31,-11 46,-17 22,112 43,138 1,154 -43,15 -44,-20 -99,-118z"/>
+     <path class="fil18" d="M6065 5494l43 -25 5 -3c14,-8 29,-16 43,-25 40,107 66,129 27,151 -40,23 -47,-11 -118,-98z"/>
+     <path class="fil18" d="M6173 5429l38 -32 4 -3c13,-11 25,-21 38,-32 58,98 87,115 53,144 -35,29 -48,-3 -133,-77z"/>
+     <path class="fil18" d="M6268 5348l32 -38 3 -5c11,-12 21,-25 32,-38 74,87 106,99 77,133 -29,35 -48,5 -144,-52z"/>
+     <path class="fil18" d="M6347 5250l25 -43 2 -4c9,-15 17,-29 25,-43 88,72 122,78 99,117 -23,39 -46,13 -151,-27z"/>
+     <path class="fil18" d="M6408 5141l17 -47 2 -5c5,-15 11,-31 17,-46 99,55 133,56 118,98 -16,43 -44,21 -154,0z"/>
+     <path class="fil18" d="M6449 5023l9 -49 1 -6c3,-16 5,-32 8,-49 108,38 141,33 133,77 -7,45 -39,28 -151,27z"/>
+     <path class="fil18" d="M6469 4899l0 -50 0 -5c0,-17 0,-33 0,-50 112,18 144,7 144,52 0,46 -33,35 -144,53z"/>
+     <path class="fil18" d="M6467 4773l-8 -48 -1 -6c-3,-16 -6,-32 -9,-49 114,-1 144,-18 151,27 8,44 -27,39 -133,76z"/>
+     <path class="fil18" d="M6444 4650l-17 -46 -2 -5c-6,-16 -11,-31 -17,-47 112,-21 138,-43 153,0 16,42 -19,43 -117,98z"/>
+     <path class="fil18" d="M6399 4533l-25 -43 -2 -4c-9,-15 -17,-29 -25,-43 106,-41 128,-66 151,-27 23,39 -12,46 -99,117z"/>
+     <path class="fil18" d="M6335 4426l-32 -38 -3 -5c-11,-12 -22,-25 -32,-38 98,-58 115,-87 144,-52 29,34 -4,48 -77,133z"/>
+     <path class="fil18" d="M6253 4331l-38 -32 -4 -4c-13,-10 -25,-21 -38,-32 86,-74 98,-105 133,-76 34,29 4,47 -53,144z"/>
+     <path class="fil18" d="M6156 4252l-43 -25 -5 -3c-14,-8 -28,-16 -43,-25 72,-88 79,-121 118,-99 39,23 13,47 -27,152z"/>
+     <path class="fil18" d="M6046 4190l-46 -17 -5 -1c-16,-6 -31,-12 -47,-17 56,-100 56,-133 99,-118 42,15 20,43 -1,153z"/>
+     <path class="fil18" d="M5928 4149l-49 -8 -5 -1c-16,-3 -33,-6 -49,-9 37,-107 32,-141 77,-133 44,8 28,39 26,151z"/>
+    </g>
+    <circle class="fil18" cx="5752" cy="4846" r="740"/>
+    <circle class="fil19" cx="5752" cy="4846" r="492"/>
+    <circle class="fil16" cx="5752" cy="4846" r="128"/>
+    <path class="fil18" d="M5691 4289l122 0 0 363c64,21 113,71 133,133l363 0 0 123 -363 0c-20,64 -71,112 -133,132l0 364 -122 0 0 -364c-64,-20 -113,-70 -133,-132l-363 0 0 -123 363 0c20,-64 71,-113 133,-133l0 -363zm55 428c72,-4 132,52 136,123 3,72 -53,133 -124,136 -72,3 -132,-52 -136,-124 -3,-71 52,-132 124,-135z"/>
+   </g>
+   <g>
+    <g>
+     <g>
+      <path class="fil20" d="M7008 4089l-39 0 -4 0c-13,0 -26,0 -39,0 14,-86 6,-110 41,-110 35,0 27,25 41,110z"/>
+      <path class="fil20" d="M6884 4100l-34 18 -4 2c-11,6 -23,12 -34,18 -28,-83 -47,-101 -15,-117 31,-17 35,10 87,79z"/>
+      <path class="fil20" d="M6780 4166l-22 32 -3 4c-7,10 -14,21 -22,31 -62,-60 -88,-67 -68,-96 21,-29 37,-7 115,29z"/>
+      <path class="fil20" d="M6718 4274l-5 38 0 4c-2,13 -3,26 -5,39 -84,-25 -109,-19 -105,-54 5,-35 29,-24 115,-27z"/>
+      <path class="fil20" d="M6713 4397l14 37 2 4c4,12 9,24 13,36 -85,17 -105,34 -117,1 -13,-33 14,-34 88,-78z"/>
+      <path class="fil20" d="M6767 4509l29 26 3 3c10,8 19,17 29,26 -68,55 -77,79 -104,55 -26,-23 -3,-37 43,-110z"/>
+      <path class="fil20" d="M6866 4583l38 10 4 1c13,3 25,6 38,9 -35,80 -32,106 -66,98 -35,-9 -20,-32 -14,-118z"/>
+      <path class="fil20" d="M6989 4603l37 -9 4 -1c13,-4 25,-7 38,-10 7,87 21,109 -13,117 -34,9 -32,-18 -66,-97z"/>
+      <path class="fil20" d="M7106 4563l29 -26 3 -2c10,-9 20,-17 29,-26 47,74 69,86 43,110 -26,23 -37,-2 -104,-56z"/>
+      <path class="fil20" d="M7192 4474l13 -37 2 -4c4,-12 9,-24 14,-36 75,44 101,44 88,77 -12,34 -33,16 -117,0z"/>
+      <path class="fil20" d="M7226 4354l-5 -38 -1 -4c-1,-13 -3,-26 -4,-39 87,4 110,-8 114,27 5,35 -22,30 -104,54z"/>
+      <path class="fil20" d="M7200 4233l-22 -32 -2 -3c-7,-11 -15,-22 -22,-32 79,-37 94,-59 114,-29 20,29 -6,36 -68,96z"/>
+      <path class="fil20" d="M7122 4137l-35 -18 -4 -2c-11,-6 -22,-12 -34,-18 53,-69 56,-95 88,-79 31,17 11,36 -15,117z"/>
+     </g>
+     <circle class="fil20" cx="6967" cy="4337" r="281"/>
+    </g>
+    <g>
+     <circle class="fil21" transform="matrix(0.263185 -0.0119653 0.0119653 0.263185 6966.88 4336.59)" r="280"/>
+     <g>
+      <circle class="fil21" transform="matrix(0.157664 0.0114763 -0.0114763 0.157664 7146.79 4349.69)" r="280"/>
+      <circle class="fil21" transform="matrix(-0.0688932 -0.142279 0.142279 -0.0688932 6888.27 4174.24)" r="280"/>
+      <circle class="fil21" transform="matrix(-0.0887707 0.130803 -0.130803 -0.0887707 6865.59 4485.85)" r="280"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <g>
+   <circle class="fil22" cx="5757" cy="1722" r="1292"/>
+   <circle class="fil7" cx="5744" cy="1722" r="1034"/>
+   <g>
+    <rect class="fil23" x="5744" y="845" width="22.3796" height="151.279"/>
+    <polygon class="fil24" points="5823,848 5845,850 5831,1000 5809,998 "/>
+    <polygon class="fil25" points="5902,857 5924,861 5896,1010 5874,1006 "/>
+    <polygon class="fil26" points="5979,874 6001,880 5960,1026 5939,1020 "/>
+    <polygon class="fil27" points="6055,898 6076,906 6022,1048 6001,1040 "/>
+    <polygon class="fil28" points="6128,929 6149,939 6082,1075 6062,1065 "/>
+    <polygon class="fil29" points="6199,966 6218,978 6139,1107 6120,1095 "/>
+    <polygon class="fil30" points="6265,1010 6283,1023 6193,1145 6175,1131 "/>
+    <polygon class="fil31" points="6327,1059 6344,1074 6243,1187 6227,1172 "/>
+    <polygon class="fil32" points="6385,1114 6400,1130 6289,1233 6274,1217 "/>
+    <polygon class="fil33" points="6437,1174 6451,1191 6331,1284 6318,1266 "/>
+    <polygon class="fil34" points="6484,1238 6496,1257 6368,1338 6356,1320 "/>
+    <polygon class="fil35" points="6524,1306 6535,1326 6400,1396 6390,1376 "/>
+    <polygon class="fil36" points="6558,1378 6567,1399 6427,1456 6418,1435 "/>
+    <polygon class="fil37" points="6586,1453 6592,1474 6448,1518 6441,1497 "/>
+    <polygon class="fil38" points="5416,2521 5396,2512 5456,2374 5477,2382 "/>
+    <polygon class="fil39" points="5344,2487 5325,2476 5398,2344 5417,2354 "/>
+    <polygon class="fil40" points="5276,2446 5257,2434 5342,2309 5361,2321 "/>
+    <polygon class="fil41" points="5212,2400 5194,2386 5290,2269 5307,2283 "/>
+    <polygon class="fil42" points="5152,2348 5136,2332 5242,2224 5258,2240 "/>
+    <polygon class="fil43" points="5097,2290 5082,2273 5198,2175 5212,2192 "/>
+    <polygon class="fil44" points="5048,2228 5035,2210 5158,2123 5171,2141 "/>
+    <polygon class="fil45" points="5004,2161 4993,2142 5124,2067 5135,2086 "/>
+    <polygon class="fil46" points="4967,2091 4957,2071 5095,2008 5104,2028 "/>
+    <polygon class="fil47" points="4936,2018 4928,1997 5071,1947 5079,1968 "/>
+    <polygon class="fil48" points="4912,1942 4906,1921 5053,1883 5059,1905 "/>
+    <polygon class="fil49" points="4895,1865 4891,1843 5041,1819 5044,1841 "/>
+    <polygon class="fil50" points="4885,1786 4884,1764 5035,1754 5036,1776 "/>
+    <polygon class="fil51" points="4882,1706 4883,1684 5034,1688 5034,1710 "/>
+    <polygon class="fil52" points="4887,1627 4890,1605 5040,1622 5037,1645 "/>
+    <polygon class="fil53" points="4899,1549 4903,1527 5051,1558 5047,1580 "/>
+    <polygon class="fil54" points="4918,1471 4924,1450 5069,1495 5062,1516 "/>
+    <polygon class="fil55" points="4944,1396 4952,1376 5092,1433 5083,1454 "/>
+    <polygon class="fil56" points="4976,1324 4986,1304 5121,1374 5110,1394 "/>
+    <polygon class="fil57" points="5015,1255 5027,1236 5154,1318 5142,1336 "/>
+    <polygon class="fil58" points="5060,1189 5074,1172 5193,1265 5180,1282 "/>
+    <polygon class="fil59" points="5111,1128 5126,1112 5237,1215 5221,1232 "/>
+    <polygon class="fil60" points="5167,1072 5184,1057 5285,1170 5268,1185 "/>
+    <polygon class="fil61" points="5229,1021 5247,1008 5336,1130 5318,1143 "/>
+    <polygon class="fil62" points="5294,976 5313,965 5391,1094 5372,1106 "/>
+    <polygon class="fil63" points="5363,938 5383,928 5450,1064 5429,1074 "/>
+    <polygon class="fil64" points="5436,905 5457,897 5510,1039 5489,1047 "/>
+    <polygon class="fil65" points="5511,880 5533,874 5573,1019 5551,1025 "/>
+    <polygon class="fil66" points="5588,861 5610,857 5637,1006 5615,1010 "/>
+    <polygon class="fil67" points="5667,849 5689,847 5702,998 5680,1000 "/>
+   </g>
+   <path class="fil18" d="M5764 1476c41,1 79,12 113,31l0 0 581 -336c28,-16 64,-9 82,18l34 54c18,28 9,64 -18,82l-553 382 0 0c1,7 1,14 1,22 -4,136 -117,243 -253,240 -136,-4 -244,-117 -240,-253 3,-136 117,-244 253,-240z"/>
+   <circle class="fil68" transform="matrix(0.0465625 0.00124293 -0.00124293 0.0465625 5757.26 1722.25)" r="2672"/>
+  </g>
+  <g>
+   <circle class="fil69" cx="14564" cy="6964" r="684"/>
+   <path class="fil7" d="M14439 6426c232,0 420,183 428,413 -49,-119 -166,-202 -303,-202 -181,0 -327,146 -327,327 0,150 101,277 238,316 -11,1 -23,1 -36,1 -236,0 -427,-191 -427,-428 0,-236 191,-427 427,-427z"/>
+   <path class="fil70" d="M14439 6426c128,0 242,55 321,144 -73,-57 -164,-91 -263,-91 -236,0 -428,192 -428,428 0,106 38,203 102,277 12,10 24,19 38,28l4 5c-120,-75 -201,-208 -201,-364 0,-229 191,-427 427,-427z"/>
+   <path class="fil18" d="M14374 8308l87 0 0 -436c-456,-52 -810,-438 -810,-908 0,-504 409,-913 913,-913 505,0 914,409 914,913 0,470 -355,856 -810,908l0 436 87 0 0 1367 -381 0 0 -1367zm190 -2027c378,0 684,306 684,683 0,378 -306,684 -684,684 -377,0 -683,-306 -683,-684 0,-377 306,-683 683,-683z"/>
+  </g>
+  <g>
+   <rect class="fil71" transform="matrix(3.93574E-14 -1.4856 1.4856 3.93574E-14 14105 12805.4)" width="1758" height="2439" rx="109" ry="109"/>
+   <rect class="fil72" transform="matrix(3.28071E-14 -1.23797 1.23797 3.28071E-14 14407 12587.8)" width="1758" height="2439"/>
+   <rect class="fil72" transform="matrix(4.73233E-15 -0.178568 -0.0334304 -8.84709E-16 17634.2 11656.7)" width="1758" height="2439"/>
+   <g>
+    <circle class="fil69" transform="matrix(3.93574E-14 -1.4856 1.4856 3.93574E-14 15570.1 11499.8)" r="497"/>
+    <path class="fil15" d="M15263 10828l307 672 509 -535c-132,-126 -312,-204 -509,-204 -110,0 -214,24 -307,67z"/>
+    <path class="fil71" d="M15570 11500l-307 -672c-175,81 -313,227 -382,407l689 265z"/>
+   </g>
+  </g>
+  <g>
+   <path class="fil18" d="M8051 6317c13,-8 30,-3 39,11 2,3 3,5 4,8 101,-63 218,-104 343,-116l0 -49c0,-10 3,-21 9,-31 -73,-28 -125,-99 -125,-181 0,-108 88,-195 195,-195 107,0 195,87 195,195 0,82 -52,153 -125,181 6,10 9,21 9,31l0 49c125,12 242,53 343,116 1,-3 2,-5 4,-8 9,-14 26,-19 39,-11 12,8 15,26 6,40 -2,3 -4,5 -7,7 204,145 336,383 336,652 0,442 -358,801 -800,801 -442,0 -801,-359 -801,-801 0,-269 133,-507 337,-652 -3,-2 -5,-5 -7,-7 -9,-14 -6,-32 6,-40zm465 46c361,0 654,292 654,653 0,361 -293,654 -654,654 -361,0 -654,-293 -654,-654 0,-361 293,-653 654,-653zm-52 -242c5,-3 10,-5 15,-5 22,0 12,-61 -42,-61 -19,0 -35,-16 -35,-35l0 -14c0,-19 16,-34 35,-34l158 0c19,0 35,15 35,34l0 14c0,19 -16,35 -35,35 -54,0 -64,61 -43,61 6,0 11,2 16,5 69,-22 119,-86 119,-162 0,-95 -77,-171 -171,-171 -94,0 -171,76 -171,171 0,76 50,140 119,162z"/>
+   <circle class="fil7" cx="8516" cy="7016" r="654"/>
+   <path class="fil22" d="M8580 7031c1,2 1,4 1,6l0 0 0 0c0,2 0,3 0,5 0,36 -29,65 -65,65 -36,0 -65,-29 -65,-65l0 -3 0 0 0 0c0,-4 0,-7 1,-10l36 -300 28 -307 28 307 36 302z"/>
+   <circle class="fil16" cx="8516" cy="7016" r="33"/>
+   <rect class="fil73 str0" transform="matrix(0.786203 -0.532503 0.532503 0.786203 7988.36 6307.64)" width="101.783" height="54.3988" rx="27" ry="27"/>
+   <rect class="fil73 str0" transform="matrix(-0.786203 -0.532503 -0.532503 0.786203 9042.76 6307.64)" width="101.783" height="54.3988" rx="27" ry="27"/>
+  </g>
+  <g>
+   <path class="fil74" d="M8188 10253c0,118 97,214 215,214l227 0c118,0 214,-96 214,-214l0 -390 -656 0 0 390z"/>
+   <polygon class="fil18" points="8188,9863 8844,9863 8844,9750 8844,9750 8516,9750 8188,9750 8188,9769 "/>
+   <path class="fil18" d="M8644 10467l-251 0 0 31c0,17 14,30 30,30l190 0c17,0 31,-13 31,-30l0 -31z"/>
+   <path class="fil75" d="M8516 9750l328 0c0,-307 419,-430 419,-1058 0,-412 -334,-747 -747,-747l0 1805z"/>
+   <path class="fil76" d="M8516 9750l0 -1805c-413,0 -747,335 -747,747 0,628 418,751 419,1058l328 0z"/>
+  </g>
+  <g>
+   <rect class="fil73" x="9634" y="7446" width="4008" height="4872"/>
+   <polygon class="fil77" points="13644,7437 9635,7437 9635,7780 13644,7780 "/>
+   <rect class="fil78" x="9905" y="7894" width="3470" height="107"/>
+   <rect class="fil79" x="9906" y="8133" width="3470" height="576"/>
+   <rect class="fil78" x="9905" y="10561" width="3470" height="109"/>
+   <polygon class="fil77" points="10921,8840 9905,8840 9905,9796 10921,9796 "/>
+   <g>
+    <rect class="fil80" x="9905" y="9928" width="1016.34" height="69.0428"/>
+    <g>
+     <rect class="fil80" x="9905" y="10280" width="93.8566" height="69.0428"/>
+     <rect class="fil80" x="10020" y="10280" width="333.671" height="69.0428"/>
+     <rect class="fil80" x="10389" y="10280" width="285.841" height="69.0428"/>
+     <rect class="fil80" x="10710" y="10280" width="148.081" height="69.0428"/>
+    </g>
+    <g>
+     <rect class="fil80" x="9905" y="10162" width="521.384" height="69.0428"/>
+     <rect class="fil80" x="10581" y="10162" width="341.963" height="69.0428"/>
+    </g>
+    <g>
+     <rect class="fil80" x="9905" y="10045" width="350.732" height="69.0428"/>
+     <rect class="fil80" x="10330" y="10045" width="314.876" height="69.0428"/>
+     <rect class="fil80" x="10793" y="10045" width="129.837" height="69.0428"/>
+    </g>
+   </g>
+   <g>
+    <polygon class="fil77" points="13375,8840 12358,8840 12358,9796 13375,9796 "/>
+    <g>
+     <rect class="fil80" x="12357" y="9928" width="662.764" height="69.0428"/>
+     <rect class="fil80" x="12357" y="10280" width="782.856" height="69.0428"/>
+     <rect class="fil80" x="12796" y="10162" width="285.841" height="69.0428"/>
+     <rect class="fil80" x="13226" y="9928" width="148.081" height="69.0428"/>
+     <rect class="fil80" x="12357" y="10162" width="355.084" height="69.0428"/>
+     <rect class="fil80" x="13186" y="10162" width="189.511" height="69.0428"/>
+     <rect class="fil80" x="12357" y="10045" width="492.913" height="69.0428"/>
+     <rect class="fil80" x="12938" y="10045" width="436.064" height="69.0428"/>
+    </g>
+   </g>
+   <g>
+    <polygon class="fil81" points="12148,8840 11131,8840 11131,9796 12148,9796 "/>
+    <g>
+     <g>
+      <rect class="fil80" x="11645" y="10280" width="93.8566" height="69.0428"/>
+      <rect class="fil80" x="11312" y="10280" width="285.841" height="69.0428"/>
+      <rect class="fil80" x="11129" y="10280" width="148.081" height="69.0428"/>
+     </g>
+     <g>
+      <rect class="fil80" x="11626" y="10162" width="521.384" height="69.0428"/>
+      <rect class="fil80" x="11129" y="10162" width="341.963" height="69.0428"/>
+     </g>
+     <g>
+      <rect class="fil80" x="11129" y="10045" width="609.573" height="69.0428"/>
+      <rect class="fil80" x="11833" y="10045" width="314.876" height="69.0428"/>
+     </g>
+     <g>
+      <rect class="fil80" x="11560" y="9928" width="587.912" height="69.0428"/>
+      <rect class="fil80" x="11358" y="9928" width="134.845" height="69.0428"/>
+      <rect class="fil80" x="11129" y="9928" width="134.845" height="69.0428"/>
+     </g>
+    </g>
+   </g>
+   <polygon class="fil78" points="10496,10906 9908,10906 9908,11459 10496,11459 "/>
+   <rect class="fil78" x="9908" y="11536" width="586.588" height="69.0428"/>
+   <rect class="fil80" x="9905" y="11888" width="555.373" height="69.0428"/>
+   <rect class="fil80" x="9905" y="11771" width="589.97" height="69.0428"/>
+   <rect class="fil80" x="9908" y="11653" width="497.134" height="69.0428"/>
+   <polygon class="fil78" points="11456,10906 10868,10906 10868,11459 11456,11459 "/>
+   <rect class="fil80" x="10868" y="11536" width="497.134" height="69.0428"/>
+   <rect class="fil80" x="10864" y="11888" width="591.724" height="69.0428"/>
+   <rect class="fil80" x="10864" y="11771" width="589.97" height="69.0428"/>
+   <rect class="fil80" x="10868" y="11653" width="586.588" height="69.0428"/>
+   <polygon class="fil82" points="12416,10906 11828,10906 11828,11459 12416,11459 "/>
+   <rect class="fil82" x="11828" y="11536" width="586.588" height="69.0428"/>
+   <rect class="fil80" x="11824" y="11888" width="438.112" height="69.0428"/>
+   <rect class="fil80" x="11824" y="11771" width="589.97" height="69.0428"/>
+   <rect class="fil80" x="11828" y="11653" width="586.588" height="69.0428"/>
+   <polygon class="fil80" points="13376,10906 12787,10906 12787,11459 13376,11459 "/>
+   <rect class="fil80" x="12787" y="11536" width="586.588" height="69.0428"/>
+   <rect class="fil80" x="12784" y="11888" width="555.373" height="69.0428"/>
+   <rect class="fil80" x="12784" y="11771" width="438.112" height="69.0428"/>
+   <rect class="fil80" x="12787" y="11653" width="497.134" height="69.0428"/>
+   <g>
+    <rect class="fil73" x="10789" y="8210" width="1016.34" height="69.0428"/>
+    <rect class="fil73" x="11876" y="8210" width="616.249" height="69.0428"/>
+   </g>
+   <g>
+    <rect class="fil73" x="11351" y="8562" width="93.8566" height="69.0428"/>
+    <rect class="fil73" x="11484" y="8562" width="285.841" height="69.0428"/>
+    <rect class="fil73" x="11805" y="8562" width="148.081" height="69.0428"/>
+    <rect class="fil73" x="11994" y="8562" width="521.384" height="69.0428"/>
+    <rect class="fil73" x="10765" y="8562" width="521.384" height="69.0428"/>
+   </g>
+   <g>
+    <rect class="fil73" x="12006" y="8444" width="745.504" height="69.0428"/>
+    <rect class="fil73" x="10530" y="8444" width="333.671" height="69.0428"/>
+    <rect class="fil73" x="10919" y="8444" width="521.384" height="69.0428"/>
+    <rect class="fil73" x="11595" y="8444" width="341.963" height="69.0428"/>
+   </g>
+   <g>
+    <rect class="fil73" x="11886" y="8327" width="521.384" height="69.0428"/>
+    <rect class="fil73" x="12500" y="8327" width="341.963" height="69.0428"/>
+    <rect class="fil73" x="10845" y="8327" width="350.732" height="69.0428"/>
+    <rect class="fil73" x="10439" y="8327" width="350.732" height="69.0428"/>
+    <rect class="fil73" x="11271" y="8327" width="314.876" height="69.0428"/>
+    <rect class="fil73" x="11689" y="8327" width="129.837" height="69.0428"/>
+   </g>
+  </g>
+  <g>
+   <path class="fil83" d="M10393 6676c826,-15 716,124 943,0l0 195 -1040 0 0 -98c0,-53 44,-96 97,-97z"/>
+   <path class="fil84" d="M10393 7066c826,14 716,-124 943,0l0 -195 -1040 0 0 97c0,54 44,97 97,98z"/>
+   <g>
+    <polygon class="fil85" points="11336,6871 11336,6810 12508,6810 12672,6740 12982,6829 12982,6871 "/>
+    <path id="1" class="fil86" d="M11336 6871l0 -61 0 0 0 0 1172 0 164 -70 310 89 0 0 0 0 0 42 0 0 0 0 -1646 0 0 0 0 0zm0 0l0 -61 1172 0 164 -70 310 89 0 42 -1646 0z"/>
+   </g>
+   <g>
+    <polygon class="fil80" points="11336,6871 11336,6931 12508,6931 12672,7002 12982,6912 12982,6871 "/>
+    <path id="1" class="fil86" d="M11336 6871l0 60 1172 0 164 71 310 -90 0 -41 -1646 0zm0 60l0 -60 0 0 0 0 1646 0 0 0 0 0 0 41 0 0 0 0 -310 90 -164 -71 -1172 0 0 0 0 0z"/>
+   </g>
+  </g>
+  <g>
+   <polygon class="fil18" points="4559,11035 4559,11076 4466,11056 "/>
+   <polygon class="fil7" points="4559,11076 4559,11035 4817,10978 4817,11133 "/>
+   <polygon class="fil75" points="4817,11133 4817,10978 4818,10978 6375,10978 6375,11133 4818,11133 "/>
+   <polygon class="fil87" points="6375,11133 6375,10978 6418,10978 6418,11133 "/>
+   <polygon class="fil75" points="6418,11133 6418,10978 6586,10978 6586,11133 "/>
+   <path class="fil18" d="M6586 11133l0 -155 34 0c43,0 78,35 78,78 0,42 -35,77 -78,77l-34 0z"/>
+  </g>
+  <g>
+   <g>
+    <path class="fil88" d="M18125 8442l3 27 -13 2 -4 -28 14 -1zm143 8l-140 19 -3 -27 139 -19 4 27zm0 0l-4 -27 14 -2 4 27 -14 2z"/>
+   </g>
+   <g>
+    <path class="fil89" d="M15763 7112l4185 0 0 2286 -393 401 -3792 0 0 -2687zm4185 2286l-392 400 2 1 -3 0 393 -401z"/>
+    <polygon class="fil77" points="19555,9799 19948,9398 19944,9398 19555,9398 19555,9798 "/>
+   </g>
+   <g>
+    <line class="fil90 str1" x1="17855" y1="7112" x2="17855" y2= "7112" />
+   </g>
+   <g>
+    <line class="fil90 str1" x1="17855" y1="7112" x2="17855" y2= "7112" />
+   </g>
+   <g>
+    <polygon class="fil91" points="17350,7911 17678,8250 17657,8270 17330,7931 "/>
+   </g>
+   <g>
+    <path class="fil92" d="M17894 8186l27 6 -3 14 -27 -6 3 -14zm75 -219l-48 225 -27 -6 47 -225 28 6zm0 0l-28 -6 3 -14 28 6 -3 14z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M18039 8261l25 13 -7 13 -25 -13 7 -13zm336 -590l-311 603 -25 -13 311 -603 25 13zm0 0l-25 -13 6 -12 25 13 -6 12z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M17760 8200l27 -6 3 14 -27 5 -3 -13zm-103 -608l130 602 -27 6 -130 -602 27 -6zm0 0l-27 6 -3 -14 27 -6 3 14z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M17610 8347l6 -27 14 3 -7 28 -13 -4zm-747 -205l753 178 -6 27 -754 -178 7 -27zm0 0l-7 27 -14 -3 7 -27 14 3z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M17585 8485l-1 -28 14 0 1 28 -14 0zm-347 -7l346 -21 1 28 -345 21 -2 -28zm0 0l2 28 -14 0 -2 -28 14 0z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M18082 8295l15 23 -11 8 -16 -23 12 -8zm623 -385l-608 408 -15 -23 608 -408 15 23zm0 0l-15 -23 11 -8 16 23 -12 8z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M18123 8404l2 28 -14 1 -2 -28 14 -1zm141 19l-139 9 -2 -28 139 -9 2 28zm0 0l-2 -28 14 -1 2 28 -14 1z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M18035 8659l-22 18 -9 -11 21 -18 10 11zm151 221l-173 -203 22 -18 172 203 -21 18zm0 0l21 -18 9 11 -21 18 -9 -11z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M18116 8535l-11 26 -13 -5 11 -26 13 5zm650 302l-661 -276 11 -26 661 277 -11 25zm0 0l11 -25 13 5 -11 26 -13 -6z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M17845 8728l-28 -5 3 -14 27 5 -2 14zm-85 307l57 -312 28 5 -58 312 -27 -5zm0 0l27 5 -2 14 -28 -5 3 -14z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M17678 8657l-24 -14 8 -12 24 14 -8 12zm-269 380l245 -394 24 14 -245 395 -24 -15zm0 0l24 15 -8 12 -23 -15 7 -12z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M17619 8587l-15 -24 12 -8 15 24 -12 8zm-567 312l552 -336 15 24 -553 336 -14 -24zm0 0l14 24 -12 7 -14 -24 12 -7z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M19204 8795l9 26 -14 5 -9 -27 14 -4zm124 -12l-115 38 -9 -26 115 -39 9 27zm0 0l-9 -27 13 -4 9 26 -13 5z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M19230 8887l-6 27 -14 -3 7 -28 13 4zm246 88l-252 -61 6 -27 252 60 -6 28zm0 0l6 -28 14 4 -7 27 -13 -3z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M18932 9128l-26 -12 6 -12 25 11 -5 13zm-98 145l72 -157 26 12 -73 156 -25 -11zm0 0l25 11 -5 13 -26 -12 6 -12z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M19015 9142l-28 0 0 -14 28 0 0 14zm-28 318l0 -318 28 0 0 318 -28 0zm0 0l28 0 0 14 -28 0 0 -14z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M19088 9117l-27 6 -3 -14 27 -6 3 14zm10 184l-37 -178 27 -6 37 179 -27 5zm0 0l27 -5 3 13 -27 6 -3 -14z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M19210 8992l-14 24 -12 -6 13 -25 13 7zm87 80l-101 -56 14 -24 100 56 -13 24zm0 0l13 -24 13 6 -14 25 -12 -7z"/>
+   </g>
+   <g>
+    <path class="fil88" d="M19160 9067l-23 16 -8 -11 23 -16 8 11zm136 239l-159 -223 23 -16 159 222 -23 17zm0 0l23 -17 8 12 -22 16 -9 -11z"/>
+   </g>
+   <path class="fil93" d="M17855 8184c150,0 272,122 272,271 0,150 -122,272 -272,272 -149,0 -271,-122 -271,-272 0,-149 122,-271 271,-271z"/>
+   <path class="fil94" d="M17985 7568c110,0 199,89 199,199 0,110 -89,199 -199,199 -110,0 -199,-89 -199,-199 0,-110 89,-199 199,-199z"/>
+   <path class="fil95" d="M17129 7398c168,0 304,136 304,304 0,168 -136,304 -304,304 -168,0 -304,-136 -304,-304 0,-168 136,-304 304,-304z"/>
+   <path class="fil96" d="M16632 7868c129,0 234,104 234,234 0,129 -105,234 -234,234 -130,0 -234,-105 -234,-234 0,-130 104,-234 234,-234z"/>
+   <path class="fil97" d="M17032 8296c115,0 208,93 208,208 0,114 -93,207 -208,207 -115,0 -207,-93 -207,-207 0,-115 92,-208 207,-208z"/>
+   <path class="fil98" d="M16879 8807c115,0 208,93 208,207 0,115 -93,208 -208,208 -114,0 -207,-93 -207,-208 0,-114 93,-207 207,-207z"/>
+   <path class="fil99" d="M17345 9023c80,0 144,64 144,144 0,79 -64,144 -144,144 -80,0 -144,-65 -144,-144 0,-80 64,-144 144,-144z"/>
+   <path class="fil100" d="M17747 9035c80,0 144,65 144,144 0,80 -64,144 -144,144 -79,0 -144,-64 -144,-144 0,-79 65,-144 144,-144z"/>
+   <path class="fil101" d="M18326 8824c110,0 199,89 199,199 0,110 -89,199 -199,199 -110,0 -199,-89 -199,-199 0,-110 89,-199 199,-199z"/>
+   <path class="fil102" d="M18496 8158c129,0 234,105 234,234 0,129 -105,234 -234,234 -129,0 -234,-105 -234,-234 0,-129 105,-234 234,-234z"/>
+   <path class="fil93" d="M18993 8666c129,0 234,105 234,234 0,130 -105,234 -234,234 -129,0 -234,-104 -234,-234 0,-129 105,-234 234,-234z"/>
+   <path class="fil103" d="M19046 7303c220,0 399,179 399,399 0,221 -179,400 -399,400 -221,0 -400,-179 -400,-400 0,-220 179,-399 400,-399z"/>
+   <path class="fil104" d="M18428 7393c80,0 144,64 144,144 0,79 -64,144 -144,144 -79,0 -144,-65 -144,-144 0,-80 65,-144 144,-144z"/>
+   <path class="fil105" d="M17613 7310c79,0 144,65 144,144 0,80 -65,144 -144,144 -80,0 -144,-64 -144,-144 0,-79 64,-144 144,-144z"/>
+   <path class="fil105" d="M18812 9271c46,0 83,37 83,82 0,46 -37,83 -83,83 -45,0 -82,-37 -82,-83 0,-45 37,-82 82,-82z"/>
+   <path class="fil106" d="M19010 9460c56,0 101,45 101,101 0,56 -45,101 -101,101 -56,0 -101,-45 -101,-101 0,-56 45,-101 101,-101z"/>
+   <path class="fil97" d="M19136 9295c45,0 82,37 82,82 0,46 -37,83 -82,83 -46,0 -82,-37 -82,-83 0,-45 36,-82 82,-82z"/>
+   <path class="fil107" d="M19382 9271c65,0 117,52 117,117 0,65 -52,117 -117,117 -65,0 -117,-52 -117,-117 0,-65 52,-117 117,-117z"/>
+   <path class="fil108" d="M19382 9014c50,0 90,41 90,90 0,50 -40,91 -90,91 -50,0 -90,-41 -90,-91 0,-49 40,-90 90,-90z"/>
+   <path class="fil95" d="M19607 8860c73,0 132,59 132,132 0,73 -59,132 -132,132 -73,0 -132,-59 -132,-132 0,-73 59,-132 132,-132z"/>
+   <path class="fil99" d="M19420 8636c56,0 101,45 101,101 0,57 -45,102 -101,102 -56,0 -102,-45 -102,-102 0,-56 46,-101 102,-101z"/>
+  </g>
+  <g>
+   <g>
+    <rect class="fil73" x="457" y="2918" width="3986" height="2694"/>
+    <polygon class="fil77" points="4443,2918 457,2918 457,3211 4443,3211 "/>
+   </g>
+   <g>
+    <g>
+     <path class="fil109" d="M883 3330c81,0 146,65 146,146 0,81 -65,146 -146,146 -81,0 -146,-65 -146,-146 0,-81 65,-146 146,-146z"/>
+     <path id="1" class="fil109" d="M883 3255c61,0 116,25 156,65 40,40 65,95 65,156 0,61 -25,117 -65,157 -40,40 -95,64 -156,64 -61,0 -116,-24 -156,-64 -40,-40 -65,-96 -65,-157 0,-61 25,-116 65,-156 40,-40 95,-65 156,-65zm0 75c81,0 146,65 146,146 0,81 -65,146 -146,146 -81,0 -146,-65 -146,-146 0,-81 65,-146 146,-146z"/>
+    </g>
+    <g>
+     <g>
+      <path class="fil110" d="M1208 3372l0 75 -37 0 0 -75 37 0zm2988 75l-2988 0 0 -75 2988 0 0 75zm0 0l0 -75 37 0 0 75 -37 0z"/>
+     </g>
+     <g>
+      <path class="fil110" d="M1238 3506l0 75 -38 0 0 -75 38 0zm1227 75l-1227 0 0 -75 1227 0 0 75zm0 0l0 -75 37 0 0 75 -37 0z"/>
+     </g>
+     <g>
+      <path class="fil110" d="M2581 3506l0 75 -37 0 0 -75 37 0zm1615 75l-1615 0 0 -75 1615 0 0 75zm0 0l0 -75 37 0 0 75 -37 0z"/>
+     </g>
+    </g>
+   </g>
+   <g>
+    <rect class="fil18" x="922" y="3974" width="94.6662" height="414.015"/>
+    <rect class="fil75" x="1119" y="3832" width="94.6662" height="555.314"/>
+    <rect class="fil109" x="1317" y="4054" width="94.6662" height="333.628"/>
+   </g>
+   <g>
+    <polygon class="fil18" points="2551,3876 2460,4132 2368,4388 2551,4388 2734,4388 2643,4132 "/>
+    <polygon class="fil75" points="2342,4066 2285,4227 2227,4388 2342,4388 2457,4388 2400,4227 "/>
+   </g>
+   <g>
+    <path class="fil109" d="M4188 4388l0 -221c-50,-73 -159,-209 -277,-231 -163,-29 -27,62 -188,179 -161,118 -34,-76 -320,43l0 230 785 0z"/>
+    <path class="fil77" d="M3723 4115c161,-117 25,-208 188,-179 118,22 227,158 277,231l0 -324 -785 0 0 315c286,-119 159,75 320,-43z"/>
+   </g>
+   <g>
+    <polygon class="fil110" points="1598,4570 735,4570 735,4457 1598,4457 "/>
+   </g>
+   <g>
+    <polygon class="fil111" points="1191,4895 737,4895 737,4839 1191,4839 "/>
+   </g>
+   <g>
+    <polygon class="fil112" points="3820,4895 3366,4895 3366,4839 3820,4839 "/>
+   </g>
+   <g>
+    <polygon class="fil111" points="2506,4895 2052,4895 2052,4839 2506,4839 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="1498,5106 1140,5106 1140,5049 1498,5049 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="4127,5106 3768,5106 3768,5050 4127,5050 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="2813,5106 2455,5106 2455,5050 2813,5050 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="1095,5106 737,5106 737,5050 1095,5050 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="3724,5106 3366,5106 3366,5050 3724,5050 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="2411,5106 2052,5106 2052,5050 2411,5050 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="1600,5211 735,5211 735,5155 1600,5155 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="4229,5211 3364,5211 3364,5155 4229,5155 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="2915,5211 2050,5211 2050,5155 2915,5155 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="1523,5000 737,5000 737,4944 1523,4944 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="4152,5000 3366,5000 3366,4944 4152,4944 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="2838,5000 2052,5000 2052,4944 2838,4944 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="1523,5316 737,5316 737,5260 1523,5260 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="4152,5317 3366,5317 3366,5260 4152,5260 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="2838,5317 2052,5317 2052,5260 2838,5260 "/>
+   </g>
+   <g>
+    <polygon class="fil112" points="1598,4895 1264,4895 1264,4839 1598,4839 "/>
+   </g>
+   <g>
+    <polygon class="fil112" points="4227,4895 3892,4895 3892,4839 4227,4839 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="2913,4895 2579,4895 2579,4839 2913,4839 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="2912,4570 2049,4570 2049,4457 2912,4457 "/>
+   </g>
+   <g>
+    <polygon class="fil110" points="4227,4570 3364,4570 3364,4457 4227,4457 "/>
+   </g>
+  </g>
+  <g>
+   <path class="fil113" d="M20597 2232l-3067 0 0 3036 3067 0 0 -3036zm-2181 201c77,13 135,79 135,160 0,89 -72,161 -162,161 -80,0 -147,-58 -160,-135l-288 0 0 -297 475 0 0 111zm325 415c155,0 280,58 280,130 0,72 -125,130 -280,130 -155,0 -280,-58 -280,-130 0,-72 125,-130 280,-130zm1094 130c0,-72 125,-130 280,-130 154,0 280,58 280,130 0,72 -126,130 -280,130 -155,0 -280,-58 -280,-130zm-687 0c0,-72 125,-130 280,-130 155,0 280,58 280,130 0,72 -125,130 -280,130 -155,0 -280,-58 -280,-130zm-1094 -130c155,0 280,58 280,130 0,72 -125,130 -280,130 -154,0 -280,-58 -280,-130 0,-72 126,-130 280,-130zm814 873l391 0c81,0 148,67 148,148l0 297c0,81 -67,148 -148,148l-391 0c-81,0 -148,-67 -148,-148l0 -297c0,-81 67,-148 148,-148zm947 593c-82,0 -149,-67 -149,-148l0 -297c0,-81 67,-148 149,-148l390 0c81,0 148,67 148,148l0 297c0,81 -67,148 -148,148l-390 0zm-1502 -593c81,0 148,67 148,148l0 297c0,81 -67,148 -148,148l-391 0c-81,0 -148,-67 -148,-148l0 -297c0,-81 67,-148 148,-148l391 0z"/>
+   <g>
+    <g>
+     <path class="fil114" d="M18052 3236l0 56 -28 0 0 -56 28 0zm1150 56l-1150 0 0 -56 1150 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+    </g>
+    <g>
+     <path class="fil115" d="M19334 3236l0 56 -28 0 0 -56 28 0zm741 56l-741 0 0 -56 741 0 0 56zm0 0l0 -56 29 0 0 56 -29 0z"/>
+    </g>
+    <g>
+     <path class="fil115" d="M17941 3365l0 57 -29 0 0 -57 29 0zm2246 57l-2246 0 0 -57 2246 0 0 57zm0 0l0 -57 28 0 0 57 -28 0z"/>
+    </g>
+    <g>
+     <path class="fil115" d="M18074 3495l0 56 -28 0 0 -56 28 0zm548 56l-548 0 0 -56 548 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+    </g>
+    <g>
+     <path class="fil114" d="M18780 3495l0 56 -28 0 0 -56 28 0zm216 56l-216 0 0 -56 216 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+    </g>
+    <g>
+     <path class="fil115" d="M19134 3495l0 56 -28 0 0 -56 28 0zm919 56l-919 0 0 -56 919 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+    </g>
+   </g>
+   <g>
+    <rect class="fil9" x="17774" y="3721" width="686" height="593" rx="148" ry="148"/>
+    <g>
+     <g>
+      <path class="fil116" d="M17826 4396l0 56 -28 0 0 -56 28 0zm529 56l-529 0 0 -56 529 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+     </g>
+     <g>
+      <path class="fil116" d="M17826 4517l0 56 -28 0 0 -56 28 0zm442 56l-442 0 0 -56 442 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+     </g>
+     <g>
+      <g>
+       <path class="fil116" d="M17826 4638l0 56 -28 0 0 -56 28 0zm329 56l-329 0 0 -56 329 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+      </g>
+      <g>
+       <path class="fil116" d="M18268 4638l0 56 -28 0 0 -56 28 0zm244 56l-244 0 0 -56 244 0 0 56zm0 0l0 -56 29 0 0 56 -29 0z"/>
+      </g>
+     </g>
+     <g>
+      <path class="fil116" d="M17826 4760l0 56 -28 0 0 -56 28 0zm558 56l-558 0 0 -56 558 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+     </g>
+    </g>
+   </g>
+   <g>
+    <rect class="fil117" x="19666" y="3721" width="686" height="593" rx="148" ry="148"/>
+    <g>
+     <path class="fil116" d="M19718 4396l0 56 -28 0 0 -56 28 0zm264 56l-264 0 0 -56 264 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+    </g>
+    <g>
+     <path class="fil116" d="M19718 4517l0 56 -28 0 0 -56 28 0zm558 56l-558 0 0 -56 558 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+    </g>
+    <g>
+     <path class="fil116" d="M19718 4638l0 56 -28 0 0 -56 28 0zm635 56l-635 0 0 -56 635 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+    </g>
+    <g>
+     <path class="fil116" d="M20111 4396l0 56 -28 0 0 -56 28 0zm245 56l-245 0 0 -56 245 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+    </g>
+    <g>
+     <path class="fil116" d="M19718 4760l0 56 -28 0 0 -56 28 0zm558 56l-558 0 0 -56 558 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+    </g>
+   </g>
+   <g>
+    <rect class="fil118" x="18720" y="3721" width="686" height="593" rx="148" ry="148"/>
+    <g>
+     <g>
+      <path class="fil116" d="M18751 4396l0 56 -28 0 0 -56 28 0zm548 56l-548 0 0 -56 548 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+     </g>
+     <g>
+      <g>
+       <path class="fil116" d="M18751 4517l0 56 -28 0 0 -56 28 0zm354 56l-354 0 0 -56 354 0 0 56zm0 0l0 -56 29 0 0 56 -29 0z"/>
+      </g>
+      <g>
+       <path class="fil116" d="M19218 4517l0 56 -28 0 0 -56 28 0zm232 56l-232 0 0 -56 232 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+      </g>
+     </g>
+     <g>
+      <path class="fil116" d="M18751 4638l0 56 -28 0 0 -56 28 0zm699 56l-699 0 0 -56 699 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+     </g>
+     <g>
+      <g>
+       <path class="fil116" d="M18751 4760l0 56 -28 0 0 -56 28 0zm235 56l-235 0 0 -56 235 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+      </g>
+      <g>
+       <path class="fil116" d="M19101 4760l0 56 -28 0 0 -56 28 0zm124 56l-124 0 0 -56 124 0 0 56zm0 0l0 -56 28 0 0 56 -28 0z"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <polygon class="fil119" points="20597,1936 17530,1936 17530,2233 20597,2233 "/>
+   <ellipse class="fil117" cx="18054" cy="2978" rx="280" ry="130"/>
+   <path class="fil81" d="M19708 2978c0,-72 -125,-130 -280,-130 -155,0 -280,58 -280,130 0,72 125,130 280,130 155,0 280,-58 280,-130z"/>
+   <path class="fil120" d="M20395 2978c0,-72 -126,-130 -280,-130 -155,0 -280,58 -280,130 0,72 125,130 280,130 154,0 280,-58 280,-130z"/>
+   <path class="fil121" d="M19021 2978c0,-72 -125,-130 -280,-130 -155,0 -280,58 -280,130 0,72 125,130 280,130 155,0 280,-58 280,-130z"/>
+   <ellipse class="fil16" cx="18054" cy="2978" rx="158" ry="23"/>
+   <path class="fil16" d="M19586 2978c0,-13 -71,-23 -158,-23 -87,0 -158,10 -158,23 0,13 71,23 158,23 87,0 158,-10 158,-23z"/>
+   <path class="fil16" d="M20272 2978c0,-13 -70,-23 -157,-23 -87,0 -158,10 -158,23 0,13 71,23 158,23 87,0 157,-10 157,-23z"/>
+   <path class="fil16" d="M18899 2978c0,-13 -71,-23 -158,-23 -87,0 -158,10 -158,23 0,13 71,23 158,23 87,0 158,-10 158,-23z"/>
+   <rect class="fil117" x="17941" y="2322" width="476" height="296"/>
+   <g>
+    <path class="fil122" d="M18389 2431c90,0 162,72 162,162 0,89 -72,161 -162,161 -89,0 -162,-72 -162,-161 0,-90 73,-162 162,-162z"/>
+    <path id="1" class="fil122" d="M18389 2431c4,0 8,0 13,0l1 0 1 0 4 1 3 0 1 0 4 1 0 0 4 1 3 0 1 0c2,1 4,1 6,2 28,7 53,22 74,42 26,27 44,62 47,102l0 2 0 0 0 4 0 1 0 3 0 1 0 2 0 1 0 1 0 3 0 1 0 4 0 0 0 2c-3,40 -21,75 -47,102 -21,20 -46,35 -74,42 -2,1 -4,1 -6,2l-1 0 -3 1 -4 0 0 0 -4 1 -1 0 -3 0 -4 1 -1 0 -1 0c-5,0 -9,0 -13,0 -4,0 -8,0 -12,0l-2 0 -1 0 -3 -1 -1 0 -3 0 -1 0c-3,-1 -5,-1 -8,-1l-3 -1 -1 0c-2,-1 -4,-1 -5,-2 -7,-1 -13,-3 -19,-6 -4,-1 -9,-3 -13,-5l0 0c-15,-8 -29,-18 -41,-30l-1 -1 -2 -1c-11,-12 -21,-26 -29,-41l0 -1c-2,-4 -4,-8 -6,-12 -2,-6 -4,-13 -6,-19 0,-2 -1,-4 -1,-5l0 -1 -1 -4c0,-2 -1,-5 -1,-7l0 -1 -1 -4 0 0 0 -3 0 -1 0 -2c-1,-4 -1,-8 -1,-12 0,-5 0,-9 1,-13l0 -2 0 -1 0 -3 0 0 1 -3 0 -2 0 -3 0 0 1 -4 1 -3 0 -2c1,-5 2,-10 4,-14l0 -1 1 -3 2 -4 0 0c2,-5 4,-10 6,-14l0 -1c3,-5 6,-11 10,-16l0 -1c6,-8 12,-16 19,-24l2 -1 1 -1c12,-12 26,-22 41,-29l0 -1c4,-2 9,-4 13,-5 6,-3 12,-5 19,-6 1,-1 3,-1 5,-2l1 0 3 0c3,-1 5,-1 8,-2l1 0 3 0 1 0 3 -1 1 0 2 0c4,0 8,0 12,0zm13 0c9,1 19,2 28,5 3,1 6,1 9,2l4 2 0 0 4 1c4,2 9,4 14,6l0 1c15,7 29,17 41,29l2 1 1 1c7,8 14,16 19,24l1 1c3,5 6,11 9,16l0 1c3,4 5,9 6,14l1 0 1 4 1 3 0 1c2,4 3,9 4,14l0 2 1 3 1 4 0 0 0 3 1 2 0 3 0 0 0 3 0 1 1 2c0,4 0,8 0,13 0,4 0,8 0,12l-1 2 0 1 0 3 0 0 0 3 -1 2 0 3 0 0 -1 4 -1 3 0 2c-1,5 -2,10 -4,14l0 1 -1 3 -1 4 -1 0c-1,5 -3,10 -6,14l0 1c-3,5 -6,11 -9,16l-1 1c-5,8 -12,16 -19,24l-1 1 -2 1c-12,12 -26,22 -41,30l0 0c-5,2 -10,4 -14,6l-4 1 0 0 -4 2c-3,1 -6,2 -9,2 -9,3 -19,4 -28,5l-2 0 -1 0 -3 0 -1 0 -3 0 -1 0 -2 0 -1 0 -2 0 -2 0 -2 0 -3 0 0 0 -2 0c-10,-1 -19,-2 -28,-5 -5,-1 -9,-2 -14,-4 -2,0 -3,-1 -5,-2 -21,-8 -40,-20 -55,-36 -16,-16 -28,-34 -37,-55 0,-2 -1,-4 -2,-6 -1,-4 -3,-8 -4,-13 -2,-9 -4,-18 -4,-28l0 -2 0 0 -1 -4 0 -1 0 -3 0 -1 0 -1 0 -2 0 -1 0 -3 0 -1 1 -4 0 0 0 -2c3,-40 20,-75 47,-102 15,-16 34,-28 55,-36 2,-1 3,-2 5,-2 5,-2 9,-3 14,-4 9,-3 18,-4 28,-5l2 0 0 0 3 0 2 0 2 0 2 0 1 0 2 0 1 0 3 0 1 0 3 0 1 0 2 0z"/>
+   </g>
+   <rect class="fil75" x="18741" y="2431" width="1383" height="104"/>
+   <polygon class="fil123" points="20268,4970 20312,5002 20356,5034 20339,5086 20322,5137 20268,5137 20214,5137 20197,5086 20180,5034 20224,5002 "/>
+  </g>
+  <g>
+   <path class="fil124" d="M16023 3180c0,-149 141,-294 180,-429 11,-40 42,-476 62,-960 14,-351 34,-729 -16,-998 -22,-118 -192,-321 -98,-521 44,-95 144,-124 243,-155l-72 218 -45 125 86 101 86 102 131 -24 131 -24 45 -125 77 -195c34,62 53,105 43,213 -11,108 -103,253 -224,304l-55 2057c101,66 168,180 168,311 0,205 -166,371 -371,371 -205,0 -371,-222 -371,-371zm203 0l42 -73 42 -73 84 0 84 0 42 73 42 73 -42 73 -42 72 -84 0 -84 0 -42 -72 -42 -73z"/>
+   <path class="fil80" d="M16450 663l130 -24 131 -24 45 -125 77 -195c22,40 111,77 63,301 -32,150 -143,147 -187,385 -50,273 -82,603 -86,912 -5,475 28,891 35,915 44,155 108,270 108,372 0,205 -166,371 -371,371l0 -226 84 0 42 -72 42 -73 -42 -73 -42 -73 -84 0 55 -2371z"/>
+  </g>
+  <g>
+   <g>
+    <rect class="fil18" x="15763" y="4066" width="1407" height="2681" rx="194" ry="194"/>
+    <g>
+     <polygon class="fil125" points="16262,4198 16671,4198 16671,4253 16262,4253 "/>
+     <path id="1" class="fil86" d="M16262 4198l409 0 0 0 0 0 0 55 0 0 0 0 -409 0 0 0 0 0 0 -55 0 0 0 0zm0 0l409 0 0 55 -409 0 0 -55z"/>
+    </g>
+    <path class="fil125" d="M16466 6346c75,0 135,61 135,135 0,74 -60,135 -135,135 -74,0 -134,-61 -134,-135 0,-74 60,-135 134,-135zm0 55c45,0 81,36 81,80 0,44 -36,80 -81,80 -44,0 -80,-36 -80,-80 0,-44 36,-80 80,-80z"/>
+    <g>
+     <path class="fil86" d="M16466 6401c23,0 43,9 57,23 6,6 10,12 14,19 -11,-20 -29,-34 -51,-40l-2 0c-2,-1 -4,-1 -6,-1l-2 -1c-2,0 -3,0 -4,0 -2,0 -4,0 -6,0 -1,0 -3,0 -5,0 -2,0 -4,0 -6,1 -2,0 -4,0 -6,1 -6,1 -12,3 -17,6 10,-5 22,-8 34,-8zm73 45c5,11 8,23 8,35 0,22 -9,42 -24,57 -14,14 -34,23 -57,23 -12,0 -24,-3 -34,-8 5,3 11,5 17,6 2,1 4,1 6,1 2,1 4,1 6,1 2,0 4,0 5,0 2,0 4,0 6,0 1,0 2,0 4,0l2 -1c2,0 4,0 6,-1l2 0c28,-7 51,-30 58,-59l1 -2c0,-2 1,-4 1,-6l0 -2c0,-1 0,-2 0,-4 1,-2 1,-3 1,-5 0,-2 0,-3 -1,-5 0,-2 0,-4 0,-6 0,-2 -1,-4 -1,-6 -2,-6 -4,-12 -6,-18zm-111 106c-7,-4 -13,-9 -18,-14 -15,-15 -24,-35 -24,-57 0,-12 3,-24 8,-35 -3,6 -5,12 -6,18 0,2 -1,4 -1,6 0,2 0,4 -1,6 0,2 0,3 0,5 0,2 0,3 0,5 1,2 1,3 1,4l0 2c0,2 1,4 1,6l1 2c5,22 20,41 39,52zm-32 -109c4,-7 8,-13 14,-19 5,-5 11,-10 18,-13 -13,7 -25,18 -32,32z"/>
+    </g>
+    <rect class="fil126" x="15859" y="4450" width="1215" height="1790"/>
+    <rect class="fil14" x="15859" y="4359" width="1215.38" height="90.6643"/>
+    <circle class="fil127" cx="17014" cy="4404" r="18"/>
+    <circle class="fil109" cx="16931" cy="4404" r="18"/>
+    <circle class="fil12" cx="16847" cy="4404" r="18"/>
+   </g>
+   <g>
+    <g>
+     <path class="fil112" d="M15942 4607l0 37 -19 0 0 -37 19 0zm764 37l-764 0 0 -37 764 0 0 37zm0 0l0 -37 19 0 0 37 -19 0z"/>
+    </g>
+    <g>
+     <path class="fil112" d="M15942 4704l0 38 -19 0 0 -38 19 0zm924 38l-924 0 0 -38 924 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+    </g>
+    <g>
+     <g>
+      <path class="fil112" d="M15942 4802l0 38 -19 0 0 -38 19 0zm733 38l-733 0 0 -38 733 0 0 38zm0 0l0 -38 18 0 0 38 -18 0z"/>
+     </g>
+     <g>
+      <path class="fil112" d="M16755 4802l0 37 -19 0 0 -37 19 0zm250 37l-250 0 0 -37 250 0 0 37zm0 0l0 -37 19 0 0 37 -19 0z"/>
+     </g>
+    </g>
+   </g>
+   <g>
+    <g>
+     <g>
+      <path class="fil128" d="M15942 5076l0 38 -19 0 0 -38 19 0zm226 38l-226 0 0 -38 226 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16233 5076l0 38 -18 0 0 -38 18 0zm301 38l-301 0 0 -38 301 0 0 38zm0 0l0 -38 18 0 0 38 -18 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16605 5076l0 38 -19 0 0 -38 19 0zm374 38l-374 0 0 -38 374 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+    </g>
+    <g>
+     <g>
+      <path class="fil128" d="M15942 5608l0 37 -19 0 0 -37 19 0zm226 37l-226 0 0 -37 226 0 0 37zm0 0l0 -37 19 0 0 37 -19 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16233 5608l0 37 -18 0 0 -37 18 0zm301 37l-301 0 0 -37 301 0 0 37zm0 0l0 -37 18 0 0 37 -18 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16605 5608l0 37 -19 0 0 -37 19 0zm374 37l-374 0 0 -37 374 0 0 37zm0 0l0 -37 19 0 0 37 -19 0z"/>
+     </g>
+    </g>
+    <g>
+     <g>
+      <path class="fil128" d="M15942 5380l0 38 -19 0 0 -38 19 0zm226 38l-226 0 0 -38 226 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16233 5380l0 38 -18 0 0 -38 18 0zm301 38l-301 0 0 -38 301 0 0 38zm0 0l0 -38 18 0 0 38 -18 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16605 5380l0 38 -19 0 0 -38 19 0zm374 38l-374 0 0 -38 374 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+    </g>
+    <g>
+     <g>
+      <path class="fil128" d="M15942 5000l0 38 -19 0 0 -38 19 0zm300 38l-300 0 0 -38 300 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16287 5000l0 38 -19 0 0 -38 19 0zm226 38l-226 0 0 -38 226 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16568 5000l0 38 -19 0 0 -38 19 0zm226 38l-226 0 0 -38 226 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+    </g>
+    <g>
+     <g>
+      <path class="fil128" d="M15942 5532l0 37 -19 0 0 -37 19 0zm300 37l-300 0 0 -37 300 0 0 37zm0 0l0 -37 19 0 0 37 -19 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16287 5532l0 38 -19 0 0 -38 19 0zm226 38l-226 0 0 -38 226 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16568 5532l0 38 -19 0 0 -38 19 0zm226 38l-226 0 0 -38 226 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+    </g>
+    <g>
+     <g>
+      <path class="fil128" d="M15942 4924l0 38 -19 0 0 -38 19 0zm377 38l-377 0 0 -38 377 0 0 38zm0 0l0 -38 18 0 0 38 -18 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16364 4924l0 38 -18 0 0 -38 18 0zm377 38l-377 0 0 -38 377 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16794 4925l0 37 -18 0 0 -37 18 0zm116 37l-116 0 0 -37 116 0 0 37zm0 0l0 -37 19 0 0 37 -19 0z"/>
+     </g>
+    </g>
+    <g>
+     <g>
+      <path class="fil128" d="M16403 5228l0 38 -19 0 0 -38 19 0zm300 38l-300 0 0 -38 300 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M15942 5228l0 38 -19 0 0 -38 19 0zm226 38l-226 0 0 -38 226 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16233 5228l0 38 -18 0 0 -38 18 0zm116 38l-116 0 0 -38 116 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+    </g>
+    <g>
+     <g>
+      <path class="fil128" d="M16403 5684l0 37 -19 0 0 -37 19 0zm300 37l-300 0 0 -37 300 0 0 37zm0 0l0 -37 19 0 0 37 -19 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M15942 5684l0 37 -19 0 0 -37 19 0zm226 37l-226 0 0 -37 226 0 0 37zm0 0l0 -37 19 0 0 37 -19 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16233 5684l0 37 -18 0 0 -37 18 0zm116 37l-116 0 0 -37 116 0 0 37zm0 0l0 -37 19 0 0 37 -19 0z"/>
+     </g>
+    </g>
+    <g>
+     <g>
+      <path class="fil128" d="M16403 5456l0 38 -19 0 0 -38 19 0zm300 38l-300 0 0 -38 300 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M15942 5456l0 38 -19 0 0 -38 19 0zm226 38l-226 0 0 -38 226 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16233 5456l0 38 -18 0 0 -38 18 0zm116 38l-116 0 0 -38 116 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+    </g>
+    <g>
+     <g>
+      <path class="fil128" d="M15942 5304l0 38 -19 0 0 -38 19 0zm377 38l-377 0 0 -38 377 0 0 38zm0 0l0 -38 18 0 0 38 -18 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16585 5304l0 38 -18 0 0 -38 18 0zm227 38l-227 0 0 -38 227 0 0 38zm0 0l0 -38 18 0 0 38 -18 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16403 5304l0 38 -19 0 0 -38 19 0zm115 38l-115 0 0 -38 115 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16866 5304l0 38 -19 0 0 -38 19 0zm116 38l-116 0 0 -38 116 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+    </g>
+    <g>
+     <g>
+      <path class="fil128" d="M16548 5152l0 38 -18 0 0 -38 18 0zm301 38l-301 0 0 -38 301 0 0 38zm0 0l0 -38 18 0 0 38 -18 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M16116 5152l0 38 -19 0 0 -38 19 0zm377 38l-377 0 0 -38 377 0 0 38zm0 0l0 -38 18 0 0 38 -18 0z"/>
+     </g>
+     <g>
+      <path class="fil128" d="M15942 5152l0 38 -19 0 0 -38 19 0zm115 38l-115 0 0 -38 115 0 0 38zm0 0l0 -38 19 0 0 38 -19 0z"/>
+     </g>
+    </g>
+   </g>
+  </g>
+  <text x="18402" y="5657"  class="fil129 str3 fnt0">1010110010</text>
+  <text x="18402" y="5856"  class="fil129 str3 fnt0">1010101000</text>
+  <text x="18402" y="6054"  class="fil129 str3 fnt0">0101100101</text>
+  <text x="18402" y="6253"  class="fil129 str3 fnt0">1011011001</text>
+  <text x="18402" y="6451"  class="fil129 str3 fnt0">0010000011</text>
+  <text x="18402" y="6650"  class="fil129 str3 fnt0">1111110000</text>
+  <text x="18402" y="6848"  class="fil129 str3 fnt0">0101110011</text>
+ </g>
+</svg>
