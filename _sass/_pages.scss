@@ -1,5 +1,5 @@
 html,body,main{
-	height:100%;
+	min-height:100%;
 }
 .first-screen{
 	text-align: center;
@@ -8,6 +8,6 @@ html,body,main{
 	height:100%;
 	background-color: #0097ce;
 	.fs-fullwidth{
-		width: 80%;
+		// width: 80%;
 	}
 }

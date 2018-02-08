@@ -25,7 +25,9 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-markdown: kramdown
+markdown: kramdownbu
+# UTF-8 & parse errors fix
+# markdown: redcarpet
 theme: minima
 plugins:
   - jekyll-feed
