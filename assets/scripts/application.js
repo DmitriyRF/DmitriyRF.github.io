@@ -4,18 +4,18 @@ function ready(){
 }
 document.addEventListener("DOMContentLoaded", ready);
 
+var svgDoc, fs_items;
 
+var fs_elements = [];
 
 window.onload = function() {
 
-	var svgDoc 						= document.getElementById("fs-svg").contentDocument;
-	var fs_items					= ["fs-wordpress-monitor", "fs-notebook-graph", "fs-gear-red", 
+	svgDoc 						= document.getElementById("fs-svg").contentDocument;
+	fs_items					= ["fs-wordpress-monitor", "fs-notebook-graph", "fs-gear-red", 
 	"fs-gear-blue", "fs-gear-orange", 'fs-speedo', "fs-magnifier", 
 	"fs-tablet-chart", "fs-stopwatch", "fs-bulb", "fs-page-2-center", 
 	"fs-screwdriver", "fs-penсil", "fs-a4-graph", "fs-page-1-left", 
 	"fs-page-3-right", "fs-key", "fs-mobile-phone", "fs-text-code"];
-
-	var fs_elements = [];
 
 	for (let i = 0, len = fs_items.length; i < len; i++) {
 
@@ -39,26 +39,26 @@ window.onload = function() {
 
 if ( !window.requestAnimationFrame ) {
 
-  window.requestAnimationFrame = ( function() {
+	window.requestAnimationFrame = ( function() {
 
-    return window.webkitRequestAnimationFrame ||
-    window.mozRequestAnimationFrame ||
-    window.oRequestAnimationFrame ||
-    window.msRequestAnimationFrame ||
-    function( /* function FrameRequestCallback */ callback, /* DOMElement Element */ element ) {
+		return window.webkitRequestAnimationFrame ||
+		window.mozRequestAnimationFrame ||
+		window.oRequestAnimationFrame ||
+		window.msRequestAnimationFrame ||
+		function( /* function FrameRequestCallback */ callback, /* DOMElement Element */ element ) {
 
-      window.setTimeout( callback, 1000 / 60 );
+			window.setTimeout( callback, 1000 / 60 );
 
-    };
+		};
 
-  })();
+	})();
 }
 
-function animate(duration, timing, draw) {
+function animate({duration, timing, draw}) {
 
 	let start = performance.now();
 
-	requestAnimationFrame(function animate(time) {
+	requestAnimationFrame(function animate_frame(time) {
 
 		let timeFraction = (time - start) / duration;
 		if (timeFraction > 1) timeFraction = 1;
@@ -69,7 +69,7 @@ function animate(duration, timing, draw) {
 
 		if (timeFraction < 1) {
 
-			requestAnimationFrame(animate);
+			requestAnimationFrame(animate_frame);
 
 		}
 
@@ -82,23 +82,28 @@ function animation_svg(  fs_elements  ){
 
 		if( fs_elements[j] !== undefined ){
 
-			animate(
+			setTimeout(
+				animate, 
+				200*j,
+				{
 
-				1000,
+									duration: 1000,
 
-				function(timeFraction) {
-					return timeFraction;
-				},
+									timing: bounceEaseOut,				
 
-				function(progress) {
-					
-					fs_elements[j].style.opacity = progress;
-				
-					// matrix(  scaleX(), skewY(), skewX() ,scaleY() ,translateX() ,translateY()  )
-	
-					fs_elements[j].style.transform  = "matrix("+ progress +", 0, 0, "+progress +","+ (2500 - 2500*progress) +","+ (-1000 + 1000 * progress) +")";
-				}
-			);
+									// timing: function(timeFraction) {
+									// 	return  Math.pow(timeFraction, 1.5);
+									// },
+
+									draw: function(progress) {
+										
+										fs_elements[j].style.opacity = progress;
+
+										// matrix(  scaleX(), skewY(), skewX() ,scaleY() ,translateX() ,translateY()  )
+
+										fs_elements[j].style.transform  = "matrix("+ progress +","+ (0.5-progress/2) +","+ (0.2-progress/5) +", "+progress +","+ (250- 250*progress) +","+ (-100 + 100*progress) +")";
+									}
+				});
 		}
 	}
 }
@@ -114,32 +119,29 @@ function initialization_svg( fs_elements ){
 
 			fs_elements[k].style.opacity = 0;
 		   //matrix(  scaleX(), skewY(), skewX() ,scaleY() ,translateX() ,translateY()  )
-			fs_elements[k].style.transform  = "matrix(  0, 0, 0, 0, 2500, -1000  )";
+		   fs_elements[k].style.transform  = "matrix(  0, 0, 0, 0, 250, -100  )";
 		}
 
 	}
 
-	  //	var  fs_wordpress_monitor 		= svgDoc.getElementById("fs-wordpress-monitor"),
-	  //       fs_notebook_graph 			= svgDoc.getElementById("fs-notebook-graph"),
-	  //       fs_gear_red 				= svgDoc.getElementById("fs-gear-red"),
-	  //       fs_gear_blue				= svgDoc.getElementById("fs-gear-blue"),
-	  //       fs_gear_blue				= svgDoc.getElementById("fs-gear-orange"),
-	  //       fs_speedo					= svgDoc.getElementById('fs-speedo'),
-	  //       fs_magnifier 				= svgDoc.getElementById("fs-magnifier"),
-	  //       fs_tablet_chart				= svgDoc.getElementById("fs-tablet-chart"),
-	  //       fs_stopwatch				= svgDoc.getElementById("fs-stopwatch"),
-	  //       fs_bulb 					= svgDoc.getElementById("fs-bulb"),
-	  //       fs_page_2_center 			= svgDoc.getElementById("fs-page-2-center"),
-	  //       fs_screwdriver 				= svgDoc.getElementById("fs-screwdriver"),
-	  //       fs_penсil_ 					= svgDoc.getElementById("fs-penсil"),
-	  //       fs_a4_graph 				= svgDoc.getElementById("fs-a4-graph"),
-	  //       fs_page_1_left 				= svgDoc.getElementById("fs-page-1-left"),
-	  //       fs_page_3_right				= svgDoc.getElementById("fs-page-3-right"),
-	  //       fs_key 						= svgDoc.getElementById("fs-key"),
-	  //       fs_mobile_phone 			= svgDoc.getElementById("fs-mobile-phone"),
-	  //       fs_text_code 				= svgDoc.getElementById("fs-text-code");
+}
 
+
+
+
+
+function makeEaseOut(timing) {
+	return function(timeFraction) {
+		return 1 - timing(1 - timeFraction);
 	}
+}
 
+function bounce(timeFraction) {
+	for (let a = 0, b = 1; 1; a += b, b /= 2) {
+		if (timeFraction >= (7 - 4 * a) / 11) {
+			return -Math.pow((11 - 6 * a - 11 * timeFraction) / 4, 2) + Math.pow(b, 2)
+		}
+	}
+}
 
-
+let bounceEaseOut = makeEaseOut(bounce);
