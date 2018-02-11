@@ -51,6 +51,8 @@ window.onload = function() {
 
 	animation_svg(  fs_elements  );
 
+	createPathSVG();
+
 };
 
 if ( !window.requestAnimationFrame ) {
@@ -161,3 +163,96 @@ function bounce(timeFraction) {
 }
 
 let bounceEaseOut = makeEaseOut(bounce);
+
+
+
+
+function createPathSVG(){
+
+	var linesSection	=	document.getElementById('block-line-svg');
+
+	linesSection.style.minHeight =	"300px";
+	linesSection.style.width =	"100%";
+	linesSection.style.backgroundColor = "Gainsboro";
+
+
+	var The_line_SVG = document.createElementNS("http://www.w3.org/2000/svg", "svg");  
+
+		The_line_SVG.setAttributeNS(null, "id", "the-line");  
+		The_line_SVG.setAttributeNS(null, "width", "100%");  
+		The_line_SVG.setAttributeNS(null, "height", document.body.clientHeight*3+"px"); 
+
+	var the_line_Path = document.createElementNS("http://www.w3.org/2000/svg", "path"); 
+
+	let d 	=	getLineOfPath();
+
+		the_line_Path.setAttributeNS(null, "id", "the-line-path");  
+		the_line_Path.setAttributeNS(null, "d", d);  
+		the_line_Path.setAttributeNS(null, "stroke", "black"); 
+		the_line_Path.setAttributeNS(null, "stroke-width", 13);  
+		the_line_Path.setAttributeNS(null, "opacity", 1);  
+		the_line_Path.setAttributeNS(null, "fill", "none");
+
+	linesSection.appendChild(The_line_SVG);
+
+	The_line_SVG.appendChild(the_line_Path);
+
+	var totalLenghtPath	= the_line_Path.getTotalLength();
+
+
+
+			// Clear any previous transition
+		the_line_Path.style.transition = the_line_Path.style.WebkitTransition =
+		  'none';
+		// Set up the starting positions
+		the_line_Path.style.strokeDasharray = totalLenghtPath + ' ' + totalLenghtPath;
+		the_line_Path.style.strokeDashoffset = totalLenghtPath;
+		// Trigger a layout so styles are calculated & the browser
+		// picks up the starting position before animating
+		the_line_Path.getBoundingClientRect();
+		// Define our transition
+		the_line_Path.style.transition = the_line_Path.style.WebkitTransition =
+		  'stroke-dashoffset 20s ease-in-out';
+		// Go!
+		the_line_Path.style.strokeDashoffset = '0';
+
+
+}
+
+
+function getLineOfPath(){
+
+	let w = document.body.clientWidth;
+	let tw= Math.round(w/4); 
+	let D = "";
+	let h = document.body.clientHeight/2;
+
+		D += "M"+ (3*tw) +",0";
+		D += "v"+h;
+		D += "q 0,50 -50,50";
+		D += "h-"+2*tw;
+		D += "q -50,0 -50,50";
+		D += "v"+h;
+		D += "q 0,50 50,50";
+		D += "h"+2*tw;
+		D += "q 50,0 50,50";
+		D += "v"+h;
+		D += "q 0,50 -50,50";
+		D += "h-"+2*tw;
+		D += "q -50,0 -50,50";
+		D += "v"+h;
+		D += "q 0,50 50,50";
+		D += "h"+2*tw;
+		D += "q 50,0 50,50";
+		D += "v"+h;
+		D += "q 0,50 -50,50";
+		D += "h-"+2*tw;
+		D += "q -50,0 -50,50";
+		D += "v"+h;
+
+
+		// D += " z";
+		
+		return D;
+
+}
