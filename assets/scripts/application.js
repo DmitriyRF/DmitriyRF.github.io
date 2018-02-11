@@ -11,11 +11,27 @@ var fs_elements = [];
 window.onload = function() {
 
 	svgDoc 						= document.getElementById("fs-svg").contentDocument;
-	fs_items					= ["fs-wordpress-monitor", "fs-notebook-graph", "fs-gear-red", 
-	"fs-gear-blue", "fs-gear-orange", 'fs-speedo', "fs-magnifier", 
-	"fs-tablet-chart", "fs-stopwatch", "fs-bulb", "fs-page-2-center", 
-	"fs-screwdriver", "fs-penсil", "fs-a4-graph", "fs-page-1-left", 
-	"fs-page-3-right", "fs-key", "fs-mobile-phone", "fs-text-code"];
+	fs_items					=	[
+										"fs-a4-graph", 
+										"fs-text-code",
+										"fs-tablet-chart", 
+										"fs-page-3-right", 
+										"fs-mobile-phone", 
+										"fs-magnifier", 
+										"fs-page-2-center", 
+										"fs-key", 
+										"fs-screwdriver", 
+										"fs-wordpress-monitor", 
+										"fs-bulb", 
+										"fs-stopwatch", 
+										"fs-penсil", 
+										"fs-notebook-graph", 
+										"fs-gear-orange", 
+										"fs-gear-blue", 
+										"fs-gear-red", 
+										'fs-speedo', 
+										"fs-page-1-left", 
+									];
 
 	for (let i = 0, len = fs_items.length; i < len; i++) {
 
@@ -84,10 +100,10 @@ function animation_svg(  fs_elements  ){
 
 			setTimeout(
 				animate, 
-				200*j,
+				150*j,
 				{
 
-									duration: 1000,
+									duration: 2000,
 
 									timing: bounceEaseOut,				
 
