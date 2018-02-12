@@ -1,6 +1,8 @@
 
+let w = window.outerWidth;
+let h = window.innerHeight;
 function ready(){
-
+	document.getElementsByClassName("first-screen")[0].style.minHeight = h-56+"px";
 }
 document.addEventListener("DOMContentLoaded", ready);
 
@@ -47,6 +49,7 @@ window.onload = function() {
 
 	initialization_svg(  fs_elements  );
 
+	document.getElementById("fs-svg").style.width = "100%";
 	document.getElementById("fs-svg").style.opacity = 1;
 
 	animation_svg(  fs_elements  );
@@ -72,7 +75,7 @@ if ( !window.requestAnimationFrame ) {
 	})();
 }
 
-function animate({duration, timing, draw}) {
+function animate({duration, timing, draw, callback}) {
 
 	let start = performance.now();
 
@@ -89,6 +92,8 @@ function animate({duration, timing, draw}) {
 
 			requestAnimationFrame(animate_frame);
 
+		}else{
+			callback();
 		}
 
 	});
@@ -96,9 +101,15 @@ function animate({duration, timing, draw}) {
 
 function animation_svg(  fs_elements  ){
 
+	var cb = function(){};
+
 	for ( let j = 0,  lenh = fs_elements.length; j < lenh; j++) {
 
 		if( fs_elements[j] !== undefined ){
+
+			if(  lenh-1 === j ){
+				cb = fs_callback;
+			}
 
 			setTimeout(
 				animate, 
@@ -120,12 +131,37 @@ function animation_svg(  fs_elements  ){
 										// matrix(  scaleX(), skewY(), skewX() ,scaleY() ,translateX() ,translateY()  )
 
 										fs_elements[j].style.transform  = "matrix("+ progress +","+ (0.5-progress/2) +","+ (0.2-progress/5) +", "+progress +","+ (250- 250*progress) +","+ (-100 + 100*progress) +")";
-									}
-				});
+									},
+									callback:  cb
+
+				}
+			);
 		}
 	}
 }
+function fs_callback(){
 
+		document.getElementById("fs-svg").style.float = "right";
+
+		animate(
+				{
+
+					duration: 1500,
+
+					timing: bounceEaseOut,				
+
+					// timing: function(timeFraction) {
+					// 	return  Math.pow(timeFraction, 1.5);
+					// },
+
+					draw: function(progress) {
+						document.getElementById("fs-svg").style.width = 100 - 50*progress +"%";
+					}, 
+					callback: function(){}
+				}
+		);
+
+}
 
 
 function initialization_svg( fs_elements ){
@@ -171,16 +207,16 @@ function createPathSVG(){
 
 	var linesSection	=	document.getElementById('block-line-svg');
 
-	linesSection.style.minHeight =	"300px";
-	linesSection.style.width =	"100%";
-	linesSection.style.backgroundColor = "Gainsboro";
+		linesSection.style.minHeight =	"300px";
+		linesSection.style.width =	"100%";
+		linesSection.style.backgroundColor = "Gainsboro";
 
 
 	var The_line_SVG = document.createElementNS("http://www.w3.org/2000/svg", "svg");  
 
 		The_line_SVG.setAttributeNS(null, "id", "the-line");  
 		The_line_SVG.setAttributeNS(null, "width", "100%");  
-		The_line_SVG.setAttributeNS(null, "height", document.body.clientHeight*3+"px"); 
+		The_line_SVG.setAttributeNS(null, "height", h*3+"px"); 
 
 	var the_line_Path = document.createElementNS("http://www.w3.org/2000/svg", "path"); 
 
@@ -189,32 +225,21 @@ function createPathSVG(){
 		the_line_Path.setAttributeNS(null, "id", "the-line-path");  
 		the_line_Path.setAttributeNS(null, "d", d);  
 		the_line_Path.setAttributeNS(null, "stroke", "black"); 
-		the_line_Path.setAttributeNS(null, "stroke-width", 13);  
+		the_line_Path.setAttributeNS(null, "stroke-width", 40);  
 		the_line_Path.setAttributeNS(null, "opacity", 1);  
 		the_line_Path.setAttributeNS(null, "fill", "none");
 
-	linesSection.appendChild(The_line_SVG);
+		linesSection.appendChild(The_line_SVG);
 
-	The_line_SVG.appendChild(the_line_Path);
+		The_line_SVG.appendChild(the_line_Path);
 
 	var totalLenghtPath	= the_line_Path.getTotalLength();
 
 
+		the_line_Path.style.strokeDasharray = totalLenghtPath + ', ' + totalLenghtPath;
+		the_line_Path.style.strokeDashoffset = totalLenghtPath+totalLenghtPath;
 
-			// Clear any previous transition
-		the_line_Path.style.transition = the_line_Path.style.WebkitTransition =
-		  'none';
-		// Set up the starting positions
-		the_line_Path.style.strokeDasharray = totalLenghtPath + ' ' + totalLenghtPath;
-		the_line_Path.style.strokeDashoffset = totalLenghtPath;
-		// Trigger a layout so styles are calculated & the browser
-		// picks up the starting position before animating
-		the_line_Path.getBoundingClientRect();
-		// Define our transition
-		the_line_Path.style.transition = the_line_Path.style.WebkitTransition =
-		  'stroke-dashoffset 20s ease-in-out';
-		// Go!
-		the_line_Path.style.strokeDashoffset = '0';
+		// the_line_Path.style.strokeDashoffset = totalLenghtPath;
 
 
 }
@@ -222,33 +247,32 @@ function createPathSVG(){
 
 function getLineOfPath(){
 
-	let w = document.body.clientWidth;
 	let tw= Math.round(w/4); 
 	let D = "";
-	let h = document.body.clientHeight/2;
+	let hl = h/2;
 
 		D += "M"+ (3*tw) +",0";
-		D += "v"+h;
+		D += "v"+hl;
 		D += "q 0,50 -50,50";
 		D += "h-"+2*tw;
 		D += "q -50,0 -50,50";
-		D += "v"+h;
+		D += "v"+hl;
 		D += "q 0,50 50,50";
 		D += "h"+2*tw;
 		D += "q 50,0 50,50";
-		D += "v"+h;
+		D += "v"+hl;
 		D += "q 0,50 -50,50";
 		D += "h-"+2*tw;
 		D += "q -50,0 -50,50";
-		D += "v"+h;
+		D += "v"+hl;
 		D += "q 0,50 50,50";
 		D += "h"+2*tw;
 		D += "q 50,0 50,50";
-		D += "v"+h;
+		D += "v"+hl;
 		D += "q 0,50 -50,50";
 		D += "h-"+2*tw;
 		D += "q -50,0 -50,50";
-		D += "v"+h;
+		D += "v"+hl;
 
 
 		// D += " z";
