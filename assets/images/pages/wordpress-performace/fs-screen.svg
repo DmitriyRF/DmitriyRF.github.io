@@ -11,9 +11,6 @@
         </font>
         <style>
             @font-face{font-family:&quot;Arial&quot;;font-variant:normal;font-style:normal;font-weight:400;src:url(#FontID0) format(svg)}.str0{stroke:#0e3655;stroke-width:3.73554}.str3{stroke:#2d4e73;stroke-width:8.08659}.str1{stroke:#000;stroke-width:112.31}.fil90{fill:none}.fil86{fill:#000}.fil11{fill:#03648b}.fil77,.fil80{fill:#0c3757}.fil18,.fil71{fill:#0e3655}.fil6{fill:#0e3757}.fil129{fill:#2d4e73}.fil117{fill:#80cfca}.fil78{fill:#84cecf}.fil69{fill:#86cccc}.fil109{fill:#99dcdc}.fil14{fill:#d94d3e}.fil7{fill:#e6e6e6}.fil15{fill:#e95a49}.fil9{fill:#eb5a49}.fil122{fill:#ef7a2b}.fil20{fill:#f18c20}.fil72{fill:#f2f2e6}.fil73{fill:#f2f2f2}.fil81,.fil82{fill:#f5b400}.fil75{fill:#f6b205}.fil22{fill:#ff6041}.fil12{fill:#fffbf5}.fil21{fill:#ff9}.fil125,.fil16{fill:#fff}.fil110{fill:#0e3655;fill-rule:nonzero}.fil114,.fil115,.fil116{fill:#0e3755;fill-rule:nonzero}.fil114,.fil115{fill:#163450}.fil115{fill:#80cfca}.fil111,.fil112,.fil128{fill:#929497;fill-rule:nonzero}.fil111,.fil112{fill:#99dcdc}.fil111{fill:#f6b205}.fil105,.fil95,.fil99{fill:#69f;fill-opacity:.701961}.fil105,.fil95{fill:#9999dc}.fil95{fill:#f78e83}.fil88,.fil93,.fil97{fill:#ffb76f;fill-opacity:.701961}.fil88,.fil97{fill:#ff6}.fil88{fill:#000;fill-rule:nonzero}.fnt0{font-weight:400;font-size:177.671px;font-family:&apos;Arial&apos;}
-                #fs-speedo{
-                    opacity: 0;
-                }
         </style>
         <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="5421.89" y1="2507.67" x2="6468.43" y2="1443.9">
             <stop offset="0" stop-color="#008eba"/>

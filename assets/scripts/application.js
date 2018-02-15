@@ -49,7 +49,8 @@ window.onload = function() {
 
 	initialization_svg(  fs_elements  );
 
-	document.getElementById("fs-svg").style.width = "100%";
+	// document.getElementById("fs-svg").style.width = "100%";
+	document.getElementById("fs-svg").style.height = h + "px";
 	document.getElementById("fs-svg").style.opacity = 1;
 
 	animation_svg(  fs_elements  );
@@ -141,8 +142,6 @@ function animation_svg(  fs_elements  ){
 }
 function fs_callback(){
 
-		document.getElementById("fs-svg").style.float = "right";
-
 		animate(
 				{
 
@@ -157,9 +156,16 @@ function fs_callback(){
 					draw: function(progress) {
 						document.getElementById("fs-svg").style.width = 100 - 50*progress +"%";
 					}, 
-					callback: function(){}
+					callback: animation_svg_content
 				}
 		);
+		document.getElementById("fs-svg").style.float = "right";
+
+}
+
+function animation_svg_content(){
+
+	document.getElementById("fs-content").style.display = "block";
 
 }
 
@@ -205,12 +211,7 @@ let bounceEaseOut = makeEaseOut(bounce);
 
 function createPathSVG(){
 
-	var linesSection	=	document.getElementById('block-line-svg');
-
-		linesSection.style.minHeight =	"300px";
-		linesSection.style.width =	"100%";
-		linesSection.style.backgroundColor = "Gainsboro";
-
+	var linesSection = document.getElementById('block-line-svg');
 
 	var The_line_SVG = document.createElementNS("http://www.w3.org/2000/svg", "svg");  
 
@@ -220,10 +221,8 @@ function createPathSVG(){
 
 	var the_line_Path = document.createElementNS("http://www.w3.org/2000/svg", "path"); 
 
-	let d 	=	getLineOfPath();
-
 		the_line_Path.setAttributeNS(null, "id", "the-line-path");  
-		the_line_Path.setAttributeNS(null, "d", d);  
+		the_line_Path.setAttributeNS(null, "d", getLineOfPath()  );  
 		the_line_Path.setAttributeNS(null, "stroke", "black"); 
 		the_line_Path.setAttributeNS(null, "stroke-width", 40);  
 		the_line_Path.setAttributeNS(null, "opacity", 1);  
@@ -233,16 +232,42 @@ function createPathSVG(){
 
 		The_line_SVG.appendChild(the_line_Path);
 
-	var totalLenghtPath	= the_line_Path.getTotalLength();
-
-
-		the_line_Path.style.strokeDasharray = totalLenghtPath + ', ' + totalLenghtPath;
-		the_line_Path.style.strokeDashoffset = totalLenghtPath+totalLenghtPath;
-
-		// the_line_Path.style.strokeDashoffset = totalLenghtPath;
+		ScrollFillLineOfPath({ Anim_Path: the_line_Path, wrapper: linesSection})
 
 
 }
+
+function ScrollFillLineOfPath({Anim_Path, wrapper}){
+
+	var totalLenghtPath	= Anim_Path.getTotalLength();
+
+		Anim_Path.style.strokeDasharray = totalLenghtPath + ', ' + totalLenghtPath;
+		Anim_Path.style.strokeDashoffset = totalLenghtPath;
+
+	window.addEventListener('scroll', onScroll, false);
+}
+var latestKnownScrollY = 0,
+				ticking = false;
+
+function onScroll() {
+
+	latestKnownScrollY = window.scrollY;
+
+	 updatePath();
+}
+
+function updatePath() {
+
+	if(!ticking) {
+	requestAnimationFrame(updatePath);
+	}else{
+		ticking = true;
+	}
+
+	var currentScrollY = latestKnownScrollY;
+
+}
+
 
 
 function getLineOfPath(){
@@ -280,3 +305,4 @@ function getLineOfPath(){
 		return D;
 
 }
+
