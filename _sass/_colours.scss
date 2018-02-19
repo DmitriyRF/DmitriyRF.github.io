@@ -32,7 +32,14 @@ $dark: #343a40;
 
 .first-screen{
 
-	background-color: $dark-color;
+	background: $dark;
+	background: -moz-linear-gradient(-45deg, rgb(56,56,56) 0%, rgb(56,56,56) 15%, rgb(86,86,86) 15%, rgb(86,86,86) 48%, rgb(77,77,77) 48%, rgb(56,56,56) 72%, rgb(86,86,86) 72%, rgb(86,86,86) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgb(56,56,56)), color-stop(15%, rgb(56,56,56)), color-stop(15%, rgb(86,86,86)), color-stop(48%, rgb(86,86,86)), color-stop(48%, rgb(77,77,77)), color-stop(72%, rgb(56,56,56)), color-stop(72%, rgb(86,86,86)), color-stop(100%, rgb(86,86,86)));
+	background: -webkit-linear-gradient(-45deg, rgb(56,56,56) 0%, rgb(56,56,56) 15%, rgb(86,86,86) 15%, rgb(86,86,86) 48%, rgb(77,77,77) 48%, rgb(56,56,56) 72%, rgb(86,86,86) 72%, rgb(86,86,86) 100%);
+	background: -o-linear-gradient(-45deg, rgb(56,56,56) 0%, rgb(56,56,56) 15%, rgb(86,86,86) 15%, rgb(86,86,86) 48%, rgb(77,77,77) 48%, rgb(56,56,56) 72%, rgb(86,86,86) 72%, rgb(86,86,86) 100%);
+	background: -ms-linear-gradient(-45deg, rgb(56,56,56) 0%, rgb(56,56,56) 15%, rgb(86,86,86) 15%, rgb(86,86,86) 48%, rgb(77,77,77) 48%, rgb(56,56,56) 72%, rgb(86,86,86) 72%, rgb(86,86,86) 100%);
+	background: linear-gradient(135deg, rgb(56,56,56) 0%, rgb(56,56,56) 15%, rgb(86,86,86) 15%, rgb(86,86,86) 48%, rgb(77,77,77) 48%, rgb(56,56,56) 72%, rgb(86,86,86) 72%, rgb(86,86,86) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#383838', endColorstr='#a6a6a6', GradientType=1 );
 
 	#fs-content{
 		color:white;
@@ -43,4 +50,8 @@ $dark: #343a40;
 	.block-line-svg{
 		background-color: var($light);
 	}	
+}
+
+.h-colour{
+	color: $darker-primary-color;
 }
