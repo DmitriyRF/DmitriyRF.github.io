@@ -62,3 +62,13 @@ typings/
 
 # dotenv environment variables file
 .env
+
+
+
+#Sublime text 3
+_sublime.sublime-project
+_sublime.sublime-workspace
+
+
+#CorelDRAW
+**/*.cdr
