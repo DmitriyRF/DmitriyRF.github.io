@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="130px" height="127px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 12955 12645"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str1 {stroke:black;stroke-width:99.5386}
+    .str0 {stroke:black;stroke-width:99.5386}
+    .str2 {stroke:#666666;stroke-width:99.5386;stroke-dasharray:99.538565 497.692824}
+    .fil0 {fill:none}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <g id="_1779745536448">
+   <path class="fil0 str0" d="M342 2204l4660 0 0 1274 -1129 0 1129 965 0 10 12 0 1324 1132 1323 -1132 5 0 0 -4 1136 -971 -1136 0 0 -1274 4668 0c152,0 277,131 277,292l0 3800c0,161 -125,292 -277,292l-11992 0c-152,0 -277,-131 -277,-292l0 -3800c0,-161 125,-292 277,-292z"/>
+   <rect class="fil0 str0" x="65" y="6834" width="12546" height="3324" rx="655" ry="221"/>
+   <path class="fil0 str0" d="M196 10402l12254 0c80,0 146,66 146,146l0 207 -935 1841 -946 0 -37 0 1101 -2169 -1101 2169 -946 0 -38 0 1102 -2169 -1102 2169 -946 0 -37 0 1101 -2169 -1101 2169 -946 0 -37 0 1101 -2169 -1101 2169 -946 0 -37 0 1101 -2169 -1101 2169 -946 0 -38 0 1101 -2169 -1101 2169 -946 0 -37 0 1101 -2169 -1101 2169 -946 0 -37 0 1101 -2169 -1101 2169 -946 0 -37 0 1101 -2169 -1101 2169 -947 0 -37 0 1101 -2169 -1101 2169 -946 0 -37 0 1101 -2169 -1101 2169 -649 0c-81,0 -146,-66 -146,-146l0 -162 0 -63 913 -1798 -913 1798 0 -1677c0,-80 65,-146 146,-146zm12400 353l0 12 0 1683c0,80 -66,146 -146,146l-752 0 -37 0 935 -1841z"/>
+   <polyline class="fil0 str1" points="12547,2242 12579,2214 10150,50 2526,50 97,2214 "/>
+   <line class="fil0 str2" x1="210" y1="7433" x2="12756" y2= "7521" />
+   <line class="fil0 str2" x1="210" y1="8220" x2="12756" y2= "8307" />
+   <line class="fil0 str2" x1="210" y1="9006" x2="12756" y2= "9093" />
+   <line class="fil0 str2" x1="210" y1="9793" x2="12756" y2= "9880" />
+   <line class="fil0 str2" x1="409" y1="7040" x2="12955" y2= "7127" />
+   <line class="fil0 str2" x1="409" y1="7827" x2="12955" y2= "7914" />
+   <line class="fil0 str2" x1="409" y1="8613" x2="12955" y2= "8700" />
+   <line class="fil0 str2" x1="409" y1="9399" x2="12955" y2= "9486" />
+  </g>
+ </g>
+</svg>
