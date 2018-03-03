@@ -3,7 +3,8 @@
 	<div class="container">
 
 		<!-- the logo -->
-		<a class="navbar-brand" href="{{site.url}}">
+		<!-- <a class="navbar-brand" href="{{site.url}}"> -->
+		<a class="navbar-brand" href="{{ '/wordpress-performance.html' | relative_url }}">
 			<img src="{{ '/assets//images/logo.svg' | relative_url }}" width="30" height="30" class="d-inline-block align-top" alt="">
 			Derefe
 		</a>
@@ -21,9 +22,6 @@
 
 				{% include compute/pages_list %}
 
-					<!-- <li class="nav-item">
-					<a class="nav-link disabled" href="{{site.url}}/"">Articles</a>
-				</li> -->
 			</ul>
 		</div>
 	</div>
