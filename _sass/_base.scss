@@ -1,5 +1,5 @@
-$font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-$font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+$font-family-sans-serif: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol';
+$font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,'Liberation Mono','Courier New',monospace;
 
 article,
 aside,
@@ -44,12 +44,12 @@ video
 a:hover
 {
     outline: 0;
-}h1
-{
+}
+/* h1{
     font-size: 2em;
-
     margin: .67em 0;
-}abbr[title]
+} */
+abbr[title]
 {
     border-bottom: 1px dotted;
 }b,
@@ -107,7 +107,6 @@ sup
     overflow: hidden;
 }figure
 {
-    margin: 0;
 }fieldset
 {
     margin: 0 2px;

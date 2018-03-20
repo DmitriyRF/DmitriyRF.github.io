@@ -14,15 +14,16 @@ group: "navigation"
 
 			{% for post in site.posts %}
 
-			<div class="col-12 col-sm-6 col-md-4 col-xl-3">
+			<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 
 				<a href="{{ post.url | absolute_url }}">
 					<div class="post-wrapper">
-						<div class="img">
-							<img src="{{ post.img | absolute_url }}" alt="">
+						<div class="card-img">
+							<img class="in-width-img" src="{{ post.img | absolute_url }}" alt="">
 						</div>
-						<h3 class="h-post">{{ post.title }}</h3>
-
+						<div class="card-content">
+							<h3 class="h-post">{{ post.title }}</h3>
+						</div>
 					</div>
 				</a>
 
@@ -33,4 +34,3 @@ group: "navigation"
 		</div>
 	</div>
 </section>
-ccd

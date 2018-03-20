@@ -1,0 +1,148 @@
+---
+layout: post
+title:  Easy way to speedup WordPress 
+date:   2018-03-15 00:00:00 +0000
+categories: Wordpress-sp
+group: "navigation"
+img: assets/images/posts/wordpress/post-preview-speedup-wordPress.svg
+---
+
+<section class="post-content">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-12 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
+
+				<h1 class="">Steps to speedup WordPress site</h1>
+				
+				<ol>
+					<li>
+						<h2>Enable GZIP compression</h2>
+						<p>Add the following lines to your .htaccess file (the AddOutputFilterByType should all be on one line). This action tells the web server to compress files before sending them to the browser, resulting in reduced bandwidth and faster delivery to the browser. Adding compression is a very safe option.</p>
+
+						<div class="code-snipet">
+							<h4 class="file-name">.htaccess</h4>
+{% highlight apache %}
+<IfModule mod_deflate.c>
+      AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/x-javascript application/x-httpd-php application/rss+xml application/atom_xml
+</IfModule>
+{% endhighlight %}
+						</div>
+						<p><span class="txt-colour"><b>mod_pagespeed</b></span> is an Apache module developed by Google and its command directive can be used just like other modules.</p>
+						<div class="code-snipet">
+							<h4 class="file-name">.htaccess</h4>
+{% highlight apache %}
+<IfModule pagespeed_module>
+	ModPagespeed on
+</IfModule>
+{% endhighlight %}
+						</div>
+						<p>Many of you may be hosting with other hosting providers which do not support the mod_pagespeed module. <br> You can use the mod_deflate module (Apache 1.3x used mod_gzip but since Apache 2x mod_deflate is used)</p> 
+						<h3>With header.php</h3>
+						<p>If your server doesn't support mod_deflate or mod_gzip you can use this PHP script for gzip compression which works on both Apache and Nginx</p>
+						<div class="code-snipet">
+							<h4 class="file-name">header.php</h4>
+{% highlight php %}
+<?php
+if ( substr_count( $_SERVER['HTTP_ACCEPT_ENCODING'], 'gzip' ) ) {
+    ob_start( "ob_gzhandler" );
+}
+else {
+    ob_start();
+}
+?>
+{% endhighlight %}
+						</div>
+					</li>
+					<li>
+						<h2>Add an Expires Header</h2>
+						<p>Add the following lines to your .htaccess file. This action tells the web server to add an Expires header for files that are unlikely to change in the near future. The reader’s browser will then cache the files until the expiration date, not even bothering to check for a new, updated version in the meantime. Note that if you DO change any files with a far future expiration date you will need to change the file’s name, otherwise any browser with a cached version will fail to fetch your new version. You are most likely to experience this issue with CSS or Javascript files, so don’t say I didn’t warn you.</p>
+						<div class="code-snipet">
+							<h4 class="file-name">.htaccess</h4>
+{% highlight apache %}
+# BEGIN Expire headers
+<IfModule mod_expires.c>
+	ExpiresActive on
+	ExpiresByType image/gif "access plus 1 month"
+	ExpiresByType image/jpeg "access plus 1 month"
+	ExpiresByType image/png "access plus 1 month"
+	ExpiresByType image/x-icon "access plus 2592000 seconds"
+	ExpiresByType text/css "access plus 1 month"
+	ExpiresByType text/javascript "access plus 216000 seconds"
+	ExpiresByType text/html "access plus 600 seconds"
+	ExpiresByType application/javascript "access plus 1 month"
+	ExpiresByType application/x-javascript "access plus 1 month"
+	ExpiresByType application/xhtml+xml "access plus 600 seconds"
+	ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
+</IfModule>
+# END Expire headers
+{% endhighlight %}
+						</div>
+						<p><i>If mod_expires is not available on your system, you can try this instead:</i> <br>
+						.htaccess rules for setting up Cache-control header</p>
+						<div class="code-snipet">
+							<h4 class="file-name">.htaccess</h4>
+{% highlight apache %}
+# BEGIN Cache-Control Headers
+<ifModule mod_headers.c>
+    <filesMatch "\.(ico|jpe?g|png|gif|swf)$">
+        Header set Cache-Control "public"
+    </filesMatch>
+    <filesMatch "\.(css)$">
+        Header set Cache-Control "public"
+    </filesMatch>
+    <filesMatch "\.(js)$">
+        Header set Cache-Control "private"
+    </filesMatch>
+    <filesMatch "\.(x?html?|php)$">
+        Header set Cache-Control "private, must-revalidate"
+    </filesMatch>
+</ifModule>
+# END Cache-Control Headers
+{% endhighlight %}
+						</div>
+						<p>There is no need to set the max-age directive with the Cache-Control header since it is already set by the mod_expires module. <br>must-revalidate means that once a response becomes stale it has to be revalidated; it doesn't mean that it has to be checked every time</p>
+					</li>
+					<li>
+						<h2>Disable ETags</h2>
+						<p>Add the following line to your .htaccess file. This action tells the web server to remove ETags from the HTTP response. For most websites, removing ETags will not affect your performance at all, but it will increase your YSlow score. Removing ETags is a very safe option.</p>
+						<div class="code-snipet">
+							<h4 class="file-name">.htaccess</h4>
+{% highlight apache %}
+Header unset ETag
+FileETag none
+{% endhighlight %}
+						</div> 
+					</li>
+					<li>
+						<h2>Reduce MySQL Database Size</h2>
+						<p>Since WordPress 2.6, WordPress autosave posts while writing which remain even after the post is saved as revision in the MySQL Database. Bigger database also sends the site load time higher. I suggest removing revision feature.</p>
+<div class="code-snipet">
+	<h4 class="file-name">wp-config.php</h4>
+{% highlight php %}	
+define('WP_POST_REVISIONS', false );
+{% endhighlight %}
+</div> 
+					</li>
+					<li>
+						<h2></h2>
+						<p></p>
+					</li>
+				</ol>
+				
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- 						
+<div class="code-snipet">
+	<h4 class="file-name">.htaccess</h4>
+{% highlight apache %}	
+
+{% endhighlight %}
+</div> 
+-->
+
+<!-- <a href="https://cloudfour.com/thinks/easy-steps-to-speedup-your-wordpress-blog/">Primary source</a> -->
