@@ -1,17 +1,17 @@
 ---
 layout: default
-title: "Blog"
-permalink: blog.html
-categories: wrodpress
+title: "Articles"
+permalink: articles.html
+categories: gist-snipets
 group: "navigation"
 ---
 
 {% assign articles_list = site.posts %}
 
-{% assign group = 'post' %}
+{% assign group = 'gist' %}
 
 
-<section class="posts-list">
+<section class="articles-list">
 	<div class="container">
 		<div class="row">
 			
@@ -23,14 +23,16 @@ group: "navigation"
 
 						<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 
-							<a href="{{ node.url | absolute_url }}">
-								<div class="post-wrapper">
-									<div class="card-img">
-										<img class="in-width-img" src="{{ node.img | absolute_url }}" alt="">
-									</div>
+							<a href="{{ node.url | absolute_url }}" data-category="{{ node.categories }}" >
+								<div class="artic-wrapper">
+
 									<div class="card-content">
-										<h3 class="h-post">{{ node.title }}</h3>
+										<h3 class="h-artic">{{ node.title }}</h3>
 									</div>
+									<div class="card-description">
+										<p>{{ node.description }}</p>
+									</div>
+
 								</div>
 							</a>
 

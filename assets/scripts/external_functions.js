@@ -96,7 +96,7 @@ function elastic(x, timeFraction) {
 
 
 
-//	let bounceEaseOut = makeEaseOut(bounce);
+let bounceEaseOut = makeEaseOut(bounce);
 function makeEaseOut(timing) {
 	return function(timeFraction) {
 		return 1 - timing(1 - timeFraction);
@@ -205,3 +205,62 @@ if ( typeof define === 'function' && define.amd ) {
 }
 
 })( window );
+
+
+
+
+
+/************************************************************************************************************
+   _____                           _    _        _____                    _  _ 
+  / ____|                         | |  | |      / ____|                  | || |
+ | (___   _ __ ___    ___    ___  | |_ | |__   | (___    ___  _ __  ___  | || |
+  \___ \ | '_ ` _ \  / _ \  / _ \ | __|| '_ \   \___ \  / __|| '__|/ _ \ | || |
+  ____) || | | | | || (_) || (_) || |_ | | | |  ____) || (__ | |  | (_) || || |
+ |_____/ |_| |_| |_| \___/  \___/  \__||_| |_| |_____/  \___||_|   \___/ |_||_|
+                                                                               
+                                                                               
+/************************************************************************************************************/
+
+
+function smoothScroll(event) {
+
+    if (event.target.hash !== '' && event.target.hash !== undefined ) { //Check if tag is an anchor
+
+        event.preventDefault()
+        const hash = event.target.hash.replace("#", "")
+        // const link = document.getElementsByName(hash) 
+        const link = document.getElementById(hash) 
+        //Find the where you want to scroll
+        // const position = link.getBoundingClientRect().y 
+        // let top = document.documentElement.scrollTop;
+
+        var top = window.pageYOffset,
+    		position = link.offsetTop,
+    		offset = position - top;
+
+    	animate(
+    		
+				{
+
+					duration: 600,
+
+					timing: linear,				
+
+					// timing: function(timeFraction) {
+					// 	return  Math.pow(timeFraction, 1.5);
+					// },
+
+					draw: function(progress) {
+						window.scrollTo( 0, top + offset*progress);
+					}, 
+					callback: function(){}
+				}
+		);
+    }
+}
+
+
+
+/************************************************************************************************************
+                                                                               
+/************************************************************************************************************/

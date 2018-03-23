@@ -7,11 +7,20 @@ function ready(){
 document.addEventListener("DOMContentLoaded", ready);
 
 
-window.onload = function() {
+window.onload = function() {	
 
+	document.addEventListener('touchmove', function(e) { 
+    	e.preventDefault(); 
+	});
+
+	var Anchors = document.getElementsByTagName("a");
+
+	for (var i = 0; i < Anchors.length ; i++) {
+
+	    Anchors[i].addEventListener("click", smoothScroll, false);
+	}
 
 };
-
 
 
 
@@ -47,4 +56,6 @@ window.onload = function() {
 			classie.remove( ev.target.parentNode, 'input--filled' );
 		}
 	}
+
+
 })();
