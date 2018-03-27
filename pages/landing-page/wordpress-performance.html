@@ -39,16 +39,16 @@ categories: wordpress
 						<a href="#measure-section" class="a-way--intro intro--metrix">Analyze the site</a>
 					</li>
 					<li class="li--way">
-						<a href="" class="a-way--intro intro--content">Update a filling</a>
+						<a href="#by-checking" class="a-way--intro intro--content">Internal update</a>
 					</li>
 					<li class="li--way">
-						<a href="" class="a-way--intro intro--archive">Minify the content</a>
+						<a href="#little-content" class="a-way--intro intro--archive">Minify the content</a>
 					</li>
 					<li class="li--way">
-						<a href="" class="a-way--intro intro--cdn">Tune up server & CDN</a>
+						<a href="#setup-server" class="a-way--intro intro--cdn">Setup server & CDN</a>
 					</li>
 					<li class="li--way">
-						<a href="" class="a-way--intro intro--result">Check out a results</a>
+						<a class="a-way--intro intro--result">Check out a results</a>
 					</li>
 				</ul>
 			</div>
@@ -72,6 +72,7 @@ categories: wordpress
 			<div class="col-12 col-lg-6">
 				<h2 class="h2-section">How to Measure Site Speed</h2>
 				<p class="p-buty-font ">There are a number of tools available to you, and all of them are free to use. They will provide you a ton of information and scores, but keep in mind the score is definitely not the only thing that matters here. The score is vary between the different tools, there is no universal metric for page speed scoring.But don't worry, if you not understand what the recommendation means, for 90% WordPress sites, the rating is enough to know. just measure your site speed, if the average rank lower than 90 then go through this guideline and you will get success.</p>
+				<!-- <a href="https://www.keycdn.com/blog/blocking-the-dom/">from</a> -->
 			</div>
 			<div class="col-12 col-lg-6">
 				<div id="measure-accordion">
@@ -87,7 +88,7 @@ categories: wordpress
 
 						<div id="collapseOne" class="collapse show-true" aria-labelledby="headingOne" data-parent="#accordion">
 							<div class="card-body">
-								<img class="w-100" src="{{ '/assets/images/pages/wordpress-performace/google-pagespeed-insights-derefe.png' | relative_url }}" alt="google pagespeed insights">
+					cd			<img class="w-100" src="{{ '/assets/images/pages/wordpress-performace/google-pagespeed-insights-derefe.png' | relative_url }}" alt="google pagespeed insights">
 								<p>
 									<a href="https://developers.google.com/speed/pagespeed/insights/">PageSpeed Insights Google</a> analyze your website and come up a PageSpeed Score (out of 100) for both desktop as well as mobile. The tool definitely not the most robust of the bunch. In fact, it’s easily the most bare-bones of all and the most standard that webmasters use. Just start with this tool.<br>You can take a look at what it recommends for your site. If you fix all those issues one by one and earned a score of 100/100. it will indicates that you have a lightning fast website with wonderful usability.
 								</p>
@@ -252,7 +253,112 @@ categories: wordpress
 		</div>
 	</div>
 </section>
-<section class="p-strip--light is-bordered">
+<section  id="by-checking"  class="p-strip--light is-bordered">
+	<div class="container">
+		<div class="row align-items-center" >
+			<div class="col-12">
+				<h2 class="h2-section text-center">Optimizing the internal engine</h2>
+				<p class="p-buty-font">
+					
+				</p>
+			</div>
+		</div>
+		<div class="row py-5 text-center text-lg-right">
+			<div class="col-12 col-lg-6">
+				<h3>Check the Plugins</h3>
+
+				<p class="p-buty-font">
+					Plugins are usually the prime suspect for slowdowns. With so many WordPress plugins around, chance is you might have installed a plugin which does not use the resources in an optimum way.
+				</p>					
+				<p class="p-buty-font">
+					For example such plugins that caused slowdowns in the past have been Popularity contest, aLinks or @Feed.
+				</p>					
+				<p class="p-buty-font">
+					To check plugins, deactivate all of them and check the critical areas of the site again. If everything runs OK, re-enable the plugins one by one until you find the problematic plugin.
+				</p>					
+				<p class="p-buty-font">
+					After finding the cause you can either write a message to the plugin author and hope they fix it or search for an alternative.
+				</p>	
+			</div>
+			<div class="col-12 col-lg-6">
+				<img class="w-100" src="{{ '/assets/images/pages/wordpress-performace/wordpress-plugins-images.svg' | relative_url }}"" alt="">
+			</div>
+		</div>
+		<div class="row pt-5 text-center text-lg-left">
+			<div class="col-12 col-lg-6 order-lg-2">
+				<h3>Check your Theme</h3>
+
+				<p class="p-buty-font">
+					If it's not the plugins, and you are troubleshooting slowdown of the site, you should check it with a different theme.
+				</p>
+				<p class="p-buty-font">
+					Themes can include code with plugin capabilities inside the theme's function.php file so everything what applies to plugins can apply to the theme.
+				</p>
+				<p class="p-buty-font">
+					Also, themes may use excessive JavaScript or image files, causing slow loading of the page because of huge amount of data to transfer and/or number of http requests used.
+				</p>
+				<p class="p-buty-font">
+					WordPress comes installed with a default theme and it's best used to test the site if your theme is the suspect for poor performance.
+				</p>
+			</div>
+			<div class="col-12 col-lg-6 order-lg-1">
+				<img class="w-100" src="{{ '/assets/images/pages/wordpress-performace/wordpress-performance-images.svg' | relative_url }}"" alt="">
+			</div>
+		</div>
+	</div>
+</section>
+<section  id="little-content" class="p-strip">
+	<div class="container">
+		<div class="row no-gutters align-items-center text-center">
+			<div class="col-12 col-md-10 offset-md-1">
+				<h2 class="h2-section text-center">Minify the content</h2>
+			</div>
+			<!-- <div class="col-12 col-md-10 offset-md-1 col-xl-8 offset-xl-2"></div> -->
+		</div>
+		<div class="row py-5 text-center">
+			<div class="col-12 col-md-4">
+				<h3>Minify the CSS</h3>
+				<img class="w-50 py-5" src="{{ '/assets/images/pages/wordpress-performace/wordpress-minify-css.svg' | relative_url }}"" alt="">
+			</div>
+			<div class="col-12 col-md-4">
+				<h3>Minify the JS</h3>
+				<img class="w-50 py-5" src="{{ '/assets/images/pages/wordpress-performace/wordpress-minify-js.svg' | relative_url }}"" alt="">
+			</div>
+			<div class="col-12 col-md-4">
+				<h3>Minify the Images</h3>
+				<img class="w-50 py-5" src="{{ '/assets/images/pages/wordpress-performace/wordpress-minify-images.svg' | relative_url }}"" alt="">
+			</div>
+		</div>
+		<div class="row pb-5 text-center text-lg-right">
+			<div class="col-12 col-lg-6">
+	
+				<p class="p-buty-font"></p>					
+			</div>
+			<div class="col-12 col-lg-6">
+				
+			</div>
+		</div>
+		<div class="row py-5 text-center text-lg-left">
+			<div class="col-12 col-lg-6 order-lg-2">
+				
+				<p class="p-buty-font"></p> 
+			</div>
+			<div class="col-12 col-lg-6 order-lg-1">
+				
+			</div>
+		</div>
+		<div class="row pt-5 text-center text-lg-right">
+			<div class="col-12 col-lg-6">
+				
+				<p class="p-buty-font"></p>					
+			</div>
+			<div class="col-12 col-lg-6">
+				
+			</div>
+		</div>
+	</div>
+</section>
+<section id="setup-server" class="p-strip--light is-bordered">
 	<div class="container">
 		<div class="row">
 			<div class="col-12">
@@ -261,6 +367,20 @@ categories: wordpress
 		</div>
 	</div>
 </section>
+
+ 
+<!-- 
+<section class="p-strip--light is-bordered">
+	<div class="container">
+		<div class="row">
+			<div class="col-12">
+				<h2 class="h2-section"></h2>
+			</div>
+		</div>
+	</div>
+</section> 
+-->
+<!-- 
 <section class="p-strip">
 	<div class="container">
 		<div class="row no-gutters align-items-center text-center">
@@ -271,32 +391,24 @@ categories: wordpress
 			</div>
 		</div>
 	</div>
-</section>
+</section>  
+-->
 
 
 <section class="p-strip">
 	<div class="container">
 		<div class="row no-gutters align-items-center text-center">
 			<div class="col-12 col-md-10 offset-md-1">
-				<h2 class="h2-section text-center">Are some optimizations beyond your technical skill?</h2>
-				<h2 class="h2-section text-center">If these steps do not help you properly?</h2>
-			</div>
-			<div class="col-12 col-md-10 offset-md-1 col-xl-8 offset-xl-2">
-
+				<p class="h2">How you relate to losing money by not guessing. About forty percent shops and services in worldwide that marketing in search engine is losing money because have lower ranking than have to have. Just improve content(not SEO), set up site speed and mobile version on your site.</p>
+				<h2 class="h2-section text-center">Are some optimizations beyond your technical skill?
+				<br> <br><strong>Just leave your email and we contact to you.</strong></h2>
+				<!-- <h2 class="h2-section text-center">If these steps do not help you properly?</h2> -->
 			</div>
 		</div>
-	</div>
-</section>
-
-<section class="the-lines-content">
-	<div id="block-line-svg"></div>
-</section>
-
-<section class="email-strip">
-	<div class="container">
 		<div class="row align-items-center text-center">
 			<div class="col">
 				<span class="input input--take_one_email">
+					<span class="input-box-button orange">Get offer</span>
 					<input class="input__field__email h5" type="text" id="input-only__email" />
 					<label class="input__label__email h5" for="input-only__email">
 						<span class="input__label__email-content">What's your email?</span>

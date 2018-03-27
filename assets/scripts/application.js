@@ -9,11 +9,14 @@ document.addEventListener("DOMContentLoaded", ready);
 
 window.onload = function() {	
 
-	document.addEventListener('touchmove', function(e) { 
-    	e.preventDefault(); 
-	});
+/*                                                                                                     
+     __  __     __      __         __  __  __  __                         __      ___ __    ___ __                  __  
+ /\ |  \|  \   /__`|   /  \|  |   /__`/  `|__)/  \|   |      |__| /\ |\ ||  \|   |__ |__)    | /  \   |   ||\ ||__//__` 
+/~~\|__/|__/   .__/|___\__/|/\|   .__/\__,|  \\__/|___|___   |  |/~~\| \||__/|___|___|  \    | \__/   |___|| \||  \.__/ 
 
-	var Anchors = document.getElementsByTagName("a");
+*/
+	// var Anchors = document.getElementsByTagName("a");
+	var Anchors = document.querySelectorAll(  "a[href^='#']"  );
 
 	for (var i = 0; i < Anchors.length ; i++) {
 

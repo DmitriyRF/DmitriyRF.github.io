@@ -3,7 +3,7 @@ layout: post
 title:  Easy way to speedup server of WordPress 
 date:   2018-03-15 00:00:00 +0000
 categories: Wordpress-sp
-group: "post"
+group: "post-wp"
 img: assets/images/posts/wordpress/post-preview-htaccess-file.svg
 ---
 
@@ -13,9 +13,9 @@ img: assets/images/posts/wordpress/post-preview-htaccess-file.svg
 
 			<div class="col-12 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
 
-				<h1 class="">Steps to speedup server of WordPress</h1>
+				<h1 class="">Setup the .htaccess server file</h1>
 				
-				<ol>
+				<ol class="article-structure">
 					<li>
 						<h2>Enable GZIP compression</h2>
 						<p>Add the following lines to your .htaccess file (the AddOutputFilterByType should all be on one line). This action tells the web server to compress files before sending them to the browser, resulting in reduced bandwidth and faster delivery to the browser. Adding compression is a very safe option.</p>
@@ -114,20 +114,10 @@ FileETag none
 {% endhighlight %}
 						</div> 
 					</li>
-					<li>
-						<h2>Reduce MySQL Database Size</h2>
-						<p>Since WordPress 2.6, WordPress autosave posts while writing which remain even after the post is saved as revision in the MySQL Database. Bigger database also sends the site load time higher. I suggest removing revision feature.</p>
-<div class="code-snipet">
-	<h4 class="file-name">wp-config.php</h4>
-{% highlight php %}	
-define('WP_POST_REVISIONS', false );
-{% endhighlight %}
-</div> 
-					</li>
-					<li>
+<!-- 					<li>
 						<h2></h2>
 						<p></p>
-					</li>
+					</li> -->
 				</ol>
 				
 			</div>

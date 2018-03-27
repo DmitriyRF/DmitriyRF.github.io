@@ -1,3 +1,8 @@
+
+
+@import 'mixins';
+
+
 /**************************************************************************************
  __          __              _  _____                          _____              __                                                 
  \ \        / /             | ||  __ \                        |  __ \            / _|                                                
@@ -186,6 +191,8 @@
     max-width: 350px;
     margin: 1em;
 
+    -webkit-transition: max-width 0.3s linear;
+    transition: max-width 0.3s linear;
     vertical-align: top;
 }
 
@@ -197,13 +204,11 @@
 .input__field__email
 {
     position: relative;
-
     width: 100%;
-    padding: .85em 1.5em;
-
+    padding: 17px 30px;
     color: #535d92;
     border-width: 4px;
-    border-radius: 2em;
+    border-radius: 33px;
     background: #fff;
 }
 
@@ -239,6 +244,42 @@
 .input__label__email-content
 {
     padding: .5em 0;
+}
+
+.input-box-button{
+    position: absolute;
+    height: 56px;
+    width: 120px;
+    right: 5px;
+    top: 6px;
+    line-height: 56px;
+    font-size: 18px;
+    content: "Go";
+    border-radius: 33px;
+    z-index: 10001;
+    opacity: 0;
+    display: none;
+        -webkit-transition: opacity .3s;
+            transition: opacity .3s;
+    font-weight: 600;
+    
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+
+.input--filled .input-box-button{
+
+        -webkit-transition: background-color 1s;
+            transition: background-color 1s;
+
+        opacity: 1;
+        display: block;
+}
+.input.input--filled
+{
+    max-width: 600px;
 }
 
 .input__field__email:focus,
@@ -357,10 +398,6 @@ input:focus
 .p-buty-font
 {
     font-size: 20px;
-}
-.email-strip div
-{
-    min-height: 200px;
 }
 /**************************************************************************************
                           _____   ______     __                 
@@ -869,8 +906,13 @@ section.articles-list
 .post-content
 {
     padding: 100px 0 50px;
+    .container
+    {
+        box-shadow: 0 3px 3px 0 rgba(0,0,0,0.15);
+        padding-bottom: 100px;
+    }
     .h1,  h1 {
-        margin-bottom: 2.5rem;
+        margin-bottom: 6rem;
     }
     .h2, h2{
         margin-bottom: 2rem;
@@ -916,7 +958,7 @@ section.articles-list
         background-color: #f6f8fa;
     }
 
-    ol
+    ol.article-structure
     {
         margin: 0;
         &> li
@@ -927,7 +969,7 @@ section.articles-list
                 margin-left: -40px;
                 position: relative;
                 margin-top: 40px;
-                margin-bottom: 15px;
+                // margin-bottom: 15px;
                 &:before{
                     content: "";
                     display: block;
@@ -941,8 +983,23 @@ section.articles-list
                 }
              }
         }
+    }
+    .a-link-hide-line{
+
+        @include a-link-hover-effect__show_line_under();
+        
+        margin: 10px 15px;
+
+        // text-transform: uppercase;
+
+        letter-spacing: 2px;
+        font-weight: 400;
+        text-shadow: 0 0 1px rgba(255,255,255,0.3);
+        font-size: 1.5rem;
     } 
 }
+
+
 
 
 /**************************************************************************************
@@ -1038,6 +1095,11 @@ section.articles-list
 .gist-content
 {
     padding: 100px 0 50px;
+    .container
+    {
+        box-shadow: 0 3px 3px 0 rgba(0,0,0,0.15);
+        padding-bottom: 100px;
+    }
     .h1,  h1 {
         margin-bottom: 2.5rem;
     }
@@ -1085,7 +1147,7 @@ section.articles-list
         background-color: #f6f8fa;
     }
 
-    ol
+    ol.article-structure
     {
         margin: 0;
         &> li

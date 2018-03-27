@@ -1,0 +1,129 @@
+---
+layout: post
+title:  The font that affect pagespeed
+date:   2018-03-16 00:00:00 +0000
+categories: Wordpress-sp
+img: assets/images/posts/wordpress/.svg
+group: "post-wp"
+---
+
+<section class="post-content">
+	<div class="container">
+		<div class="row">
+
+			<div class="col-12 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
+
+				<h1 class="">Methods to show how font using to maximize pagespeed rank</h1>
+				
+				<ol class="article-structure">
+					<li>
+						<h2>The list of using ways</h2>
+						<p>This page describes several methods of using web fonts and how they affect pagespeed. In general the methods are listed from the theoretically fastest to slowest and provide the information about each technique.</p>
+						<h3>Those methods are:</h3>
+						<ol>
+							<li><a class="a-link-hide-line" href="#number-of_list__1" data-link-hover=""  ><span>No web font at all</span></a></li>
+							<li><a class="a-link-hide-line" href="#number-of_list__2" data-link-hover=""  ><span>Inline font into HTML</span></a></li>
+							<li><a class="a-link-hide-line" href="#number-of_list__3" data-link-hover=""  ><span>Inline font into external CSS</span></a></li>
+							<li><a class="a-link-hide-line" href="#number-of_list__4" data-link-hover=""  ><span>Self hosted fonts</span></a></li>
+							<li><a class="a-link-hide-line" href="#number-of_list__5" data-link-hover=""  ><span>Use of third party fonts</span></a></li>
+						</ol>
+					</li>
+					<li id="number-of_list__1" >
+						<h2>No web font at all</h2>
+						<p>In this way we use standard browser fonts, that included in browser by default. This method is the fastest, simplest and most universal way to display fonts. No matter what other font method you use, this is the default fallback method for older devices and browsers so it is worth noting what your pages look like when it is used. The most sites are using this fonts.</p>
+<div class="code-snipet">
+	<h4 class="file-name">css</h4>
+{% highlight css %}
+* {font-family: "Times New Roman", Georgia, Serif;}
+{% endhighlight %}
+</div> 
+					</li>
+					<li id="number-of_list__2" >
+						<h2>Inline font into HTML</h2>
+						<p>	There are several good reasons not to use this method. The main one is caching. This method means your font is probably loading on every page view, which seems ridiculous to most people, but is faster is certain conditions. This method will almost certainly make your HTML file over 14k, which is also not recommended.
+						<br>
+						But, it is the fastest way for extremely optimized and simple pages. This will not be true for other sites.
+						<br>
+						Most experts specifically, expressly, and rightfully will say this method is a bad idea. However, the pages where they say it is a bad idea load slower than this do.
+						<br>
+						This method should not be confused with inlining font into your external CSS (which is the next method described).
+						</p>
+<div class="code-snipet">
+	<h4 class="file-name">css</h4>
+{% highlight css %}
+@font-face{font-family:'robotolight';src: url(data:application/x-font-woff;charset=utf-8;base64,d09GRg .... AAA==) format('woff');font-weight: normal;font-style: normal;}
+{% endhighlight %}
+</div> 
+					</li>
+					<li id="number-of_list__3" >
+						<h2>Inline font into external CSS</h2>
+						<p>This method allows for fast and cachable font rendering. It a great solution for pages that only use one font that are optimized for speed already. This method puts the font directly into the CSS that your page is already loading.
+						<br>
+						Inlining font into CSS is not a good option if you are using more than one font or more than one font weight. It is also not a good solution for pages that only use the font sparingly.
+						<br>
+						This an advanced way to render fonts, and as such, it suggested you explore other options before trying this one.</p>
+<div class="code-snipet">
+	<h4 class="file-name">html</h4>
+{% highlight html %}
+<link href="http://site-name.com/file.css" rel="stylesheet" type="text/css" />
+{% endhighlight %}
+</div> 
+					</li>
+					<li id="number-of_list__4" >
+						<h2>Self hosted fonts</h2>
+						<p>This is the go to, recommend and safe way to serve your own web fonts. Lets the browser choose the ideal type of font file used based on the user browser or device. Simple to implement and documented well.
+						<br>
+						The browser recieves the HTML and CSS from the server. The browser finds path to required font from server. Server delivers the font file.
+						<br>
+						CSS instructions provide the paths to different font files. The browser uses this to choose what font to download and then does so.</p>
+<div class="code-snipet">
+	<h4 class="file-name">css</h4>
+{% highlight css %}
+@font-face { font-family: 'MyWebFont';
+src: url('webfont.eot'); /* IE9 Compat Modes */
+src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('webfont.woff') format('woff'), /* Modern Browsers */
+url('webfont.ttf') format('truetype'), /* Safari, Android, iOS */
+url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */ }
+{% endhighlight %}
+</div> 	
+					</li>
+					<li id="number-of_list__5" >
+						<h2>Use of third party fonts</h2>
+						<p>Widely used third party font solutions are Google fonts and Typepad
+						<br>
+						Third party fonts are often the slowest option to display webfonts. This is particularly true for mobile.
+						<br>
+						Third party fonts require that your webpage load the fonts from another server than your own. This can cause problems if the other server is not availible, and can even keep your webpage from showing up at all.
+						<br>
+						Third party fonts are extremely easy to use, often just a copy and paste of of one line of code. This is the main reason the are used so much.
+						<br>
+						When using thrid party web fonts my main reccomendation is to use as few fonts as possible, ideally just one font at one weight.
+						<br>
+						The browser recieves the page from your server. The page makes a request to a third party server. The third party delivers a css file to browser. The page makes new request to third party server. The third party server delivers the appropriate font.
+						<br>
+						Third party provides a snippet of code like the one above. It is placed in the head of your html file.
+				</p>
+<div class="code-snipet">
+	<h4 class="file-name">html</h4>
+{% highlight html %}
+<link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css" />
+{% endhighlight %}
+</div> 	
+					</li>
+				</ol>
+					
+			</div>
+
+		</div>
+	</div>
+</section>
+
+<!-- 						
+<div class="code-snipet">
+	<h4 class="file-name"></h4>
+{% highlight apache %}	
+
+{% endhighlight %}
+</div> 
+-->

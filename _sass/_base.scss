@@ -179,3 +179,7 @@ input::-moz-focus-inner
     border-spacing: 0;
     border-collapse: collapse;
 }
+
+@media print{
+       a:after{content:" (" attr(href) ") ";font-size:0.8em;font-weight:normal;}
+}

@@ -224,10 +224,14 @@ if ( typeof define === 'function' && define.amd ) {
 
 function smoothScroll(event) {
 
-    if (event.target.hash !== '' && event.target.hash !== undefined ) { //Check if tag is an anchor
+    if (this.hash !== '' && this.hash !== '#' && this.hash !== undefined ) { //Check if tag is an anchor
+
+    	//this = event.currentTarget – это текущий элемент,
+    	//event.target – это исходный элемент
+
 
         event.preventDefault()
-        const hash = event.target.hash.replace("#", "")
+        const hash = this.hash.replace("#", "")
         // const link = document.getElementsByName(hash) 
         const link = document.getElementById(hash) 
         //Find the where you want to scroll
@@ -239,7 +243,7 @@ function smoothScroll(event) {
     		offset = position - top;
 
     	animate(
-    		
+
 				{
 
 					duration: 600,
