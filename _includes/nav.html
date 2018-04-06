@@ -1,10 +1,8 @@
-
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<div class="container">
 
-		<!-- the logo -->
-		<!-- <a class="navbar-brand" href="{{site.url}}"> -->
-		<a class="navbar-brand" href="{{ '/wordpress-performance.html' | relative_url }}">
+		<a class="navbar-brand" href="{{site.url}}">
+		<!-- <a class="navbar-brand" href="{{ '/wordpress.html' | relative_url }}"> -->
 			<img src="{{ '/assets//images/logo.svg' | relative_url }}" width="30" height="30" class="d-inline-block align-top" alt="">
 			Derefe
 		</a>
@@ -12,6 +10,8 @@
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
+
+		{% if menu != 'disable' %}
 
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav mr-auto">
@@ -24,5 +24,10 @@
 
 			</ul>
 		</div>
+
+		{% endif %}
+
+		{% assign menu = 'enable' %}
+
 	</div>
 </nav>

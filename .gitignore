@@ -69,6 +69,8 @@ typings/
 _sublime.sublime-project
 _sublime.sublime-workspace
 
+_data
+
 
 #CorelDRAW
 **/*.cdr

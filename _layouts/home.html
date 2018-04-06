@@ -5,17 +5,24 @@
 
 <body>
 	
-	{% include nav.html %}
+	{% assign menu = 'disable' %}
+	{% include nav.html %} 
+
 
 	{% include header.html %}
 
-	{% include main.html %}
+	<!-- {% include main.html %} -->
+	{% for file in site.pages %}
+	    {% if file.path contains "pages/" and file.path contains "/freelancer.html" %}
+	        {{ file.content }}
+	    {% endif %}
+	{% endfor %}
+
 
 	{% include footer.html %}
 
+	
 	{% include scripts.html %}
 
 </body>
 </html>
-
-
