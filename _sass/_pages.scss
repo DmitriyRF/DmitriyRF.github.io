@@ -1489,15 +1489,55 @@ section.articles-list
     }
 }
 
+.empty-background
+{
+    min-height: 250px;
+    padding: 85px 0;
+}
+
+.image-background
+{
+    min-height: 150px;
+    padding: 85px 0 25px;
+}
+
+.fixed-img-bg
+{
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+    &.dark-bg-color
+    {
+        color: white;
+        &::before
+        {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background: rgba(30,31,33,.5);
+            display: block;
+        }
+        &>*{
+            position: relative;
+        }
+    }
+}
+
 .h2-section-in-line{
-    font-size: 40px;
+    font-size: 32px;
     margin: 0 0 24px 0;
     line-height: 45px;
     font-weight: bold;
 }
 
 hr.small-line{
-    width: 80px;
+    width: 60px;
 
     border-style: solid;
     border-color: transparent;
@@ -1509,13 +1549,38 @@ hr.small-line{
     border-top-color: white;
 
     display: inline-block;
+    
+    &.dark-line
+    {
+        border-top-width: 5px;
 
+        border-top-color: #003d83;
+    }
 
 }
+
 .my-avatar{
     padding: 50px 0;
+    .avatar-fluid
+    {
+        max-width: 300px;
+        height: auto;
+        width: 100%;
+    }
+
+    .circle-border{
+        border: 10px solid rgba(0, 61, 131, 0.4);
+    }
 }
 
+section{
+    overflow-x: hidden;
+}
+
+.our-cases
+{
+        background-image: url(../images/pages/freelancer/background-statistics.jpg);
+}
 /**************************************************************************************
                       ___                 
                      / _ \                
@@ -1556,17 +1621,22 @@ hr.small-line{
 {
     .h2-section-in-line{
         margin-bottom: 26px;
-        font-size: 50px;
+        font-size: 43px;
         line-height: 60px;
         letter-spacing: 2px;
     }
 
     hr.small-line{
-        width: 100px;
+        width: 80px;
 
         border-top-width: 7px;
         border-left-width: 7px;
         border-right-width: 7px;
+
+        &.dark-line
+        {
+            border-top-width: 8px;
+        }
     }
 
 
@@ -1583,6 +1653,13 @@ hr.small-line{
 **************************************************************************************/
 @media (  min-width: $breakpoint-lg  )
 {
+    .my-avatar{
+
+        .avatar-fluid
+        {
+            max-width: 400px;
+        }
+    }
 }
 /**************************************************************************************
          _         __   __    ___     ___                 
