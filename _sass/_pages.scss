@@ -1474,6 +1474,16 @@ section.articles-list
  |_|  |_| \___/ |_| |_| |_| \___|
                               s
 **************************************************************************************/
+/**************************************************************************************
+                      ___                 
+                     / _ \                
+ __  __  ___        | | | |  _ __   __  __
+ \ \/ / / __|       | | | | | '_ \  \ \/ /
+  >  <  \__ \       | |_| | | |_) |  >  < 
+ /_/\_\ |___/        \___/  | .__/  /_/\_\
+                            | |           
+                            |_|          
+**************************************************************************************/
 
 .line-background{
    background-color:  #003d83;
@@ -1560,18 +1570,34 @@ hr.small-line{
 }
 
 .my-avatar{
-    padding: 50px 0;
-    .avatar-fluid
-    {
-        max-width: 300px;
-        height: auto;
-        width: 100%;
+    padding: 50px 0 300px;
+    background-image: url(../images/pages/freelancer/avatar-background.jpg);
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+    // background-attachment: fixed;
+    position: relative;
+    color: white;
+    // .avatar-fluid
+    // {
+    //     max-height: 380px;
+    //     height: auto;
+    //     width: auto;
+    // }
+
+    .abs-avtar-position{
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
     }
 
-    .circle-border{
-        border: 10px solid rgba(0, 61, 131, 0.4);
+    .avatar-fluid
+    {
+         max-height: auto;
     }
 }
+
 
 section{
     overflow-x: hidden;
@@ -1581,17 +1607,71 @@ section{
 {
         background-image: url(../images/pages/freelancer/background-statistics.jpg);
 }
-/**************************************************************************************
-                      ___                 
-                     / _ \                
- __  __  ___        | | | |  _ __   __  __
- \ \/ / / __|       | | | | | '_ \  \ \/ /
-  >  <  \__ \       | |_| | | |_) |  >  < 
- /_/\_\ |___/        \___/  | .__/  /_/\_\
-                            | |           
-                            |_|          
-**************************************************************************************/
 
+.services-table
+{
+    .inner-wrapper-service
+    {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        border: 0;
+        padding: 10px 0;
+
+        .h-service
+        {
+            font-size: 20px;
+        }
+
+        .services-image-svg
+        {
+            width: 90px;
+            height: 90px;
+            background-image: url(../images/pages/freelancer/icon-set-for-services-70.svg);
+            background-repeat: no-repeat;
+            display: block;
+            margin: 0 auto 15px;
+        }
+
+        .service-icon-website-creation
+        {
+            background-position: -125px 0;
+        }
+        .service-icon-customization
+        {
+            background-position: -125px -120px;
+        }
+        .service-icon-installation
+        {
+            background-position: -125px -240px;
+        }
+        .service-icon-bug-fixes
+        {
+            background-position: -125px -360px;
+        }
+        .service-icon-migration
+        {
+            background-position: -125px -480px;
+        }
+        .service-icon-performance
+        {
+            background-position: -125px -600px;
+        }
+        .service-icon-security
+        {
+            background-position: -125px -720px;
+        }
+        .service-icon-consultation
+        {
+            background-position: -125px -840px;
+        }
+        .service-icon-landing
+        {
+            background-position: -125px -960px;
+        }
+    }
+}
 
 /**************************************************************************************
                           _____   ______     __                 
@@ -1605,6 +1685,31 @@ section{
 **************************************************************************************/
 @media (  min-width: $breakpoint-sm  )
 {
+    .services-table
+    {
+        .inner-wrapper-service
+        {
+            padding-left: 15px;
+            padding-right: 15px;
+            width: 30%;
+            vertical-align: middle;
+            display: table-cell;
+            border-right: 2px solid rgba(0, 0, 0, 0.1);
+            border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+        }
+
+        .table
+        {
+            tr:nth-child(3) td
+            {
+                border-bottom: 0;
+            }
+             tr td:last-child
+             {
+                border-right: 0;
+            }
+        }
+    }
 }
 
 /**************************************************************************************
@@ -1638,7 +1743,26 @@ section{
             border-top-width: 8px;
         }
     }
+    
+    .my-avatar{
+        min-height: 450px;
 
+        padding: 50px 0;
+
+        .abs-avtar-position{
+            position: absolute;
+            bottom: 0;
+            left: 0px;
+
+            transform: none;
+        }
+
+        .avatar-fluid
+        {
+             max-height: 650px;
+             height: 100%;
+        }
+    }
 
 }
 /**************************************************************************************
@@ -1654,12 +1778,20 @@ section{
 @media (  min-width: $breakpoint-lg  )
 {
     .my-avatar{
+        min-height: 500px;
+
+        .abs-avtar-position{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
 
         .avatar-fluid
         {
-            max-width: 400px;
+             max-height: 450px;
         }
     }
+
 }
 /**************************************************************************************
          _         __   __    ___     ___                 
@@ -1696,6 +1828,82 @@ section{
         background-repeat: no-repeat;
         background-position: center center;
         background-size: contain;
+    }
+
+    .my-avatar{
+        min-height: 650px;
+
+        .abs-avtar-position{
+            position: absolute;
+            bottom: 0;
+            left: 5%;
+        }
+
+        .avatar-fluid
+        {
+             max-height: 600px;
+        }
+
+        .container, .container-fluid
+        {
+            margin-top: 150px;
+        }
+    }
+
+    .services-table
+    {
+        .inner-wrapper-service
+        {
+
+            .h-service
+            {
+                font-size: 25px;
+            }
+
+            .services-image-svg
+            {
+                width: 140px;
+                height: 150px;
+                background-image: url(../images/pages/freelancer/icon-set-for-services-100.svg);
+            }
+
+            .service-icon-website-creation
+            {
+                background-position: -212px 0;
+            }
+            .service-icon-customization
+            {
+                background-position: -212px -200px;
+            }
+            .service-icon-installation
+            {
+                background-position: -212px -400px;
+            }
+            .service-icon-bug-fixes
+            {
+                background-position: -212px -600px;
+            }
+            .service-icon-migration
+            {
+                background-position: -212px -1000px;
+            }
+            .service-icon-performance
+            {
+                background-position: -212px -1200px;
+            }
+            .service-icon-security
+            {
+                background-position: -212px -1400px;
+            }
+            .service-icon-consultation
+            {
+                background-position: -212px -1600px;
+            }
+            .service-icon-landing
+            {
+                background-position: -212px -1800px;
+            }
+        }
     }
 }
 
