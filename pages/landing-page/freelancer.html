@@ -3,68 +3,106 @@ layout: default
 title: Freelancer
 permalink: freelancer.html
 categories: freelancer
+menu: disable
 ---
 <section class="my-avatar">
 
 	​<picture class="abs-avtar-position">
 
 		<source srcset="{{ '/assets/images/pages/freelancer/avatar-only-after.png' | relative_url }}" media="(min-width: 992px)">
-		<source srcset="{{ '/assets/images/pages/freelancer/avatar-only-after_cr.png' | relative_url }}"  media="(min-width: 100px)">
+			<source srcset="{{ '/assets/images/pages/freelancer/avatar-only-after_cr.png' | relative_url }}"  media="(min-width: 100px)">
 
-		<img src="{{ '/assets/images/pages/freelancer/avatar-only-after.png' | relative_url }}" 
+				<img src="{{ '/assets/images/pages/freelancer/avatar-only-after.png' | relative_url }}" 
 				class=" avatar-fluid " alt="DmitriyRF">
 
-	</picture>
+			</picture>
 
-	<div class="container-fluid">
-		<div class="row align-items-center">
-			<div class="col-12 col-md-7 offset-md-5">
+			<div class="container-fluid">
+				<div class="row align-items-center">
+					<div class="col-12 col-md-7 offset-md-5">
 
-				<h1 class="">I am Dmitriy Romanovskiy<span class="brightness-color">,</span><br>certified Wordpress developer<span class="brightness-color">.</span></h1>
-				<hr class="hr-brightness-color">
-				<h3 class="d-none d-lg-block">I offer development, ideas, and resources for people <br>working to create online change</h3>
-				<div class="mt-md-5 btn-line">
-					<button type="button" class="btn rounded  btn-lg btn-warning"><i class="fas fa-angle-right"></i> Servises</button>
-					<button type="button" class="btn rounded btn-lg btn-outline-warning ml-sm-5"><i class="fas fa-angle-right"></i> About me</button>
+						<h1 class="">I am Dmitriy Romanovskiy<span class="brightness-color">,</span><br>certified Wordpress developer<span class="brightness-color">.</span></h1>
+						<hr class="hr-brightness-color">
+						<h3 class="d-none d-lg-block">I offer development, ideas, and resources for people <br>working to create online change</h3>
+						<div class="mt-md-5 btn-line">
+							<a class="btn btn-warning" href="#services-id" role="button"><i class="fas fa-angle-right"></i> Servises</a>
+							<a role="button" class="btn rounded btn-outline-warning ml-3" href="#id-about-me" ><i class="fas fa-angle-right"></i> About me</a>
+						</div>
+					</div>
 				</div>
 			</div>
-		</div>
-	</div>
 
-</section>
+		</section>
 
-		<section class="about-me">
+		<section id="id-about-me" class="about-me">
 			<div class="empty-background text-center">	
 				<h2 class="h2-section-in-line">About me</h2>
 				<hr class="small-line  dark-line">
 			</div>
 			<div class="container">
-				<div class="row">
+				<div class="row mb-5">
+					<div class="col-12 col-lg-6">
+						<div class="of-mine-image mb-3">
+							<img src="{{ '/assets/images/pages/freelancer/aobut-me-photo.jpg' | relative_url }}" class="" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-lg-6">
+						<div class="of-mine-description mb-3">
+							<p class="my-description">
+								<span class="brightness-color">Hey</span> <br>
+								I'm Dima.
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="wp-plugins">
-			<div class="line-background text-center line-background-image-1">	
-				<h2 class="h2-section-in-line">Plugins is used</h2>
-				<hr class="small-line">
-			</div>
+		<section class="results">
 			<div class="container">
 				<div class="row">
+					<div class="col-12 col-sm-6 col-md-3">
+						<div class="stats_counter-center text-center">
+							<h3 class="h-counter" id="">78</h3>
+							<div class="counter-title">Completed cases</div>
+							<p class="counter-description">with applied services.</p>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-3">
+						<div class="stats_counter-center text-center">
+							<h3 class="h-counter" id="">4</h3>
+							<div class="counter-title">Years of experience</div>
+							<p class="counter-description">on number of industries.</p>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-3">
+						<div class="stats_counter-center text-center">
+							<h3 class="h-counter" id="">7</h3>
+							<div class="counter-title">workers employed</div>
+							<p class="counter-description">on various projects.</p>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-3">
+						<div class="stats_counter-center text-center">
+							<h3 class="h-counter" id="">43</h3>
+							<div class="counter-title">Satisfied customers</div>
+							<p class="counter-description">from all around the world.</p>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="services">
+		<section id="services-id" class="services">
 			<div class="empty-background text-center">	
 				<h2 class="h2-section-in-line">Services</h2>
 				<hr class="small-line  dark-line">
 			</div>
-			<div class="container">
+			<div class="container pb-5">
 				<div class="row">
 					<div class="col-12">
 						<div class=" services-table">
-						  <table class="table">
+							<table class="table">
 								<tr>
 									<td class="inner-wrapper-service">
 										<i class="service-icon-website-creation services-image-svg"></i>
@@ -107,60 +145,338 @@ categories: freelancer
 										<span class="h-service">Landing Page</span>
 									</td>
 								</tr>
-						  </table>
+							</table>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<section class="competed-cases">
+		<section class="quotes">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-md-10 offset-md-1">
+						<h2 class="h-relevant-quotes text-center">
+							My main objective under development and serve customers is
+							<br>
+							<mark>saving money through implementation of effective solutions.</mark>
+						</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="wp-plugins">
+<!-- 			<div class="line-background text-center line-background-image-1">	
+				<h2 class="h2-section-in-line">Plugins is used</h2>
+				<hr class="small-line">
+			</div> -->
+			<div class="empty-background text-center">	
+				<h2 class="h2-section-in-line">Features is used</h2>
+				<hr class="small-line  dark-line">
+			</div>
+			<div class="container-fluid mb-5">
+				<div class="row">
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/1-yoast.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/2-wpml.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/3-sass-less.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/4-wp-bakery.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/5-woocommerce.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/6-w3-total-cache.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/7-visual-composer.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/8-slider-revolution.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/9-contact-form-7.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/10-mail-chimp.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/11-wp-rocket.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/12-redux-framework.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/13-google-fonts.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/14-paypal.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/15-divi.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/16-autoptimize.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/17-buddy-press.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/18-bbpress.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/19-layer-sliders.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/20-stripe.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/21-max-mega-menu.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/22-ubermenu.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/23-bookly.png' | relative_url }}" alt="">
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-lg-4 col-xl-3">
+						<div class="feature-wrapper">
+							<img src="{{ '/assets/images/pages/freelancer/features/24-duplicator.png' | relative_url }}" alt="">
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+<!-- 		<section class="competed-cases">
 			<div class="empty-background text-center">	
 				<h2 class="h2-section-in-line">Competed cases</h2>
+				<p class="w-75 m-auto">As technology has advanced, it has become clear that designers <br>must consider the needs of all users across many devices in different contexts.</p>
 				<hr class="small-line  dark-line">
 			</div>
-			<div class="container">
-				<div class="row">
+			<div class="grid-4 mb-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-12 col-xl-6">
+							<div class="item-1-2">
+								<img src="{{ '/assets/images/pages/freelancer/Layer-1-2.jpg' | relative_url }}" alt="" class="grid-img img-item-1-2">
+								<a href="" class="item-link">
+									<span class="work-title">
+										Leading consumer products companies
+										<span class="work-description">Financial Services</span>
+									</span>
+								</a>
+							</div>
+						</div>
+						<div class="col-12 col-xl-6">
+							<div class="item-1-4">
+								<img src="{{ '/assets/images/pages/freelancer/Layer-1-4.jpg' | relative_url }}" alt="" class="grid-img img-item-1-4">
+								<a href="" class="item-link">
+									<span class="work-title">
+										Leading consumer products companies
+										<span class="work-description">Financial Services</span>
+									</span>
+								</a>
+							</div>
+							<div class="row">
+								<div class="col-12 col-md-6">
+									<div class="item-1-8">
+										<img src="{{ '/assets/images/pages/freelancer/Layer-1-8.jpg' | relative_url }}" alt="" class="grid-img img-item-1-8">
+										<a href="" class="item-link">
+											<span class="work-title">
+												Leading consumer products companies
+												<span class="work-description">Financial Services</span>
+											</span>
+										</a>
+									</div>
+								</div>
+								<div class="col-12 col-md-6">
+									<div class="item-1-8">
+										<img src="{{ '/assets/images/pages/freelancer/Layer-1-8.1.jpg' | relative_url }}" alt="" class="grid-img img-item-1-8">
+										<a href="" class="item-link">
+											<span class="work-title">
+												Leading consumer products companies
+												<span class="work-description">Financial Services</span>
+											</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
-		</section>
+		</section> -->
 
-		<section class="upcoming-events">
-			<div class="empty-background text-center">	
-				<h2 class="h2-section-in-line">Upcoming events</h2>
-				<hr class="small-line  dark-line">
-			</div>
-			<div class="container">
-				<div class="row">
+<!-- 		<section class="upcoming-events">
+	<div class="empty-background text-center">	
+		<h2 class="h2-section-in-line">Upcoming events</h2>
+		<p class="w-75 m-auto">In-house and external training, seminars and workshops on the blockchain technology, <br>Cryptocurrency Investments, ICO and related fields.</p>
+		<hr class="small-line  dark-line">
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-4">
+				<div class="item">
+					<div class="item_wr">
+						<div class="item_thumbnail">
+							<a href="#">
+								<img class="" src="http://crypterio.stylemixthemes.com/advisor/wp-content/uploads/sites/3/2017/01/events-4-700x390.jpg" width="700" height="390" alt="events 4" title="events 4">
+							</a>
+						</div>
+						<div class="content">
+							<h6><a href="#">Here’s what I Found: 13 Habits of Millionaires</a></h6>
+							<ul class="stm-event__meta">
+								<li>
+									<div class="event__calendar"><i class="fa fa-calendar" aria-hidden="true"></i> February 21, 2017</div>
+								</li>
+								<li>
+									<div class="event__time"><i class="fa fa-clock-o"></i>1:00 PM</div>
+								</li>
+								<li>
+									<div class="event__venue"><i class="fa fa-map-marker" aria-hidden="true"></i> Telos Club, Parthenon Conference Room, 13701 Dallas Parkway, Dallas, TX, U.S.</div>
+								</li>
+							</ul>
+						</div>
+					</div>
 				</div>
 			</div>
-		</section>
+		</div>
+	</div>
+</section> -->
 
 
-		<section class="industries">
-			<div class="empty-background text-center">	
-				<h2 class="h2-section-in-line">Industries</h2>
-				<hr class="small-line  dark-line">
-			</div>
-			<div class="container">
-				<div class="row">
+<section class="industries pb-5">
+	<div class="empty-background text-center">	
+		<h2 class="h2-section-in-line">Industries</h2>
+		<hr class="small-line  dark-line">
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="icon-box st-1 mb-3">
+					<div class="icon font-color">
+						<i class="drf-graph"></i>
+					</div>
+					<div class="icon-description">
+						<h5>Business Services</h5>
+						<!-- <p>We are a company that offers design and build services for you from initial sketches to the final construction.</p> -->
+					</div>
 				</div>
 			</div>
-		</section>
-
-
-		<section class="our-help">
-			<div class="line-background text-center line-background-image-2">	
-				<h2 class="h2-section-in-line">How can I help?</h2>
-				<hr class="small-line">
-			</div>
-			<div class="container">
-				<div class="row">
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="icon-box st-1 mb-3">
+					<div class="icon font-color">
+						<i class="drf-airplane hexagon"></i>
+					</div>
+					<div class="icon-description">
+						<h5>Travel and Aviation</h5>
+						<!-- <p>We are a company that offers design and build services for you from initial sketches to the final construction.</p> -->
+					</div>
 				</div>
 			</div>
-		</section>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="icon-box st-1  mb-3">
+					<div class="icon font-color">
+						<i class="drf-cart"></i>
+					</div>
+					<div class="icon-description">
+						<h5>Consumer Products</h5>
+						<!-- <p>We are a company that offers design and build services for you from initial sketches to the final construction.</p> -->
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="icon-box st-1  mb-3">
+					<div class="icon font-color">
+						<i class="drf-home"></i>
+					</div>
+					<div class="icon-description">
+						<h5>Financial Services</h5>
+						<!-- <p>We are a company that offers design and build services for you from initial sketches to the final construction.</p> -->
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="icon-box st-1  mb-3">
+					<div class="icon font-color">
+						<i class="drf-lamp"></i>
+					</div>
+					<div class="icon-description">
+						<h5>Energy and Environment</h5>
+						<!-- <p>We are a company that offers design and build services for you from initial sketches to the final construction.</p> -->
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="icon-box st-1  mb-3">
+					<div class="icon font-color">
+						<i class="drf-truck"></i>
+					</div>
+					<div class="icon-description">
+						<h5>Surface Transport & Logistics</h5>
+						<!-- <p>We are a company that offers design and build services for you from initial sketches to the final construction.</p> -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
 
-		<section class="industries">
+<!--  		<section class="industries">
 			<div class="empty-background text-center">	
 				<h2 class="h2-section-in-line">Technology news</h2>
 				<hr class="small-line  dark-line">
@@ -169,20 +485,9 @@ categories: freelancer
 				<div class="row">
 				</div>
 			</div>
-		</section>
-
-		<section class="your-safety">
-			<div class="line-background text-center line-background-image-3">	
-				<h2 class="h2-section-in-line">Trust & Safety</h2>
-				<hr class="small-line">
-			</div>
-			<div class="container">
-				<div class="row">
-				</div>
-			</div>
-		</section>
-
-		<section class="our-cases fixed-img-bg dark-bg-color">
+		</section> -->
+		
+<!-- 		<section class="our-cases fixed-img-bg dark-bg-color">
 			<div class="image-background text-center">	
 				<h2 class="h2-section-in-line">Our cases</h2>
 				<hr class="small-line">
@@ -191,15 +496,87 @@ categories: freelancer
 				<div class="row">
 				</div>
 			</div>
-		</section>
+		</section>  -->
 
-		<section class="your-safety">
-			<div class="line-background text-center line-background-image-4">	
-				<h2 class="h2-section-in-line">Security</h2>
-				<hr class="small-line">
+
+		<section class="technologies py-5">
+			<div class="empty-background text-center">	
+				<h2 class="h2-section-in-line">Software development</h2>
+				<hr class="small-line  dark-line">
 			</div>
 			<div class="container">
 				<div class="row">
+					<div class="col text-center">
+						<div id="carouseltechnologiesSlides" class="carousel slide" data-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img class=" " src="{{ '/assets/images/pages/freelancer/features/a-ps.png' | relative_url }}" alt="First slide">
+								</div>
+								<div class="carousel-item">
+									<img class="" src="{{ '/assets/images/pages/freelancer/features/a-ai.png' | relative_url }}" alt="Third slide">
+								</div>
+								<div class="carousel-item">
+									<img class="" src="{{ '/assets/images/pages/freelancer/features/a-corel-draw.png' | relative_url }}" alt="Third slide">
+								</div>
+								<div class="carousel-item">
+									<img class="" src="{{ '/assets/images/pages/freelancer/features/a-js.png' | relative_url }}" alt="Second slide">
+								</div>
+								<div class="carousel-item">
+									<img class="" src="{{ '/assets/images/pages/freelancer/features/a-html5.png' | relative_url }}" alt="Third slide">
+								</div>
+								<div class="carousel-item">
+									<img class="" src="{{ '/assets/images/pages/freelancer/features/a-css3.png' | relative_url }}" alt="Third slide">
+								</div>
+								<div class="carousel-item">
+									<img class="" src="{{ '/assets/images/pages/freelancer/features/a-php.png' | relative_url }}" alt="Third slide">
+								</div>
+								<div class="carousel-item">
+									<img class="" src="{{ '/assets/images/pages/freelancer/features/a-jquery.png' | relative_url }}" alt="Third slide">
+								</div>
+								<div class="carousel-item">
+									<img class="" src="{{ '/assets/images/pages/freelancer/features/a-mysql.png' | relative_url }}" alt="Third slide">
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
+		<section class="contacs-snipets">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 col-sm-6 col-md-3">
+						<div class="contact-wrapper-inner">
+
+							<div class="icon"><i class="fa fa-lg fa-phone"></i></div>
+							<div class="text">+375 29 218 10 75 <br>+375 29 138 10 75</div>
+
+						</div>
+
+					</div>
+					<div class="col-12 col-sm-6 col-md-3">
+						<div class="contact-wrapper-inner">
+							<div class="icon"><i class="fa fa-lg fa-envelope"></i></div>
+							<div class="text"><a href="mailto:dmitriy_r_f@mail.ru">dmitriy_r_f@mail.ru</a></div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-3">
+						<div class="contact-wrapper-inner">
+							<div class="icon"><i class="fas fa-map-marker-alt fa-lg"></i></div>
+							<div class="text">Pravdy street<br>
+							Vitebsk, 210035 Belarus.</div>
+						</div>
+					</div>
+					<div class="col-12 col-sm-6 col-md-3">
+						<div class="contact-wrapper-inner">
+							<div class="icon"><i class="fa fa-lg fa-clock" aria-hidden="true"></i></div>
+							<div class="text">Mon–Sun: (EST)<br>5:00 AM–4:00 PM </div>
+								<!-- <br>Sunday: Closed -->
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+

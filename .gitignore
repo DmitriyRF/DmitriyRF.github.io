@@ -71,6 +71,8 @@ _sublime.sublime-workspace
 
 _data
 
+assets/**/_*
+
 
 #CorelDRAW
 **/*.cdr

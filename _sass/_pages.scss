@@ -1486,7 +1486,8 @@ section.articles-list
 **************************************************************************************/
 
 .line-background{
-   background-color:  #003d83;
+   // background-color:  #003d83;
+    background-color: #1e2b3e;
    color: white;
    min-height: 250px;
    padding: 85px 0;
@@ -1603,6 +1604,34 @@ section{
     overflow-x: hidden;
 }
 
+.about-me
+{
+    .of-mine-image
+    {
+        min-height: 250px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+        img
+        {
+            width: 100%;
+            max-width: 570px;
+        }
+    }
+
+    .of-mine-description
+    {
+        height: 150px;
+
+        .my-description
+        {
+            font-size: 25px;
+            font-weight: 500;
+        }
+
+    }
+}
+
 .our-cases
 {
         background-image: url(../images/pages/freelancer/background-statistics.jpg);
@@ -1656,21 +1685,475 @@ section{
         }
         .service-icon-performance
         {
-            background-position: -125px -600px;
+            background-position: -125px -720px;
         }
         .service-icon-security
         {
-            background-position: -125px -720px;
+            background-position: -125px -840px;
         }
         .service-icon-consultation
         {
-            background-position: -125px -840px;
+            background-position: -125px -960px;
         }
         .service-icon-landing
         {
-            background-position: -125px -960px;
+            background-position: -125px -1080px;
         }
     }
+}
+.industries
+{
+    background-color: #f4f6f7;
+}
+.icon-box.st-1
+{
+    padding: 25px 15px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+
+    &:hover
+    {
+        background-color: white;
+
+        .icon
+        {
+            color: #003d83;
+        }
+    }
+    &::after, &::before 
+    {
+        content: " ";
+        clear: both;
+        display: table;
+    }
+
+    .icon
+    {
+        float: left;
+        margin: 0;
+        width: 78px;
+        // padding: 20px 0;
+
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+
+        position: relative;
+
+        i
+        {
+            font-size: 35px;
+        }
+    }
+    .icon-description
+    {
+        overflow: hidden;
+        position: relative;
+    }
+}
+
+.free-consultation
+{
+    background-color: #171718;
+    
+    .form-square-wrapper
+    {
+        margin: 55px auto;
+        padding: 10px;
+        background-color: #fcd90b;
+        max-width: 600px;
+        position: relative;
+
+        .h-form-main{
+            margin-bottom: 32px!important;
+            padding-top: 0;
+            font-size: 50px;
+            font-weight: bold;
+        }
+
+        .d-form
+        {
+            font-size: 18px;
+        }
+        .input-form
+        {
+
+            position: relative;
+
+            .form-control
+            {
+                max-width: none;
+                width: 100%;
+                background: #fff;
+                line-height: 13px;
+                padding: 15px 57px 15px 17px;
+                border: 1px solid #ccc;
+                border-radius: 3px;
+                font-size: 15px;
+
+                color: #222;
+                box-shadow: none;
+                outline: 0;
+
+                transition: all .3s ease;
+                box-sizing: border-box!important;
+
+                display: block;
+                height: 49px;
+            }
+
+
+            #input-submit
+            {
+                position: absolute;
+                left: 0;
+                top: 0;
+                visibility: hidden;
+            }
+
+            label
+            {
+                position: absolute;
+                right: 0;
+                top: 0;
+                border: none;
+                width: 48px;
+                height: 48px;
+                line-height: 48px!important;
+                padding: 0;
+                cursor: pointer;
+                text-align: center!important;
+                font-size: 12px;
+                background: 0 0;
+                color: #2d99fe;
+                outline: 0!important;
+                transition: all .3s ease;
+            }
+        }
+    }
+}
+
+
+.results
+{
+    padding: 90px 20px;
+
+    background-image: url(../images/pages/freelancer/background-parametrs.jpg);
+    background-position: center ;
+    background-repeat: no-repeat ;
+    background-size: cover;
+
+    .stats_counter-center
+    {
+        color: white;
+    }
+
+    .h-counter
+    {
+        font-size: 54px;
+    }
+
+    .counter-title
+    {
+        font-size: 18px;
+        font-weight: 700;
+        text-transform: uppercase;
+        
+    }
+
+    .counter-description
+    {
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+
+}
+
+.contacs-snipets
+{
+    background-color: #fafafa;
+
+    padding: 50px 0 30px;
+
+    text-align: center;
+
+    .contact-wrapper-inner
+    {
+        margin: 15px auto;
+        display: inline-block;
+        .icon
+        {
+            // color: #003d83;
+            color: #5f96ee;
+            float: left;
+            font-size: 20px;
+            line-height: 18px;
+            margin: 0 15px 0 0;
+        }
+        .text{
+            overflow: hidden;
+        }
+    }
+}
+
+.quotes
+{
+        padding: 130px 0;
+        background-image: url(../images/pages/freelancer/background-quotes.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-attachment: fixed;
+
+        &::before
+        {
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background: rgba(0,46,91,.9);
+            display: block;
+        }
+
+        .h-relevant-quotes
+        {
+            color: white;
+            line-height: 1.2;
+            &::after
+            {
+                content: '';
+                display: block;
+                width: 35px;
+                height: 6px;
+                background: #fde428;
+                border-radius: 3px;
+                margin: 13px auto 0;
+            }
+
+            mark
+            {
+                background: transparent;
+                color: #fde428;
+            }
+        }
+}
+
+
+.grid-4
+{
+    .item-1-2
+    {
+        min-height:530px;
+        background-color: #666;
+        margin: 15px 0;
+        position: relative;
+        overflow: hidden;
+
+        .img-item-1-2
+        {
+           position: absolute;
+           top: 50%;
+           left: 50%;
+
+           min-width: 100%;
+           min-height: 100%;
+
+           transform: translate(-50%, -50%);
+
+           object-fit: cover;
+        }
+    }
+
+    .item-1-4
+    {
+        min-height: 250px;
+        background-color: #666;
+        margin: 15px 0;
+        position: relative;
+        overflow: hidden;
+
+        .img-item-1-4
+        {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+
+            min-width: 100%;
+            min-height: 100%;
+
+            transform: translate(-50%, -50%);
+
+            object-fit: cover;
+        }
+    }
+
+    .item-1-8
+    {
+        min-height: 250px;
+        background-color: #666;
+        margin: 15px 0;
+        position: relative;
+        overflow: hidden;
+
+        .img-item-1-8
+        {
+           position: absolute;
+           top: 50%;
+           left: 50%;
+
+           min-width: 100%;
+           min-height: 100%;
+
+           transform: translate(-50%, -50%);
+
+           object-fit: cover;
+        }
+    }
+
+    div[class^="item-1-"] a.item-link {
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        text-decoration: none;
+        width: 100%;
+        height: 100%;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            background: rgba(255,255,255,.9);
+            border-radius: 5px;
+            -webkit-transition: all .3s ease;
+            transition: all .3s ease;
+        }
+
+        .work-title
+        {
+            display: block;
+            text-align: center;
+            position: relative;
+            top: -20px;
+            max-width: 330px;
+            padding: 44px 30px 26px;
+            letter-spacing: -.6px;
+            font-weight: 600;
+            font-size: 18px;
+            color: #001040;
+            opacity: 0;
+            -webkit-transition: all .3s ease;
+            transition: all .3s ease;
+        }
+
+        .work-description {
+            display: block;
+            padding-top: 14px;
+            position: relative;
+            top: 40px;
+            letter-spacing: 0;
+            -webkit-transition: all .3s ease;
+            transition: all .3s ease;
+            font-family: 'Exo',sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: #a6a6a6;
+        }
+    }
+
+
+    div[class^="item-1-"] a.item-link:hover{
+
+        &::before {
+            opacity: 1;
+        }
+        
+        .work-title
+        {
+            opacity: 1;
+            top: 0;
+        }
+
+        .work-description {
+            top: 0;
+        }
+
+    }
+}
+
+.wp-plugins
+{
+    background-color: #f4f6f7;
+
+    .feature-wrapper{
+        background: #fff;
+        padding: 50px 10px 50px;
+        margin-bottom: 20px;
+        -webkit-transition: all .3s ease;
+        transition: all .3s ease;
+
+        text-align: center;
+        i
+        {
+            font-size: 74px;
+            min-height: 113px;
+            display: block;
+        }
+
+        &:hover
+        {
+            box-shadow: 0 10px 10px rgba(0,0,0,.1);
+        }
+    }
+}
+
+.technologies
+{
+    .carousel-inner .active.left {left: -33%;}
+    .carousel-inner .next        {left:  33%;}
+    .carousel-inner .prev        {left: -33%;}
+    .carousel-item.active.left   {opacity:0.3;}
+    .carousel-item.active.right  {opacity:0.3;}
+
+
+    .carousel-item.active.left > div:not(:first-child) {
+        display:none;
+    }
+    .carousel-item.active.right > div:not(:first-child) {
+        display:none;
+    }
+
+    .carousel-control {
+        color:#333;
+     }
+    .carousel-control.left,
+    .carousel-control.right {
+        background-image:none;
+    }
+
+    .carousel-item img 
+    {
+        margin: 10px 0;
+    }
+
 }
 
 /**************************************************************************************
@@ -1708,6 +2191,16 @@ section{
              {
                 border-right: 0;
             }
+        }
+    }
+
+    .contacs-snipets
+    {
+        text-align: left;
+
+        .contact-wrapper-inner
+        {
+            display: block;
         }
     }
 }
@@ -1764,7 +2257,23 @@ section{
         }
     }
 
+    .free-consultation
+    {    
+
+        .form-square-wrapper
+        {
+            margin: 75px auto;
+            padding: 40px 50px 60px 50px;
+        }
+
+    }
+
+    .results
+    {
+        padding: 90px;
+    }
 }
+
 /**************************************************************************************
   _                  ___     ___    ___                 
  | |                / _ \   / _ \  |__ \                
@@ -1850,61 +2359,71 @@ section{
         }
     }
 
-    .services-table
+.wp-plugins
+{
+
+    .feature-wrapper
     {
-        .inner-wrapper-service
+        padding: 80px 10px 50px;
+    }
+}
+
+
+/*     .services-table
+{
+    .inner-wrapper-service
+    {
+
+        .h-service
         {
+            font-size: 25px;
+        }
 
-            .h-service
-            {
-                font-size: 25px;
-            }
+        .services-image-svg
+        {
+            width: 140px;
+            height: 150px;
+            background-image: url(../images/pages/freelancer/icon-set-for-services-100.svg);
+        }
 
-            .services-image-svg
-            {
-                width: 140px;
-                height: 150px;
-                background-image: url(../images/pages/freelancer/icon-set-for-services-100.svg);
-            }
-
-            .service-icon-website-creation
-            {
-                background-position: -212px 0;
-            }
-            .service-icon-customization
-            {
-                background-position: -212px -200px;
-            }
-            .service-icon-installation
-            {
-                background-position: -212px -400px;
-            }
-            .service-icon-bug-fixes
-            {
-                background-position: -212px -600px;
-            }
-            .service-icon-migration
-            {
-                background-position: -212px -1000px;
-            }
-            .service-icon-performance
-            {
-                background-position: -212px -1200px;
-            }
-            .service-icon-security
-            {
-                background-position: -212px -1400px;
-            }
-            .service-icon-consultation
-            {
-                background-position: -212px -1600px;
-            }
-            .service-icon-landing
-            {
-                background-position: -212px -1800px;
-            }
+        .service-icon-website-creation
+        {
+            background-position: -212px 0;
+        }
+        .service-icon-customization
+        {
+            background-position: -212px -200px;
+        }
+        .service-icon-installation
+        {
+            background-position: -212px -400px;
+        }
+        .service-icon-bug-fixes
+        {
+            background-position: -212px -600px;
+        }
+        .service-icon-migration
+        {
+            background-position: -212px -1000px;
+        }
+        .service-icon-performance
+        {
+            background-position: -212px -1200px;
+        }
+        .service-icon-security
+        {
+            background-position: -212px -1400px;
+        }
+        .service-icon-consultation
+        {
+            background-position: -212px -1600px;
+        }
+        .service-icon-landing
+        {
+            background-position: -212px -1800px;
         }
     }
+} */
 }
 
 
