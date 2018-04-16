@@ -27,24 +27,60 @@ define('WP_POST_REVISIONS', false );
 </div> 
 					</li>
 					<li>
-						<h2></h2>
-						<p></p>
+						<h2>For backup the DataBase is used plugins:</h2>
+						<ol>
+							<li>UpdraftPlus</li>
+							<li>Duplicator</li>
+							<li>All-in-One WP Migration</li>
+						</ol>
+					</li>
+					<li>
+						<h2>Need to install and activate the WP-Optimize plugin</h2>
+						<p>Optimizing your database cleans up unwanted data which reduces database size and improves performance. Useless data in the database is post revisions, spam comments, trash, transient options, orphaned meta data, ...  ect.</p>
+						<img class="my-3" src="{{  '/assets/images/posts/wordpress/optimize-database-tables/wp-optimize.jpg' | relative_url }}" alt="">
+						<p>Items marked in red require more intensive database operations. If the process is interrupted during the operation, then it may corrupt data. That’s why we strongly recommend that you create a backup of your website before selecting the items in red.</p>
+
+						<div class="alert alert-warning alert-dismissible fade show" role="alert">
+						  Note: If your MySQL database tables are using the InnoDB engine, then WP-Optimize will not perform database table optimization. You can perform that operation manually, using phpMyAdmin. See our beginner’s guide on.
+						</div>
+					</li>
+					<li>
+						<h2>Advanced Database Cleaner</h2>
+						<img src="{{ '/assets/images/posts/wordpress/optimize-database-tables/advanced-database-cleaner.png' | relative_url }}" alt="">
+						<p>It will easily remove all unused data from the table which includes drafts, revisions, unnecessary comments, post meta, comment meta and much more. The plugin allows you to choose the data you want to delete so you can have the total control over it. After cleaning the database, Advanced Database Cleaner will optimize it as well. And the great part is that you can schedule cleanups and optimizations to run automatically.</p>
+					</li>
+					<li>
+						<h2>WP-DBManager</h2>
+						<img src="{{ '/assets/images/posts/wordpress/optimize-database-tables/wp-dbmanager.png' | relative_url }}" alt="">
+						<p>WP DBManager let’s do practically everything you can do with a database. It will clean up and optimize WordPress database. It can repair, restore, and backup a database. If even that isn’t good enough for you, you can delete the backups, drop/empty tables and run selected queries directly from the plugin.</p>
+					</li>
+					<li>
+						<h2>Smart Cleanup Tools — chargeable</h2>
+						<img src="{{ '/assets/images/posts/wordpress/optimize-database-tables/smart-cleanup-tools.jpg' | relative_url }}" alt="">
+						<p>This premium plugin contains 39 cleanup tools that will work together in order to speed up your WordPress site. Although you can use tools one by one, Smart Cleanup Tools lets you use them all at once just by clicking a button.</p>
+
+						<p>As the developer notes, the plugin works best after several months of database use. By allowing some time to pass, the plugin will be able to remove and compact the data and make your WordPress database smaller and faster.</p>
+					</li>
+					<li>
+						<h2>Optimize Database after Deleting Revisions</h2>
+						<img src="{{ '/assets/images/posts/wordpress/optimize-database-tables/optimize-database-after-deleting-revisions.png' | relative_url }}" alt="">
+
+						<p>Similarly to the previously mentioned plugins, Optimize Database after Deleting Revisions will delete unwanted comments, revisions, tags, expired transients, and much more. After the cleanup, the plugin will do its magic and optimize the database so it can work faster. If you want more control over the optimization, you can quickly exclude tables or specific posts and pages.</p>
+
+						<p>The plugin can create a log file, and schedule optimizations to run automatically. Still want that one-click optimization? You can find the button in the admin bar and the admin menu. In the end, it’s important to mention that the plugin is multisite compatible.</p>
+					</li>
+					<li>
+						<h2>Quickly optimize WordPress database with phpMyAdmin</h2>
+						<p>Go to phpMyAdmin and click on your WordPress Database. This will show you a list of your WordPress tables. Click on Check All link below the tables. Next to it there is a “With Selected” drop down, click on it and choose Optimize table.</p>
+						<p>This will optimize your WordPress tables by defragmenting tables. It will make your WordPress queries run a little faster and slightly reduce the size of your database.</p>
 					</li>
 					<li>
 						<h2></h2>
 						<p></p>
 					</li>
 					<li>
-						<h2></h2>
-						<p></p>
-					</li>
-					<li>
-						<h2></h2>
-						<p></p>
-					</li>
-					<li>
-						<h2></h2>
-						<p></p>
+						<h2>Securing your WordPress Database</h2>
+						<p>However, there are certain measures you can take to make it a little harder. First thing that you can do to is <mark>to change WordPress database prefix.</mark> This can significantly reduce the chances of SQL injection attacks on your WordPress database because often hackers target sites in masses where they are targeting the default wp_ table prefix.</p>
 					</li>
 				</ol>
 				
