@@ -1,0 +1,51 @@
+---
+layout: default
+title: "Git"
+permalink: git-articles.html
+categories: git
+group: "navigation"
+---
+
+{% assign articles_list = site.posts %}
+
+{% assign group = 'post-git' %}
+
+
+<section class="posts-list">
+	<div class="container">
+		<div class="row">
+			
+			{% for node in articles_list %}
+
+				{% if node.title != null %}
+
+					{% if group == null or group == node.group %}
+
+						<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+
+							<a href="{{ node.url | absolute_url }}">
+								<div class="post-wrapper">
+									<div class="card-img">
+										<img class="in-width-img" src="{{ node.img | absolute_url }}" alt="">
+									</div>
+									<div class="card-content">
+										<h3 class="h-post">{{ node.title }}</h3>
+									</div>
+								</div>
+							</a>
+
+						</div>
+
+					{% endif %}
+
+				 {% endif %}
+
+			{% endfor %}
+
+		</div>
+	</div>
+</section>
+
+{% assign articles_list = nil %}
+
+{% assign group = nil %}

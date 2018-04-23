@@ -1,0 +1,79 @@
+---
+layout: post
+title:  Adding more changes to a last commit
+date:   2018-04-22 00:00:00 +0000
+categories: Git
+group: "post-git"
+img: assets/images/posts/git
+---
+
+<section class="post-content">
+
+	<div class="container">
+
+		<div class="row">
+
+			<div class="col-12 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
+
+				<h1 class="">Adding more changes to your last commit</h1>
+				
+				<ol class="article-structure">
+					<li>
+						<h2>The Basic of the Amend Command</h2>
+<div class="code-snipet">
+{% highlight Bash shell scripts %}
+$ (some_branch) git add changelog.md
+{% endhighlight %}
+</div>
+						<p>And amend it:</p>
+<div class="code-snipet">
+{% highlight Bash shell scripts %}
+$ (some_branch) git commit --amend
+{% endhighlight %}
+</div>
+						<p>After executing the command, this file will show up vi/vim. check this <a href="https://www.fprintf.net/vimCheatSheet.html">cheatsheet</a> if you don't know how to use it. </p>
+					</li>
+					<li>
+						<h2>Amending a Commit Without Changing Its Message</h2>
+						<p>If you don’t want to change your commit message, you can run the amend command with the no-edit flag, like this:</p>
+<div class="code-snipet">
+{% highlight Bash shell scripts %}
+$ (some_branch) git commit --amend --no-edit
+{% endhighlight %}
+</div>
+					</li>
+					<li>
+						<h2>Just Editing a Commit Message</h2>
+<div class="code-snipet">
+{% highlight Bash shell scripts %}
+$ (some_branch) git commit --amend -m "Your new commit message"
+{% endhighlight %}
+</div>
+					</li>
+					<li>
+						<h2>Pushing an Amended Commit</h2>
+<div class="code-snipet">
+{% highlight Bash shell scripts %}
+$ (some_branch) git push -f origin some_branch
+{% endhighlight %}
+</div>
+					</li>
+
+				</ol>
+
+			</div>
+
+		</div>
+
+	</div>
+
+</section>
+
+<!-- 						
+<div class="code-snipet">
+	<h4 class="file-name"></h4>
+{% highlight apache %}	
+
+{% endhighlight %}
+</div> 
+-->
