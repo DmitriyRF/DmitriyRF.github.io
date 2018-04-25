@@ -1648,7 +1648,7 @@ hr.small-line{
 
 
 section{
-    overflow-x: hidden;
+    // overflow-x: hidden;
 }
 
 .about-me
@@ -1752,6 +1752,7 @@ section{
 .industries
 {
     background-color: #f4f6f7;
+    padding-bottom: 200px;
 }
 .icon-box.st-1
 {
@@ -1889,6 +1890,20 @@ section{
     background-position: center ;
     background-repeat: no-repeat ;
     background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+
+    &::before
+    {
+        content: '';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgba(0,46,91,.7);
+        display: block;
+    }
 
     .stats_counter-center
     {
@@ -2407,101 +2422,133 @@ section{
         }
     }
 
-.wp-plugins
-{
-
-    .feature-wrapper
-    {
-        padding: 60px 10px 60px;
-    }
-}
-
-
-/*     .services-table
-{
-    .inner-wrapper-service
+    .wp-plugins
     {
 
-        .h-service
+        .feature-wrapper
         {
-            font-size: 25px;
-        }
-
-        .services-image-svg
-        {
-            width: 140px;
-            height: 150px;
-            background-image: url(../images/pages/freelancer/icon-set-for-services-100.svg);
-        }
-
-        .service-icon-website-creation
-        {
-            background-position: -212px 0;
-        }
-        .service-icon-customization
-        {
-            background-position: -212px -200px;
-        }
-        .service-icon-installation
-        {
-            background-position: -212px -400px;
-        }
-        .service-icon-bug-fixes
-        {
-            background-position: -212px -600px;
-        }
-        .service-icon-migration
-        {
-            background-position: -212px -1000px;
-        }
-        .service-icon-performance
-        {
-            background-position: -212px -1200px;
-        }
-        .service-icon-security
-        {
-            background-position: -212px -1400px;
-        }
-        .service-icon-consultation
-        {
-            background-position: -212px -1600px;
-        }
-        .service-icon-landing
-        {
-            background-position: -212px -1800px;
+            padding: 60px 10px 60px;
         }
     }
-} */
+
 }
 
 
 
 
+/**************************************************************************************
+         _   _   ____   _   _  ______  
+        | \ | | / __ \ | \ | ||  ____| 
+        |  \| || |  | ||  \| || |__    
+        | . ` || |  | || . ` ||  __|   
+        | |\  || |__| || |\  || |____  
+        |_| \_| \____/ |_| \_||______| 
+                                       
+                                       
+**************************************************************************************/
+
+/**************************************************************************************
+                      ___                 
+                     / _ \                
+ __  __  ___        | | | |  _ __   __  __
+ \ \/ / / __|       | | | | | '_ \  \ \/ /
+  >  <  \__ \       | |_| | | |_) |  >  < 
+ /_/\_\ |___/        \___/  | .__/  /_/\_\
+                            | |           
+                            |_|          
+**************************************************************************************/
 
 
 
+.top-sket-right-transition{
+    position: relative;
+    min-height: 1px;
+    svg
+    {
+        display: block;
+        position: absolute;
+        content: '';
+        top: -50px;
+        left: 0;
+        width: 100%;
+        height: 50px;
+        padding: 0;
+        margin: 0;
+    }
+}
 
 
+/**************************************************************************************
+                          _____   ______     __                 
+                         | ____| |____  |   / /                 
+  ___   _ __ ___         | |__       / /   / /_    _ __   __  __
+ / __| | '_ ` _ \        |___ \     / /   | '_ \  | '_ \  \ \/ /
+ \__ \ | | | | | |        ___) |   / /    | (_) | | |_) |  >  < 
+ |___/ |_| |_| |_|       |____/   /_/      \___/  | .__/  /_/\_\
+                                                  | |           
+                                                  |_|           
+**************************************************************************************/
+@media (  min-width: $breakpoint-sm  )
+{
+}
 
+/**************************************************************************************
+                  _         ______     __     ___                 
+                 | |       |____  |   / /    / _ \                
+  _ __ ___     __| |           / /   / /_   | (_) |  _ __   __  __
+ | '_ ` _ \   / _` |          / /   | '_ \   > _ <  | '_ \  \ \/ /
+ | | | | | | | (_| |         / /    | (_) | | (_) | | |_) |  >  < 
+ |_| |_| |_|  \__,_|        /_/      \___/   \___/  | .__/  /_/\_\
+                                                    | |           
+                                                    |_|          
+**************************************************************************************/
+@media (  min-width: $breakpoint-md  )
+{
+    .top-sket-right-transition
+    {
+        svg
+        {
+            top: -70px;
+            height: 70px;
 
+        }
+    }
+}
+/**************************************************************************************
+  _                  ___     ___    ___                 
+ | |                / _ \   / _ \  |__ \                
+ | |   __ _        | (_) | | (_) |    ) |  _ __   __  __
+ | |  / _` |        \__, |  \__, |   / /  | '_ \  \ \/ /
+ | | | (_| |          / /     / /   / /_  | |_) |  >  < 
+ |_|  \__, |         /_/     /_/   |____| | .__/  /_/\_\
+       __/ |                              | |           
+      |___/                               |_|           
+**************************************************************************************/
+@media (  min-width: $breakpoint-lg  )
+{
+}
+/**************************************************************************************
+         _         __   __    ___     ___                 
+        | |       /_ | /_ |  / _ \   / _ \                
+ __  __ | |        | |  | | | (_) | | (_) |  _ __   __  __
+ \ \/ / | |        | |  | |  \__, |  \__, | | '_ \  \ \/ /
+  >  <  | |        | |  | |    / /     / /  | |_) |  >  < 
+ /_/\_\ |_|        |_|  |_|   /_/     /_/   | .__/  /_/\_\
+                                            | |           
+                                            |_|           
+**************************************************************************************/
+@media (  min-width: $breakpoint-xl  )
+{
+    .top-sket-right-transition
+    {
+        svg
+        {
+            top: -100px;
+            height: 100px;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        }
+    }
+}
 
 
 

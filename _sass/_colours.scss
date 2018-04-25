@@ -191,6 +191,13 @@ section.articles-list
 	border-color: $warning;
     margin-left: 0;
 }
+.btn-line .btn-outline-warning
+{
+	text-shadow: 1px 1px 0 #333;
+	&:hover {
+		text-shadow: none;
+	}
+}
 @media (  min-width: $breakpoint-sm  )
 {
 	.btn-line
@@ -198,6 +205,7 @@ section.articles-list
 		.btn-outline-warning
 		{
 	    	border-color: transparent;
+	    	// text-shadow: none;
 	    }
 	}
 }
