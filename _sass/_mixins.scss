@@ -53,3 +53,52 @@
     // }
 }
 //<li><a class="" href="#" data-link-hover=""  ><span></span></a></li>
+
+
+
+@mixin add-animation-delay($delay){
+
+  -webkit-animation-delay: $delay;
+     -moz-animation-delay: $delay;
+      -ms-animation-delay: $delay;
+       -o-animation-delay: $delay;
+          animation-delay: $delay;
+
+}
+
+@mixin add-transition-delay($delay){
+
+  -webkit-transition-delay: $delay;
+     -moz-transition-delay: $delay;
+      -ms-transition-delay: $delay;
+       -o-transition-delay: $delay;
+          transition-delay: $delay;
+}
+
+@mixin add-animation-duration($duration){
+
+  -webkit-animation-duration: $duration;
+     -moz-animation-duration: $duration;
+      -ms-animation-duration: $duration;
+       -o-animation-duration: $duration;
+          animation-duration: $duration;
+
+}
+
+@mixin add-transition-duration($duration){
+  
+  -webkit-transition-duration: $duration;
+     -moz-transition-duration: $duration;
+      -ms-transition-duration: $duration;
+       -o-transition-duration: $duration;
+          transition-duration: $duration;
+}
+
+@mixin add-border-radius($radius) {
+
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}

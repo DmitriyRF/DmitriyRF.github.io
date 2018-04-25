@@ -1632,6 +1632,7 @@ hr.small-line{
     //     height: auto;
     //     width: auto;
     // }
+    overflow-y:hidden;
 
     .abs-avtar-position{
         position: absolute;
@@ -1648,7 +1649,7 @@ hr.small-line{
 
 
 section{
-    // overflow-x: hidden;
+    // overflow-y: hidden;
 }
 
 .about-me

@@ -23,6 +23,26 @@ window.onload = function() {
 	    Anchors[i].addEventListener("click", smoothScroll, false);
 	}
 
+/*
+     __   __      __   __   __   __                __   ___       ___           
+ /\  |  \ |  \    /__` /  ` |__) /  \ |    |       |__) |__  \  / |__   /\  |    
+/~~\ |__/ |__/    .__/ \__, |  \ \__/ |___ |___    |  \ |___  \/  |___ /~~\ |___                                                                            
+
+*/
+
+	window.sr = ScrollReveal({ reset: true });
+
+	// Customizing a reveal set
+	sr.reveal('.empty-background', {
+		duration: 1500,
+		reset: false,
+		distance: '25%',
+		useDelay: 'onload',
+		delay: 1000,
+		viewFactor: 0.8,
+		opacity: 0,
+	});
+
 };
 
 
