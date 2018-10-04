@@ -9,6 +9,7 @@ group: "navigation"
 {% assign articles_list = site.posts %}
 
 {% assign group = 'post-wp' %}
+{% assign groupR = 'post-react' %}
 
 
 <section class="posts-list">
@@ -19,7 +20,7 @@ group: "navigation"
 
 				{% if node.title != null %}
 
-					{% if group == null or group == node.group %}
+					{% if group == null or group == node.group or groupR == node.group %}
 
 						<div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 
